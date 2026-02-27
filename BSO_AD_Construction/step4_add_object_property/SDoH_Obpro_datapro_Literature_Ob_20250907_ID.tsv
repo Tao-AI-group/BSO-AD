@@ -1,0 +1,57 @@
+ID	Label	Type	Domain	Range	Super Property	skos:altLabel
+ID	A rdfs:label	TYPE	DOMAIN	RANGE	SP %	A skos:altLabel SPLIT=|
+bso:R_00000	forTreatmentOrMedication	object property	bso:00446	bso:00222		
+bso:R_00001	hasAdverseExposure	object property	bso:00446	bso:00242		
+bso:R_00002	hasAdverseLifeExperience	object property	bso:00446	bso:00306		
+bso:R_00003	hasAge	object property	bso:00446	bso:00001		
+bso:R_00004	hasBehaviorChange	object property	(bso:00035 or bso:00446)	bso:00036		
+bso:R_00005	hasEducationLevel	object property	bso:00446	bso:00175		
+bso:R_00006	hasEmploymentStatus	object property	bso:00446	bso:00074		
+bso:R_00007	hasFinancialStress	object property	bso:00446	bso:00143		
+bso:R_00008	hasGender	object property	bso:00446	bso:00008		
+bso:R_00009	hasIncarcerationHistory	object property	bso:00446	bso:00300		
+bso:R_00010	hasInsurance	object property	bso:00446	bso:00154		
+bso:R_00011	hasInterpersonalRelation	object property	(bso:00269 or bso:00446)	bso:00338		
+bso:R_00012	hasLivingStatus	object property	bso:00446	bso:00257		
+bso:R_00013	hasMarriageStatus	object property	bso:00446	bso:00020		
+bso:R_00014	hasMeasure	object property		bso:00425		
+bso:R_00015	hasNumberOfSexPartner	object property	(bso:00046 or bso:00446)	bso:00047		
+bso:R_00016	hasOccupation	object property	bso:00446	bso:00084		
+bso:R_00017	hasRace	object property	bso:00446	bso:00027		
+bso:R_00018	hasSexOrientation	object property	bso:00446	bso:00053		
+bso:R_00019	hasSexPartner	object property	bso:00446	bso:00049		
+bso:R_00020	hasSexSafetyPractice	object property	bso:00446	bso:00050		
+bso:R_00021	hasSexualBehaviorElement	object property	bso:00446	bso:00046		
+bso:R_00022	hasSubstanceUse	object property	bso:00446	bso:00060		
+bso:R_00023	hasTimeFlag	object property		bso:00452		
+bso:D_00000	hasNumber	data property		xsd:float		
+droado:associatedWith	associatedWith	object property	bso:00495	droado:Dementia		correlatesWith|linkedWith|relatedTo|isAssociatedWith|correlatesOf|isLinkedTo|isCorrelatedWith
+bso:R_00024	temporallyRelatedTo	object property	bso:00495	droado:Dementia	associatedWith	
+bso:R_00025	functionallyRelatedTo	object property	bso:00495	droado:Dementia	associatedWith	
+bso:R_00026	associatedWithShorterTime	object property	bso:00495	droado:Dementia	temporallyRelatedTo	
+bso:R_00027	haveHigherIncidenceOf	object property	bso:00495	droado:Dementia	temporallyRelatedTo	
+bso:R_00028	haveHigherOccurrence	object property	bso:00495	droado:Dementia	temporallyRelatedTo	
+bso:R_00029	haveHigherPrevalanceOf	object property	bso:00495	droado:Dementia	temporallyRelatedTo	
+bso:R_00030	haveGreaterIncidenceOf	object property	bso:00495	droado:Dementia	temporallyRelatedTo	
+bso:R_00031	isAssociatedWithHigherOccurrenceOf	object property	bso:00495	droado:Dementia	temporallyRelatedTo	
+bso:R_00032	affects	object property	bso:00495	droado:Dementia	functionallyRelatedTo	influences|impacts
+bso:R_00033	correlatesWithRiskOf	object property	bso:00495	droado:Dementia	affects	associatesWithRiskOf|linkedWithRiskOf|relatedToRiskOf|influencesRiskOf|impactsRiskOf|affectsRiskOf|correlatesRiskOf|predictsRiskOf|isARiskFactorFor|isLinkedToRiskOf|contributesToRiskOf|isARiskFor|attributesToRiskOf|accountForRiskOf
+bso:R_00034	increasesRiskOf	object property	bso:00495	droado:Dementia	correlatesWithRiskOf	raisesRiskOf|escalatesRiskOf|amplifiesRiskOf|exacerbatesRiskOf|isLinkedToIncreasedOddsOf|leadsToHigherRiskOf|isAssociatedWithIncreasedRiskOf|increasesRiskFor
+bso:R_00035	decreasesRiskOf	object property	bso:00495	droado:Dementia	correlatesWithRiskOf	reducesRiskOf|lowersRiskOf|mitigatesRiskOf|mediatesRiskOf|hasLowerOddsOf|reducesRiskOf|lowersRiskOf|mitigatesRiskOf|lessensRiskOf|diminishesRiskOf
+bso:R_00036	hasNegativeImpactOn	object property	bso:00495	droado:Dementia	correlatesWithRiskOf	
+bso:R_00037	bringsAbout	object property	bso:00495	droado:Dementia	functionallyRelatedTo	
+bso:R_00038	causes	object property	bso:00495	droado:Dementia	bringsAbout	isADriverOf
+bso:R_00039	contributesTo	object property	bso:00495	droado:Dementia	causes	isAContributorTo
+bso:R_00040	predicts	object property	bso:00495	droado:Dementia	causes	
+bso:R_00041	prevents	object property	bso:00495	droado:Dementia	affects	
+bso:R_00042	protectsAgainst	object property	bso:00495	droado:Dementia	prevents	
+bso:R_00043	reduceBurdenFor	object property	bso:00495	droado:Dementia	prevents	
+bso:R_00044	reduceIncidenceOf	object property	bso:00495	droado:Dementia	prevents	
+bso:R_00045	mitigates	object property	bso:00495	droado:Dementia	prevents	alleviates
+bso:R_00046	complicates	object property	bso:00495	droado:Dementia	affects	
+bso:R_00047	exacerbates	object property	bso:00495	droado:Dementia	complicates	
+bso:R_00048	resultOf	object property	bso:00495	droado:Dementia	functionallyRelatedTo	isAConsequenceOf
+bso:R_00049	benefits	object property	bso:00495	droado:Dementia	affects	enhances|promotes|supports|improves
+bso:R_00050	limits	object property	bso:00495	droado:Dementia	affects	
+						
+						 negativelyImpacts

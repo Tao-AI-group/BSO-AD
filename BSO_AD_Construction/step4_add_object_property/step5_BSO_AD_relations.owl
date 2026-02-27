@@ -1,0 +1,861 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#associatedWith -->
+
+    <ObjectProperty rdf:about="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#associatedWith">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associatedWith</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">correlatesOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">correlatesWith</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isAssociatedWith</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isCorrelatedWith</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isLinkedTo</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linkedWith</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relatedTo</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00000 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00000">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00222"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forTreatmentOrMedication</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00001 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00001">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00242"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasAdverseExposure</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00002 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00002">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00306"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasAdverseLifeExperience</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00003 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00003">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00001"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasAge</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00004 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00004">
+        <rdfs:domain>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/Tao-AI-group/BSO_AD#00035"/>
+                    <rdf:Description rdf:about="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+                </unionOf>
+            </Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00036"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasBehaviorChange</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00005 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00005">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00175"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasEducationLevel</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00006 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00006">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00074"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasEmploymentStatus</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00007 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00007">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00143"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasFinancialStress</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00008 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00008">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00008"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasGender</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00009 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00009">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00300"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasIncarcerationHistory</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00010 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00010">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00154"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasInsurance</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00011 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00011">
+        <rdfs:domain>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/Tao-AI-group/BSO_AD#00269"/>
+                    <rdf:Description rdf:about="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+                </unionOf>
+            </Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00338"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasInterpersonalRelation</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00012 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00012">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00257"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasLivingStatus</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00013 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00013">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00020"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasMarriageStatus</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00014 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00014">
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00425"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasMeasure</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00015 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00015">
+        <rdfs:domain>
+            <Class>
+                <unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://github.com/Tao-AI-group/BSO_AD#00046"/>
+                    <rdf:Description rdf:about="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+                </unionOf>
+            </Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00047"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasNumberOfSexPartner</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00016 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00016">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00084"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasOccupation</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00017 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00017">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00027"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasRace</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00018 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00018">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00053"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSexOrientation</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00019 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00019">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00049"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSexPartner</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00020 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00020">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00050"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSexSafetyPractice</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00021 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00021">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00046"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSexualBehaviorElement</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00022 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00022">
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00060"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSubstanceUse</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00023 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00023">
+        <rdfs:range rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00452"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasTimeFlag</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00024 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00024">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#associatedWith"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporallyRelatedTo</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00025 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00025">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#associatedWith"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">functionallyRelatedTo</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00026 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00026">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00024"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associatedWithShorterTime</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00027 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00027">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00024"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haveHigherIncidenceOf</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00028 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00028">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00024"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haveHigherOccurrence</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00029 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00029">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00024"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haveHigherPrevalanceOf</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00030 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00030">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00024"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haveGreaterIncidenceOf</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00031 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00031">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00024"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isAssociatedWithHigherOccurrenceOf</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00032 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00032">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00025"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">affects</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impacts</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">influences</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00033 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00033">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00032"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">correlatesWithRiskOf</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accountForRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">affectsRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">associatesWithRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">attributesToRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contributesToRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">correlatesRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impactsRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">influencesRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isARiskFactorFor</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isARiskFor</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isLinkedToRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linkedWithRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predictsRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relatedToRiskOf</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00034 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00034">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00033"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increasesRiskOf</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amplifiesRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">escalatesRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exacerbatesRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">increasesRiskFor</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isAssociatedWithIncreasedRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isLinkedToIncreasedOddsOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">leadsToHigherRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">raisesRiskOf</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00035 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00035">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00033"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">decreasesRiskOf</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diminishesRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasLowerOddsOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lessensRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lowersRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mediatesRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitigatesRiskOf</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reducesRiskOf</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00036 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00036">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00033"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasNegativeImpactOn</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00037 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00037">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00025"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bringsAbout</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00038 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00038">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00037"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">causes</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isADriverOf</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00039 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00039">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00038"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contributesTo</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isAContributorTo</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00040 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00040">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00038"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">predicts</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00041 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00041">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00032"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prevents</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00042 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00042">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00041"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protectsAgainst</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00043 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00043">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00041"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reduceBurdenFor</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00044 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00044">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00041"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reduceIncidenceOf</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00045 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00045">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00041"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mitigates</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alleviates</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00046 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00046">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00032"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">complicates</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00047 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00047">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00046"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">exacerbates</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00048 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00048">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00025"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">resultOf</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isAConsequenceOf</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00049 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00049">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00032"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">benefits</rdfs:label>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enhances</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">improves</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">promotes</skos:altLabel>
+        <skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">supports</skos:altLabel>
+    </ObjectProperty>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#R_00050 -->
+
+    <ObjectProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#R_00050">
+        <rdfs:subPropertyOf rdf:resource="https://github.com/Tao-AI-group/BSO_AD#R_00032"/>
+        <rdfs:domain rdf:resource="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">limits</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#D_00000 -->
+
+    <DatatypeProperty rdf:about="https://github.com/Tao-AI-group/BSO_AD#D_00000">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasNumber</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia -->
+
+    <Class rdf:about="http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00001 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00001"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00008 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00008"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00020 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00020"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00027 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00027"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00035 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00035"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00036 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00036"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00046 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00046"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00047 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00047"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00049 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00049"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00050 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00050"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00053 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00053"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00060 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00060"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00074 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00074"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00084 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00084"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00143 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00143"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00154 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00154"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00175 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00175"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00222 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00222"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00242 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00242"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00257 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00257"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00269 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00269"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00300 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00300"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00306 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00306"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00338 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00338"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00425 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00425"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00446 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00446"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00452 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00452"/>
+    
+
+
+    <!-- https://github.com/Tao-AI-group/BSO_AD#00495 -->
+
+    <Class rdf:about="https://github.com/Tao-AI-group/BSO_AD#00495"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

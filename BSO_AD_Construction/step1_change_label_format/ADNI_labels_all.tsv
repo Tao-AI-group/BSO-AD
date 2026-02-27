@@ -1,0 +1,388 @@
+ID	LABEL	Type
+http://www.modiag.it#0_05_1_2_3_CDR_score		Data property
+http://www.modiag.it#0_1_2_3_4_5_NPI_score		Data property
+http://www.modiag.it#0_1_2_3_NPIQ_score		Data property
+http://www.modiag.it#0_1_2_3_score		Data property
+http://www.modiag.it#0_1_score		Data property
+http://www.modiag.it#1_2_3_4_NPI_score_3		Data property
+http://www.modiag.it#1_2_3_NPI_score_2		Data property
+http://www.modiag.it#ADAS	Alzheimer’s Disease Assessment Scale	Class
+http://www.modiag.it#APOEGenotyping	Apolipoprotein E Genotyping	Class
+http://www.modiag.it#AttentionAndCalculationItem		Class
+http://www.modiag.it#BehaviouralAssessment		Class
+http://www.modiag.it#CCI	Cognitive Change Index	Class
+http://www.modiag.it#CDR	Clinical Dementia Rating Scale	Class
+http://www.modiag.it#CDRItem		Class
+http://www.modiag.it#CDR_CommunityAffairsItem		Class
+http://www.modiag.it#CDR_HomeAndHobbiesItem		Class
+http://www.modiag.it#CDR_JudgementAndProblemSolvingItem		Class
+http://www.modiag.it#CDR_MemoryItem		Class
+http://www.modiag.it#CDR_OrientationItem		Class
+http://www.modiag.it#CDR_PersonalCareItem		Class
+http://www.modiag.it#CheckItem		Class
+http://www.modiag.it#ClinicalExam		Class
+http://www.modiag.it#CognitiveAssessment		Class
+http://www.modiag.it#CopyingItem		Class
+http://www.modiag.it#DNA_MethylationProfiling		Class
+http://www.modiag.it#DailyFunctioningItem		Class
+http://www.modiag.it#DepressionItem		Class
+http://www.modiag.it#ECG	Electrocardiography	Class
+http://www.modiag.it#EatingItem		Class
+http://www.modiag.it#EvaluationItem		Class
+http://www.modiag.it#Examination		Class
+http://www.modiag.it#FAQ	Functional Activities Questionnaire	Class
+http://www.modiag.it#FAQItem		Class
+http://www.modiag.it#FAQ_BeveragesItem		Class
+http://www.modiag.it#FAQ_EventsItem		Class
+http://www.modiag.it#FAQ_FinancesItem		Class
+http://www.modiag.it#FAQ_FormsItem		Class
+http://www.modiag.it#FAQ_GamesItem		Class
+http://www.modiag.it#FAQ_MealItem		Class
+http://www.modiag.it#FAQ_MemoryItem		Class
+http://www.modiag.it#FAQ_ShopItem		Class
+http://www.modiag.it#FAQ_TelevisionItem		Class
+http://www.modiag.it#FAQ_TravelItem		Class
+http://www.modiag.it#FCI-SF	Financial Capacity Instrument Short Form	Class
+http://www.modiag.it#FunctionalAssessment		Class
+http://www.modiag.it#GDS	Geriatric Depression Scale	Class
+http://www.modiag.it#GDSItem		Class
+http://www.modiag.it#GDS_AliveFeelingItem		Class
+http://www.modiag.it#GDS_BoredomeItem		Class
+http://www.modiag.it#GDS_DroppingItem		Class
+http://www.modiag.it#GDS_EmptinessItem		Class
+http://www.modiag.it#GDS_EnergyItem		Class
+http://www.modiag.it#GDS_FearItem		Class
+http://www.modiag.it#GDS_GoodSpiritItem		Class
+http://www.modiag.it#GDS_HappinessItem		Class
+http://www.modiag.it#GDS_HelplessnessItem		Class
+http://www.modiag.it#GDS_HomeStayingItem		Class
+http://www.modiag.it#GDS_HopeItem		Class
+http://www.modiag.it#GDS_MemoryItem		Class
+http://www.modiag.it#GDS_PeopleItem		Class
+http://www.modiag.it#GDS_SatisfactionItem		Class
+http://www.modiag.it#GDS_WorthlessItem		Class
+http://www.modiag.it#GeneExpression		Class
+http://www.modiag.it#GeneticExam		Class
+http://www.modiag.it#Genotyping		Class
+http://www.modiag.it#LanguageItem		Class
+http://www.modiag.it#MHIS	Modified Hachinski Ischemia Scale	Class
+http://www.modiag.it#MMSE	Mini-Mental State Examination	Class
+http://www.modiag.it#MMSEItem		Class
+http://www.modiag.it#MMSE_AttentionAndCalculationItem_1		Class
+http://www.modiag.it#MMSE_AttentionAndCalculationItem_2		Class
+http://www.modiag.it#MMSE_AttentionAndCalculationItem_3		Class
+http://www.modiag.it#MMSE_AttentionAndCalculationItem_4		Class
+http://www.modiag.it#MMSE_AttentionAndCalculationItem_5		Class
+http://www.modiag.it#MMSE_LanguageItem_1		Class
+http://www.modiag.it#MMSE_LanguageItem_2		Class
+http://www.modiag.it#MMSE_LanguageItem_3		Class
+http://www.modiag.it#MMSE_LanguageItem_4		Class
+http://www.modiag.it#MMSE_LanguageItem_5		Class
+http://www.modiag.it#MMSE_LanguageItem_6		Class
+http://www.modiag.it#MMSE_LanguageItem_7		Class
+http://www.modiag.it#MMSE_LanguageItem_8		Class
+http://www.modiag.it#MMSE_LanguageItem_9		Class
+http://www.modiag.it#MMSE_OrientationItem_1		Class
+http://www.modiag.it#MMSE_OrientationItem_10		Class
+http://www.modiag.it#MMSE_OrientationItem_2		Class
+http://www.modiag.it#MMSE_OrientationItem_3		Class
+http://www.modiag.it#MMSE_OrientationItem_4		Class
+http://www.modiag.it#MMSE_OrientationItem_5		Class
+http://www.modiag.it#MMSE_OrientationItem_6		Class
+http://www.modiag.it#MMSE_OrientationItem_7		Class
+http://www.modiag.it#MMSE_OrientationItem_8		Class
+http://www.modiag.it#MMSE_OrientationItem_9		Class
+http://www.modiag.it#MMSE_OrientationItem_V_1		Class
+http://www.modiag.it#MMSE_OrientationItem_V_10		Class
+http://www.modiag.it#MMSE_OrientationItem_V_2		Class
+http://www.modiag.it#MMSE_OrientationItem_V_3		Class
+http://www.modiag.it#MMSE_OrientationItem_V_4		Class
+http://www.modiag.it#MMSE_OrientationItem_V_5		Class
+http://www.modiag.it#MMSE_OrientationItem_V_6		Class
+http://www.modiag.it#MMSE_OrientationItem_V_7		Class
+http://www.modiag.it#MMSE_OrientationItem_V_8		Class
+http://www.modiag.it#MMSE_OrientationItem_V_9		Class
+http://www.modiag.it#MMSE_RecallItem_1		Class
+http://www.modiag.it#MMSE_RecallItem_2		Class
+http://www.modiag.it#MMSE_RecallItem_3		Class
+http://www.modiag.it#MMSE_RegistrationItem_1		Class
+http://www.modiag.it#MMSE_RegistrationItem_2		Class
+http://www.modiag.it#MMSE_RegistrationItem_3		Class
+http://www.modiag.it#MMSE_RegistrationItem_4		Class
+http://www.modiag.it#MemoryItem		Class
+http://www.modiag.it#MoCA	Montreal Cognitive Assessment	Class
+http://www.modiag.it#NB_AmericanNationalAdultReadingTestItem_1		Class
+http://www.modiag.it#NB_AmericanNationalAdultReadingTestItem_2		Class
+http://www.modiag.it#NB_BostonNamingTestItem_1		Class
+http://www.modiag.it#NB_BostonNamingTestItem_2		Class
+http://www.modiag.it#NB_BostonNamingTestItem_3		Class
+http://www.modiag.it#NB_BostonNamingTestItem_4		Class
+http://www.modiag.it#NB_BostonNamingTestItem_5		Class
+http://www.modiag.it#NB_BostonNamingTestItem_6		Class
+http://www.modiag.it#NB_CategoryFluencyTestItem_1		Class
+http://www.modiag.it#NB_CategoryFluencyTestItem_2		Class
+http://www.modiag.it#NB_CategoryFluencyTestItem_3		Class
+http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_1		Class
+http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_2		Class
+http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_3		Class
+http://www.modiag.it#NB_ClockCopyingItem_1		Class
+http://www.modiag.it#NB_ClockCopyingItem_2		Class
+http://www.modiag.it#NB_ClockCopyingItem_3		Class
+http://www.modiag.it#NB_ClockCopyingItem_4		Class
+http://www.modiag.it#NB_ClockCopyingItem_5		Class
+http://www.modiag.it#NB_ClockCopyingItem_6		Class
+http://www.modiag.it#NB_ClockDrawingTestItem_1		Class
+http://www.modiag.it#NB_ClockDrawingTestItem_2		Class
+http://www.modiag.it#NB_ClockDrawingTestItem_3		Class
+http://www.modiag.it#NB_ClockDrawingTestItem_4		Class
+http://www.modiag.it#NB_ClockDrawingTestItem_5		Class
+http://www.modiag.it#NB_ClockDrawingTestItem_6		Class
+http://www.modiag.it#NB_DigitSpanBackwardItem_1		Class
+http://www.modiag.it#NB_DigitSpanBackwardItem_2		Class
+http://www.modiag.it#NB_DigitSpanForwardItem_1		Class
+http://www.modiag.it#NB_DigitSpanForwardItem_2		Class
+http://www.modiag.it#NB_DigitSymbolSubstitutionItem_1		Class
+http://www.modiag.it#NB_LogicalMemoryTestItem_1		Class
+http://www.modiag.it#NB_LogicalMemoryTestItem_2		Class
+http://www.modiag.it#NB_LogicalMemoryTestItem_3		Class
+http://www.modiag.it#NB_LogicalMemoryTestItem_4		Class
+http://www.modiag.it#NB_LogicalMemoryTestItem_5		Class
+http://www.modiag.it#NB_LogicalMemoryTestItem_6		Class
+http://www.modiag.it#NB_MultilingualNamingTestItem_1		Class
+http://www.modiag.it#NB_MultilingualNamingTestItem_2		Class
+http://www.modiag.it#NB_MultilingualNamingTestItem_3		Class
+http://www.modiag.it#NB_ReyAuditoryLearningTestItem_1		Class
+http://www.modiag.it#NB_ReyAuditoryLearningTestItem_2		Class
+http://www.modiag.it#NB_ReyAuditoryLearningTestItem_3		Class
+http://www.modiag.it#NB_ReyAuditoryLearningTestItem_4		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_1		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_10		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_11		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_12		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_13		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_14		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_15		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_16		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_17		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_18		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_19		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_2		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_3		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_4		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_5		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_6		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_7		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_8		Class
+http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_9		Class
+http://www.modiag.it#NB_TrailMakingTestAItem_1		Class
+http://www.modiag.it#NB_TrailMakingTestAItem_2		Class
+http://www.modiag.it#NB_TrailMakingTestAItem_3		Class
+http://www.modiag.it#NB_TrailMakingTestBItem_1		Class
+http://www.modiag.it#NB_TrailMakingTestBItem_2		Class
+http://www.modiag.it#NB_TrailMakingTestBItem_3		Class
+http://www.modiag.it#NPI	Neuropsychiatric Inventory	Class
+http://www.modiag.it#NPI-Q	Neuropsychiatric Inventory–Questionnaire	Class
+http://www.modiag.it#NPIItem		Class
+http://www.modiag.it#NPIQItem		Class
+http://www.modiag.it#NPIQ_PresenceOfAberrantMotorBehaviorItem		Class
+http://www.modiag.it#NPIQ_PresenceOfAgitationAggressionItem		Class
+http://www.modiag.it#NPIQ_PresenceOfAnxietyItem		Class
+http://www.modiag.it#NPIQ_PresenceOfApathyIndifferenceItem		Class
+http://www.modiag.it#NPIQ_PresenceOfAppetiteDisordersItem		Class
+http://www.modiag.it#NPIQ_PresenceOfDelusionsItem		Class
+http://www.modiag.it#NPIQ_PresenceOfDepressionDysphoriaItem		Class
+http://www.modiag.it#NPIQ_PresenceOfDishinibitionItem		Class
+http://www.modiag.it#NPIQ_PresenceOfElationEuphoriaItem		Class
+http://www.modiag.it#NPIQ_PresenceOfHallucinationsItem		Class
+http://www.modiag.it#NPIQ_PresenceOfIrritabilityLabilityItem		Class
+http://www.modiag.it#NPIQ_PresenceOfSleepDisordersItem		Class
+http://www.modiag.it#NPIQ_SeverityOfSymptomItem		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_1		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_10		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_2		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_3		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_4		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_5		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_6		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_7		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_8		Class
+http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_9		Class
+http://www.modiag.it#NPI_AgitationAggressionCaregiverDistress		Class
+http://www.modiag.it#NPI_AgitationAggressionFrequency		Class
+http://www.modiag.it#NPI_AgitationAggressionQuestionItem_1		Class
+http://www.modiag.it#NPI_AgitationAggressionQuestionItem_2		Class
+http://www.modiag.it#NPI_AgitationAggressionQuestionItem_3		Class
+http://www.modiag.it#NPI_AgitationAggressionQuestionItem_4		Class
+http://www.modiag.it#NPI_AgitationAggressionQuestionItem_5		Class
+http://www.modiag.it#NPI_AgitationAggressionQuestionItem_6		Class
+http://www.modiag.it#NPI_AgitationAggressionQuestionItem_7		Class
+http://www.modiag.it#NPI_AgitationAggressionQuestionItem_8		Class
+http://www.modiag.it#NPI_AgitationAggressionSeverity		Class
+http://www.modiag.it#NPI_AnxietyDistressItem		Class
+http://www.modiag.it#NPI_AnxietyFrequencyItem		Class
+http://www.modiag.it#NPI_AnxietyQuestionItem_1		Class
+http://www.modiag.it#NPI_AnxietyQuestionItem_2		Class
+http://www.modiag.it#NPI_AnxietyQuestionItem_3		Class
+http://www.modiag.it#NPI_AnxietyQuestionItem_4		Class
+http://www.modiag.it#NPI_AnxietyQuestionItem_5		Class
+http://www.modiag.it#NPI_AnxietyQuestionItem_6		Class
+http://www.modiag.it#NPI_AnxietyQuestionItem_7		Class
+http://www.modiag.it#NPI_AnxietySeverityItem		Class
+http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_1		Class
+http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_2		Class
+http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_3		Class
+http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_4		Class
+http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_5		Class
+http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_6		Class
+http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_7		Class
+http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_8		Class
+http://www.modiag.it#NPI_DelusionsCaregiverDistressItem		Class
+http://www.modiag.it#NPI_DelusionsFrequencyItem		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_1		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_2		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_3		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_4		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_5		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_6		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_7		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_8		Class
+http://www.modiag.it#NPI_DelusionsQuestionItem_9		Class
+http://www.modiag.it#NPI_DelusionsSeverityItem		Class
+http://www.modiag.it#NPI_DepressionDysphoriaDistressItem		Class
+http://www.modiag.it#NPI_DepressionDysphoriaFrequencyItem		Class
+http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_1		Class
+http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_2		Class
+http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_3		Class
+http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_4		Class
+http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_5		Class
+http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_6		Class
+http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_7		Class
+http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_8		Class
+http://www.modiag.it#NPI_DepressionDysphoriaSeverityItem		Class
+http://www.modiag.it#NPI_DisinhibitionDistressItem		Class
+http://www.modiag.it#NPI_DisinhibitionFrequencyItem		Class
+http://www.modiag.it#NPI_DisinhibitionQuestionItem_1		Class
+http://www.modiag.it#NPI_DisinhibitionQuestionItem_2		Class
+http://www.modiag.it#NPI_DisinhibitionQuestionItem_3		Class
+http://www.modiag.it#NPI_DisinhibitionQuestionItem_4		Class
+http://www.modiag.it#NPI_DisinhibitionQuestionItem_5		Class
+http://www.modiag.it#NPI_DisinhibitionQuestionItem_6		Class
+http://www.modiag.it#NPI_DisinhibitionQuestionItem_7		Class
+http://www.modiag.it#NPI_DisinhibitionSeverityItem		Class
+http://www.modiag.it#NPI_EatingDisordersDistressItem		Class
+http://www.modiag.it#NPI_EatingDisordersFrequencyItem		Class
+http://www.modiag.it#NPI_EatingDisordersQuestionItem_1		Class
+http://www.modiag.it#NPI_EatingDisordersQuestionItem_2		Class
+http://www.modiag.it#NPI_EatingDisordersQuestionItem_3		Class
+http://www.modiag.it#NPI_EatingDisordersQuestionItem_4		Class
+http://www.modiag.it#NPI_EatingDisordersQuestionItem_5		Class
+http://www.modiag.it#NPI_EatingDisordersQuestionItem_6		Class
+http://www.modiag.it#NPI_EatingDisordersQuestionItem_7		Class
+http://www.modiag.it#NPI_EatingDisordersQuestionItem_8		Class
+http://www.modiag.it#NPI_EatingDisordersSeverityItem		Class
+http://www.modiag.it#NPI_ElationEuphoriaDistressItem		Class
+http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_1		Class
+http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_2		Class
+http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_3		Class
+http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_4		Class
+http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_5		Class
+http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_6		Class
+http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_7		Class
+http://www.modiag.it#NPI_HallucinationsCaregiverDistressItem		Class
+http://www.modiag.it#NPI_HallucinationsFrequencyItem		Class
+http://www.modiag.it#NPI_HallucinationsQuestionItem_1		Class
+http://www.modiag.it#NPI_HallucinationsQuestionItem_2		Class
+http://www.modiag.it#NPI_HallucinationsQuestionItem_3		Class
+http://www.modiag.it#NPI_HallucinationsQuestionItem_4		Class
+http://www.modiag.it#NPI_HallucinationsQuestionItem_5		Class
+http://www.modiag.it#NPI_HallucinationsQuestionItem_6		Class
+http://www.modiag.it#NPI_HallucinationsQuestionItem_7		Class
+http://www.modiag.it#NPI_HallucinationsSeverityItem		Class
+http://www.modiag.it#NPI_IrritabilityLabilityDistress		Class
+http://www.modiag.it#NPI_IrritabilityLabilityFrequency		Class
+http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_1		Class
+http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_2		Class
+http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_3		Class
+http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_4		Class
+http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_5		Class
+http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_6		Class
+http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_7		Class
+http://www.modiag.it#NPI_IrritabilityLabilitySeverity		Class
+http://www.modiag.it#NPI_PresenceOfAberrantMotorBehaviourItem		Class
+http://www.modiag.it#NPI_PresenceOfAgitationAggression		Class
+http://www.modiag.it#NPI_PresenceOfAnxietyItem		Class
+http://www.modiag.it#NPI_PresenceOfDelusionsItem		Class
+http://www.modiag.it#NPI_PresenceOfDepressionOrDysphoriaItem		Class
+http://www.modiag.it#NPI_PresenceOfDisinhibitionItem		Class
+http://www.modiag.it#NPI_PresenceOfEatingDisordersItem		Class
+http://www.modiag.it#NPI_PresenceOfElationEuphoriaItem		Class
+http://www.modiag.it#NPI_PresenceOfHallucinationsItem		Class
+http://www.modiag.it#NPI_PresenceOfIrritabilityLabilityItem		Class
+http://www.modiag.it#NPI_SleepDistressItem		Class
+http://www.modiag.it#NPI_SleepQuestionItem_1		Class
+http://www.modiag.it#NPI_SleepQuestionItem_2		Class
+http://www.modiag.it#NPI_SleepQuestionItem_3		Class
+http://www.modiag.it#NPI_SleepQuestionItem_4		Class
+http://www.modiag.it#NPI_SleepQuestionItem_5		Class
+http://www.modiag.it#NPI_SleepQuestionItem_6		Class
+http://www.modiag.it#NPI_SleepQuestionItem_7		Class
+http://www.modiag.it#NPI_SleepQuestionItem_8		Class
+http://www.modiag.it#NPI_SleepSeverityItem		Class
+http://www.modiag.it#NPI_SleepTotalItem		Class
+http://www.modiag.it#NamingItem		Class
+http://www.modiag.it#NeurologicalExam		Class
+http://www.modiag.it#NeuropshychologicalAssessment		Class
+http://www.modiag.it#NeuropsychologicalBattery	Neuropsychological Battery	Class
+http://www.modiag.it#NeuropsychologicalBatteryItem		Class
+http://www.modiag.it#OrientationItem		Class
+http://www.modiag.it#PhysicalExam		Class
+http://www.modiag.it#QuestionItem		Class
+http://www.modiag.it#ReadingItem		Class
+http://www.modiag.it#RegistrationItem		Class
+http://www.modiag.it#RepetitionItem		Class
+http://www.modiag.it#SAItemByEvaluatedFeature		Class
+http://www.modiag.it#SAItemByTest		Class
+http://www.modiag.it#ScoringItem		Class
+http://www.modiag.it#Sequencing		Class
+http://www.modiag.it#SleepItem		Class
+http://www.modiag.it#StandardizedAssessment		Class
+http://www.modiag.it#StandardizedAssessmentItem		Class
+http://www.modiag.it#TOMM40PolyTVariantGenotyping	Translocase of outer mitochondrial membrane 40 Poly-T Variant Genotyping	Class
+http://www.modiag.it#VascularRiskAssessment		Class
+http://www.modiag.it#VitalSign		Class
+http://www.modiag.it#WGSSNP	Wide Genome Sequencing Single-Nucleotide Polymorphism	Class
+http://www.modiag.it#WGS_Assembly		Class
+http://www.modiag.it#WritingItem		Class
+http://www.modiag.it#assessmentInfo		Data property
+http://www.modiag.it#assessmentSource		Data property
+http://www.modiag.it#dayOfBirth		Data property
+http://www.modiag.it#education		Data property
+http://www.modiag.it#eventDate		Data property
+http://www.modiag.it#gender		Data property
+http://www.modiag.it#handedness		Data property
+http://www.modiag.it#hasAssessmentItem		Object property
+http://www.modiag.it#hasStandardizedAssessment		Object property
+http://www.modiag.it#homeType		Data property
+http://www.modiag.it#itemAnswer		Data property
+http://www.modiag.it#itemScore		Data property
+http://www.modiag.it#maritalStatus		Data property
+http://www.modiag.it#mmse_attentionAndCalculation		Data property
+http://www.modiag.it#monthOfBirth		Data property
+http://www.modiag.it#neurologicalFinding		Data property
+http://www.modiag.it#primaryOccupation		Data property
+http://www.modiag.it#question		Annotation property
+http://www.modiag.it#recallItemList		Data property
+http://www.modiag.it#recentOccupation		Data property
+http://www.modiag.it#retired		Data property
+http://www.modiag.it#retirementDate		Data property
+http://www.modiag.it#significantAuditoryImpairment	Significant Auditory Impairment	Data property
+http://www.modiag.it#significantVisualImpairment	Significant Visual Impairment	Data property
+http://www.modiag.it#summedScore		Data property
+http://www.modiag.it#totalScore		Data property
+http://www.modiag.it#unableToCompleteWhy		Data property
+http://www.modiag.it#valuesMeaning		Annotation property
+http://www.modiag.it#verbatimAnswer		Data property
+http://www.modiag.it#yearOfBirth		Data property
+http://www.modiag.it#yesNoAnswer		Data property
+rdfs:comment		Annotation property
+rdfs:label		Annotation property

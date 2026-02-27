@@ -1,0 +1,5 @@
+idspaces:
+  - prefix: R
+    base_iri: https://github.com/Tao-AI-group/BSO_AD#R_
+    start: 00000
+    end: 199999

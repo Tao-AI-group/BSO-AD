@@ -1,0 +1,189 @@
+ID	LABEL	Type
+dc11:contributor		Annotation property
+dc11:creator		Annotation property
+http://www.ifomis.org/bfo/1.1/span#TimeInstant	Time Instant	Class
+http://www.ifomis.org/bfo/1.1/span#TimeInterval	Time Interval	Class
+https://sbmi.uth.edu/ontology/PeriodicTimeInterval	Periodic Time Interval	Class
+https://sbmi.uth.edu/ontology/TEO.owl#Afternoon		Class
+https://sbmi.uth.edu/ontology/TEO.owl#Clinical_Intervention	Clinical Intervention	Class
+https://sbmi.uth.edu/ontology/TEO.owl#Diagnosis	Diagnosis	Class
+https://sbmi.uth.edu/ontology/TEO.owl#Documentation	Documentation	Class
+https://sbmi.uth.edu/ontology/TEO.owl#Observation	Observation	Class
+https://sbmi.uth.edu/ontology/TEO.owl#Other_Event	Other Event	Class
+https://sbmi.uth.edu/ontology/TEO.owl#Patient_Accident	Patient Accident	Class
+https://sbmi.uth.edu/ontology/TEO.owl#RDOC_0000000000	contactInfo	Annotation property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000002	before	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000003	during	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000005	hasNormalizedTime	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000006	hasEndTime	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000007	hasValidTime	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000010	contain	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000011	Holiday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000013	US Holiday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000014	start	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000015	hasOrigTime	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000016	after	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017	US Federal Holiday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000018	equal	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000019	First week of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000020	meet	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000021	New Year's Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000022	hasDuration	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025	Event	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000028	hasStartTime	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000029	hasGranularity	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030	Week	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000031	Second week of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032	Duration	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000035	third week of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000037	finish	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000038	overlap	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000039	temporalRelation	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000040	hasDurationUnit	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000041	hasDurationValue	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000042	Monday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000043	Tuesday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000045	Wednesday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000046	Thursday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000047	Friday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000048	Saturday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000049	Sunday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000050	Month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000051	Year	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000052	January	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000053	February	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000054	March	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000055	April	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000056	May	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000057	June	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000058	July	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000059	August	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000060	September	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000061	October	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000062	November	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000063	December	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000065	Birthday of Martin Luther King, Jr.	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000066	Inauguration Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000067	Washington's Birthday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000068	Memorial Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000069	Independence Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000070	Labor Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000071	Columbus Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000072	Veterans Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000073	Thanksgiving Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000074	Christmas	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000080	Relative Time	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000081	Today	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000082	Tomorrow	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000083	Yesterday	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084	Week Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000088	fourth week of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089	fifth week of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091	Month Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094	Calendar Month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095	Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000098	Day 1 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000099	Day 2 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000100	Day 3 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000101	Day 4 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000102	Day 5 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000103	Day 6 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000104	Day 7 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000105	Day 8 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000106	Day 9 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000107	Day 10 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000108	Day 11 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000109	Day 12 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000110	Day 13 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000111	Day 14 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000112	Day 15 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000113	Day 16 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000114	Day 17 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000115	Day 18 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000116	Day 19 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000117	Day 20 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000118	Day 21 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000119	Day 22 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000120	Day 23 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000121	Day 24 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000122	Day 25 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000123	Day 28 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000124	Day 29 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000125	Day 30 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000126	Day 31 of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127	last week of a month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000144	hasDurationPattern	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000145	overlappedBy	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000146	metBy	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000147	startedBy	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000148	finishedBy	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000149	startEqualStart	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150	startBeforeStart	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151	startBeforeEnd	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152	startAfterStart	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000153	startAfterEnd	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000154	endBeforeStart	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155	endBeforeEnd	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156	endAfterStart	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157	endAfterEnd	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000158	startEqualEnd	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000159	endEqualStart	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000160	endEqualEnd	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000161	hasApproximation	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162	Granularity	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000163	Second	Granularity
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000164	Minute	Granularity
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000165	Hour	Granularity
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000166	Day	Granularity
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000167	Week	Granularity
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000168	Month	Granularity
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000169	Season	Granularity
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000170	Year	Granularity
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000171	hasGranularity	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000172	hasGranularity	Annotation property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000173	hasApproximation	Annotation property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000176	hasTimeOffset	Annotation property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000177	hasDurationOriginForm	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000178	hasRepeatTimes	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000179	hasSeverity	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000180	hasPeriod	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000182	hasRepeatUnit	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000183	hasRepeatUnitInterval	Object property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190	Instant of the Day	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000191	Instant of the Week	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000192	Instant of the Month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193	Instant of the Year	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000194	Morning	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000195	Noon	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000196	Evening	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000197	The beginning of the week	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000198	The middle of the week	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000199	The end of the week	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000200	The beginning of the month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000201	The middle of the month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000202	The end of the month	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000203	The beginning of the year	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000204	The middle of the year	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000205	The end of the year	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000206	hasDescription	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000207	Spring	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000208	Fall	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000209	Summer	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000210	Winter	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000211	Time of the Age	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000212	hasAgeValue	Data property
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000213	AM	Class
+https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000214	PM	Class
+https://sbmi.uth.edu/ontology/TEO.owl#Test_and_Test_evaluation	Test and Test evaluation	Class
+https://sbmi.uth.edu/ontology/TEO.owl#Time		Class
+owl:versionInfo		Annotation property
+rdfs:comment		Annotation property
+rdfs:isDefinedBy		Annotation property
+rdfs:label		Annotation property
+skos:altLabel		Data property
+skos:altLabel		Annotation property
+skos:definition		Annotation property
+skos:definition		Data property
+skos:editorialNote		Data property
+skos:editorialNote		Annotation property
+skos:example		Annotation property

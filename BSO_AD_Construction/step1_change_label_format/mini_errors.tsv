@@ -1,0 +1,65 @@
+table	cell	rule ID	message
+TEO_labels_merged_template.tsv	C41	ROBOT-template:manchester-parse-error	"MANCHESTER PARSE ERROR the expression (Granularity) at row 41, column 3 in table ""TEO_labels_merged_template.tsv"" cannot be parsed: encountered 'Granularity', but expected one of:
+	Class name
+	Object property name
+	Data property name
+	inverse
+	not
+	( ... )
+	{ ... }"
+TEO_labels_merged_template.tsv	C42	ROBOT-template:manchester-parse-error	"MANCHESTER PARSE ERROR the expression (Granularity) at row 42, column 3 in table ""TEO_labels_merged_template.tsv"" cannot be parsed: encountered 'Granularity', but expected one of:
+	Class name
+	Object property name
+	Data property name
+	inverse
+	not
+	( ... )
+	{ ... }"
+TEO_labels_merged_template.tsv	C43	ROBOT-template:manchester-parse-error	"MANCHESTER PARSE ERROR the expression (Granularity) at row 43, column 3 in table ""TEO_labels_merged_template.tsv"" cannot be parsed: encountered 'Granularity', but expected one of:
+	Class name
+	Object property name
+	Data property name
+	inverse
+	not
+	( ... )
+	{ ... }"
+TEO_labels_merged_template.tsv	C44	ROBOT-template:manchester-parse-error	"MANCHESTER PARSE ERROR the expression (Granularity) at row 44, column 3 in table ""TEO_labels_merged_template.tsv"" cannot be parsed: encountered 'Granularity', but expected one of:
+	Class name
+	Object property name
+	Data property name
+	inverse
+	not
+	( ... )
+	{ ... }"
+TEO_labels_merged_template.tsv	C45	ROBOT-template:manchester-parse-error	"MANCHESTER PARSE ERROR the expression (Granularity) at row 45, column 3 in table ""TEO_labels_merged_template.tsv"" cannot be parsed: encountered 'Granularity', but expected one of:
+	Class name
+	Object property name
+	Data property name
+	inverse
+	not
+	( ... )
+	{ ... }"
+TEO_labels_merged_template.tsv	C46	ROBOT-template:manchester-parse-error	"MANCHESTER PARSE ERROR the expression (Granularity) at row 46, column 3 in table ""TEO_labels_merged_template.tsv"" cannot be parsed: encountered 'Granularity', but expected one of:
+	Class name
+	Object property name
+	Data property name
+	inverse
+	not
+	( ... )
+	{ ... }"
+TEO_labels_merged_template.tsv	C47	ROBOT-template:manchester-parse-error	"MANCHESTER PARSE ERROR the expression (Granularity) at row 47, column 3 in table ""TEO_labels_merged_template.tsv"" cannot be parsed: encountered 'Granularity', but expected one of:
+	Class name
+	Object property name
+	Data property name
+	inverse
+	not
+	( ... )
+	{ ... }"
+TEO_labels_merged_template.tsv	C48	ROBOT-template:manchester-parse-error	"MANCHESTER PARSE ERROR the expression (Granularity) at row 48, column 3 in table ""TEO_labels_merged_template.tsv"" cannot be parsed: encountered 'Granularity', but expected one of:
+	Class name
+	Object property name
+	Data property name
+	inverse
+	not
+	( ... )
+	{ ... }"

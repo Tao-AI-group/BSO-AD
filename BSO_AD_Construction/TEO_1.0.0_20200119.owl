@@ -1,0 +1,1968 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://sbmi.uth.edu/ontology/TEO.owl#"
+     xml:base="https://sbmi.uth.edu/ontology/TEO.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:list="http://www.co-ode.org/ontologies/list.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="https://sbmi.uth.edu/ontology/TEO.owl">
+        <dc:contributor>Du, Jingcheng</dc:contributor>
+        <dc:contributor>Henry, Chen</dc:contributor>
+        <dc:contributor>Li, Fang</dc:contributor>
+        <dc:contributor>Luo, Yi</dc:contributor>
+        <dc:contributor>Song, Hsing-Yi</dc:contributor>
+        <dc:creator>He, Oliver</dc:creator>
+        <dc:creator>Tao, Cui</dc:creator>
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+        <RDOC_0000000000 xml:lang="en">cui.tao@uth.tmc.edu</RDOC_0000000000>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#versionInfo -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#RDOC_0000000000 -->
+
+    <owl:AnnotationProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#RDOC_0000000000">
+        <rdfs:label xml:lang="en">contactInfo</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000172 -->
+
+    <owl:AnnotationProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000172">
+        <rdfs:label xml:lang="en">hasGranularity</rdfs:label>
+        <skos:definition>Used to desribe different units of measures to represent different levels of granularity.</skos:definition>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:range rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000173 -->
+
+    <owl:AnnotationProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000173">
+        <rdfs:label xml:lang="en">hasApproximation</rdfs:label>
+        <skos:definition>covering expressions of how the triple might be and should be. This includes expressions of necessity, permissibility and probability, and negations of these</skos:definition>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000176 -->
+
+    <owl:AnnotationProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000176">
+        <rdfs:label xml:lang="en">hasTimeOffset</rdfs:label>
+        <skos:definition>Defines the relative timing of a pair of events</skos:definition>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000002 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000002">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000154"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000016"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>before</rdfs:label>
+        <skos:altLabel>&quot;prior to&quot;</skos:altLabel>
+        <skos:definition>Interval relation. The source event ended before the start of the target event. It is the same as the point relation &quot;endBeforeStart&quot;.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000003 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000003">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000010"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>during</rdfs:label>
+        <skos:definition>Interval relation. The source event started after and ended before the target event</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000006 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000006">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInstant"/>
+        <rdfs:label>hasEndTime</rdfs:label>
+        <skos:definition>Describes the end time of an interval. The domain is a time interval. The range is a time instant.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000007 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000007">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025"/>
+        <rdfs:label>hasValidTime</rdfs:label>
+        <skos:definition>To link an event with its specific timestamps</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000010 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000010">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>contain</rdfs:label>
+        <skos:definition>Interval relation. The source event happened before and ended after the target event</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000014 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000014">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000149"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000147"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>start</rdfs:label>
+        <skos:definition>Interval relation. Two events started at the same time and the source event ended before the end of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000016 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000016">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000153"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>after</rdfs:label>
+        <skos:altLabel>&quot;post to&quot;</skos:altLabel>
+        <skos:definition>Interval relation. The source event happened after target event. It is the same as the point relation &quot;startAfterEnd&quot;. </skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000018 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000018">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000149"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000160"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>equal</rdfs:label>
+        <skos:definition>Interval relation. Two events happened at the same time. It is true when both events are associated with either timeinstants or timeintervals. When both events are associated with time intervals, they must start at the same time and end at the same time.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000020 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000020">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000159"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000146"/>
+        <owl:propertyDisjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000038"/>
+        <owl:propertyDisjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000145"/>
+        <rdfs:label>meet</rdfs:label>
+        <skos:definition>Interval relation. The source event ended at (the same time as) the start of the target event. It is the same as the point relation &quot;endEqualStart&quot;.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000022 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000022">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:range rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032"/>
+        <rdfs:label>hasDuration</rdfs:label>
+        <skos:definition>Describes the duration of a time interval</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000028 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000028">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInterval"/>
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInstant"/>
+        <rdfs:label>hasStartTime</rdfs:label>
+        <skos:definition>Describes the start time of a time interval. The domain is a time interval and the range is a time instant.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000037 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000037">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000160"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000148"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>finish</rdfs:label>
+        <skos:definition>Interval relation. Two events ended at the same time and the source event started after the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000038 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000038">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000145"/>
+        <owl:propertyDisjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000146"/>
+        <rdfs:label>overlap</rdfs:label>
+        <skos:definition>Interval relation. Two events have overlap on the timeline. The source event starts before and  ends before the end of the target event and the source event ends after the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000039 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000039">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>temporalRelation</rdfs:label>
+        <skos:definition>The super set of the temporal relations defined in the ontology. Akin to Allen&apos;s temporal operators, but are defined between events instead of time intervals</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000145 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000145">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157"/>
+        <rdfs:label>overlappedBy</rdfs:label>
+        <skos:definition>Interval relation. Two events have overlap on the timeline. The source event starts after and ends after the start of the target event and the source event starts before the end of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000146 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000146">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000158"/>
+        <rdfs:label>metBy</rdfs:label>
+        <skos:definition>Interval relation. The source event started at (the same time as) the end of the target event. It is the same as the point relation &quot;startEqualEnd&quot;.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000147 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000147">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000149"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>startedBy</rdfs:label>
+        <skos:definition>Interval relation. Two events started at the same time and the source event ended after the end of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000148 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000148">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000160"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>finishedBy</rdfs:label>
+        <skos:definition>Interval relation. Two events ended at the same time and the source event started before the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000149 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000149">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>startEqualStart</rdfs:label>
+        <skos:definition>Point relation. The source event started at (the same time as) the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>startBeforeStart</rdfs:label>
+        <skos:definition>Point relation. The source event started before the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000039"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdfs:label>startBeforeEnd</rdfs:label>
+        <skos:definition>Point relation. The source event started before the end of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>startAfterStart</rdfs:label>
+        <skos:definition>Point relation. The source event started after the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000153 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000153">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000154"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>startAfterEnd</rdfs:label>
+        <skos:definition>Point relation. The source event starts after the end of the target event. It is the same as &quot;after&quot; in Allen&apos;s Interval Algebra.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000154 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000154">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>endBeforeStart</rdfs:label>
+        <skos:definition>Point relation. The source event ended beofre the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>endBeforeEnd</rdfs:label>
+        <skos:definition>Point relation. The source event ended before the end of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000039"/>
+        <rdfs:label>endAfterStart</rdfs:label>
+        <skos:definition>Point relation. The source event ended after the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>endAfterEnd</rdfs:label>
+        <skos:definition>Point relation. The source event ends after the end of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000158 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000158">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157"/>
+        <owl:inverseOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000159"/>
+        <rdfs:label>startEqualEnd</rdfs:label>
+        <skos:definition>Point relation. the source event started at (the same time as) the end of the target event. It is the same as the interval relation &quot;metBy&quot;.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000159 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000159">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155"/>
+        <rdfs:label>endEqualStart</rdfs:label>
+        <skos:definition>Point relation. The source event ended at (the same time as) the start of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000160 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000160">
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151"/>
+        <rdfs:subPropertyOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:label>endEqualEnd</rdfs:label>
+        <skos:definition>Point relation. The source event ended at (the same time as) the end of the target event.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000171 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000171">
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000171"/>
+                <owl:someValuesFrom rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000029"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:label xml:lang="en">hasGranularity</rdfs:label>
+        <skos:definition>Describes the granularity of a temporal element</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000180 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000180">
+        <rdfs:label xml:lang="en">hasPeriod</rdfs:label>
+        <skos:definition>Describes the interval between the start time of two units in a TimePhase</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000182 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000182">
+        <rdfs:label xml:lang="en">hasRepeatUnit</rdfs:label>
+        <skos:definition>Describes the uint that ocurrs periodically in a TimePhase</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000183 -->
+
+    <owl:ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000183">
+        <rdfs:label xml:lang="en">hasRepeatUnitInterval</rdfs:label>
+        <skos:definition>Describes the interval between two repeat units of a TimePhase</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#editorialNote -->
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote"/>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000005 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000005">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:pattern>[0-9]*+[:]+[0-9]*+[:]+[0-9]*</xsd:pattern>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label>hasNormalizedTime</rdfs:label>
+        <skos:definition>use to represent the normalized view of the time expression of the given instant</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000015 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000015">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000015"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:label>hasOrigTime</rdfs:label>
+        <skos:definition>use to represent the original  time expression of the instant</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000029 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000029">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:comment>describe the granularity of a temporal element</rdfs:comment>
+        <rdfs:label>hasGranularity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000040 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000040">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032"/>
+        <rdfs:comment>describe the unit of a duration</rdfs:comment>
+        <rdfs:label>hasDurationUnit</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000041 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000041">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label>hasDurationValue</rdfs:label>
+        <skos:definition>capture the value of a duration, e.g., in &quot;2 hours&quot;, 2 is the duation value and hour is the duation unit</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000144 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000144">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:pattern>([0-9]*+(\.[0-9]*)?+[Y])?([0-9]*+(\.[0-9]*)?+[M])?([0-9]*+(\.[0-9]*)?+[W])?([0-9]*+(\.[0-9]*)?+[D])?([0-9]*+(\.[0-9]*)?+[H])?([0-9]*+(\.[0-9]*)?+[m])?([0-9]*+(\.[0-9]*)?+[s])?</xsd:pattern>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:label>hasDurationPattern</rdfs:label>
+        <skos:definition>In the form of &quot;4Y5M3W0D0H0m0s&quot;.</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000161 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000161">
+        <rdfs:label xml:lang="en">hasApproximation</rdfs:label>
+        <skos:definition>covering expressions of how the world might be and should be. This includes expressions of necessity, permissibility and probability, and negations of these</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000177 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000177">
+        <rdfs:domain rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">hasDurationOriginForm</rdfs:label>
+        <skos:definition>capture the orign form of the duration string</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000178 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000178">
+        <rdfs:label xml:lang="en">hasRepeatTimes</rdfs:label>
+        <skos:definition>Describe the number of units that re-occur in a TimePhase</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000179 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000179">
+        <rdfs:label xml:lang="en">hasSeverity</rdfs:label>
+        <skos:definition>to declare the severity of a lab test or symptom</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000206 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000206">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">hasDescription</rdfs:label>
+        <skos:definition>add the detailed description to the event</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000212 -->
+
+    <owl:DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000212">
+        <rdfs:label xml:lang="en">hasAgeValue</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#TimeInstant -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#TimeInstant">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#Time"/>
+        <rdfs:label>Time Instant</rdfs:label>
+        <skos:altLabel>Time Instant</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#TimeInterval -->
+
+    <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#TimeInterval">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#Time"/>
+        <rdfs:label>Time Interval</rdfs:label>
+        <skos:altLabel>Time Interval</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/PeriodicTimeInterval -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/PeriodicTimeInterval">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInterval"/>
+        <rdfs:label>Periodic Time Interval</rdfs:label>
+        <skos:definition>A prototype of the repeating interval, specifying the duration of each occurrence and anchors the PeriodicTimeInterval sequence at a certain point in time.</skos:definition>
+        <skos:example>In &quot;Every eight hours for two minutes &quot;, 2 minutes can be represented using timephase</skos:example>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Afternoon -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Afternoon">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190"/>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Clinical_Intervention -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Clinical_Intervention">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025"/>
+        <rdfs:label>Clinical Intervention</rdfs:label>
+        <skos:definition>Any clinical intervention done on a patient, including medication administration, surgeries, behavioral interventions, clinical trial process, etc.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Diagnosis -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Diagnosis">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025"/>
+        <rdfs:label>Diagnosis</rdfs:label>
+        <skos:definition>Diseases that have been diagnosed</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Documentation -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Documentation">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025"/>
+        <rdfs:label>Documentation</rdfs:label>
+        <skos:definition>All documentation and non-clinical actions, like check-in, discharge, etc.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Observation -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Observation">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025"/>
+        <rdfs:label>Observation</rdfs:label>
+        <skos:definition>Symptoms</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Other_Event -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Other_Event">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025"/>
+        <rdfs:label>Other Event</rdfs:label>
+        <skos:definition>All other events</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Patient_Accident -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Patient_Accident">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025"/>
+        <rdfs:label>Patient Accident</rdfs:label>
+        <skos:definition>All non-clinical actions done on/by the patient, like blunt force, injuries, falls, etc.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000011 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000011">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095"/>
+        <rdfs:label>Holiday</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000013 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000013">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000011"/>
+        <rdfs:label>US Holiday</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000013"/>
+        <rdfs:label>US Federal Holiday</rdfs:label>
+        <skos:editorialNote>Defined according to http://en.wikipedia.org/wiki/Public_holidays_in_the_United_States</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000019 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000019">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000031"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000035"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000088"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127"/>
+        <rdfs:label>First week of a month</rdfs:label>
+        <skos:definition>The first week of a particular month. </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000021 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000021">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>New Year&apos;s Day</rdfs:label>
+        <skos:definition>Celebrates beginning of the Gregorian calendar year. Festivities include counting down to midnight (12:00 AM) on the preceding night, New Year&apos;s Eve. Traditional end of holiday season.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025">
+        <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInterval"/>
+        <rdfs:label>Week</rdfs:label>
+        <skos:definition>Defines a particular week, where the sequence of the weekdays can be defined using TimeSequence. For example, one can define a week from Monday to Sunday, from Sunday to Sat, or from Tue to Mon.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000031 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000031">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000035"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000088"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127"/>
+        <rdfs:label>Second week of a month</rdfs:label>
+        <skos:definition>The second week of a particular month. </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032">
+        <rdfs:label>Duration</rdfs:label>
+        <skos:definition>The measure of continuance of any object or event within Time</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000035 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000035">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000088"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127"/>
+        <rdfs:label>third week of a month</rdfs:label>
+        <skos:definition>The third week of a particular month. </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000042 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000042">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084"/>
+        <rdfs:label>Monday</rdfs:label>
+        <skos:definition>The first day of a calendar week starting from Monday. Monday is after Sunday and before Tuesday.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000043 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000043">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084"/>
+        <rdfs:label>Tuesday</rdfs:label>
+        <skos:definition>The second day of a calendar week starting from Monday. Tuesday is after Monday and before Wednesday.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000045 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000045">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084"/>
+        <rdfs:label>Wednesday</rdfs:label>
+        <skos:definition>The thrid day of a calendar week starting from Monday.  Wednesday is after Tuesday and before Thursday.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000046 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000046">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084"/>
+        <rdfs:label>Thursday</rdfs:label>
+        <skos:definition>The fourth day of a calendar week starting from Monday. Thursday is after Wednesday and before Friday.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000047 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000047">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084"/>
+        <rdfs:label>Friday</rdfs:label>
+        <skos:definition>The fifth day of a calendar week starting from Monday. Friday is after Thursday and before Saturday.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000048 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000048">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084"/>
+        <rdfs:label>Saturday</rdfs:label>
+        <skos:definition>The sixth day of a calendar week starting from Monday. Saturday is after Friday and before Sunday.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000049 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000049">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084"/>
+        <rdfs:label>Sunday</rdfs:label>
+        <skos:definition>The last day of a calendar week starting from Monday. Sunday is after Saturday and before the Monday next week.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000050 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000050">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInterval"/>
+        <rdfs:label>Month</rdfs:label>
+        <skos:definition>Define a particular Month</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000051 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000051">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInterval"/>
+        <rdfs:label>Year</rdfs:label>
+        <skos:definition>Define a particuar year</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000052 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000052">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>January</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000053 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000053">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>February</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000054 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000054">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>March</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000055 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000055">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>April</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000056 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000056">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>May</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000057 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000057">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>June</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000058 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000058">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>July</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000059 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000059">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>August</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000060 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000060">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>September</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000061 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000061">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>October</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000062 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000062">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>November</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000063 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000063">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094"/>
+        <rdfs:label>December</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000065 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000065">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Birthday of Martin Luther King, Jr.</rdfs:label>
+        <skos:definition>Honors Martin Luther King, Jr., Civil Rights leader, who was actually born on January 15, 1929; combined with other holidays in several states. First occured 1986.</skos:definition>
+        <skos:definition>Third Monday in January</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000066 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000066">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Inauguration Day</rdfs:label>
+        <skos:definition>First January 20th following a Presidential election</skos:definition>
+        <skos:definition>Observed only by federal government employees in Washington, D.C., and the border counties of Maryland and Virginia, in order to relieve congestion that occurs with this major event. Swearing-in of President of the United States and Vice President of the United States. Celebrated every fourth year. Note: Takes place on January 21 if the 20th is a Sunday (although the President is still privately inaugurated on the 20th). If Inauguration Day falls on a Saturday, the preceding Friday is not a federal holiday.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000067 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000067">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Washington&apos;s Birthday</rdfs:label>
+        <skos:definition>Third Monday in February</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000068 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000068">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Memorial Day</rdfs:label>
+        <skos:definition>Last Monday in May</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000069 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000069">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Independence Day</rdfs:label>
+        <skos:definition>July 4</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000070 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000070">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Labor Day</rdfs:label>
+        <skos:definition>First Monday in September. became a federal holiday in 1894</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000071 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000071">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Columbus Day</rdfs:label>
+        <skos:definition>Second Monday in October. Start 1937</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000072 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000072">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Veterans Day</rdfs:label>
+        <skos:definition>November 11</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000073 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000073">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Thanksgiving Day</rdfs:label>
+        <skos:definition>Fourth Thursday in November</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000074 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000074">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017"/>
+        <rdfs:label>Christmas</rdfs:label>
+        <skos:definition>December 25</skos:definition>
+        <skos:editorialNote>pattern: (hasCalendarPatternForm value &quot;DM25&quot;)
+ and (hasCalendarPatternForm value &quot;MY12&quot;)</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000080 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000080">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInterval"/>
+        <rdfs:label>Relative Time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000081 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000081">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000080"/>
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095"/>
+        <rdfs:label>Today</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000082 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000082">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000080"/>
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095"/>
+        <rdfs:label>Tomorrow</rdfs:label>
+        <skos:definition>One day after Today</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000083 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000083">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000080"/>
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095"/>
+        <rdfs:label>Yesterday</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095"/>
+        <rdfs:label>Week Day</rdfs:label>
+        <skos:definition>The parent class of the 7 week days</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000088 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000088">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030"/>
+        <owl:disjointWith rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089"/>
+        <rdfs:label>fourth week of a month</rdfs:label>
+        <skos:definition>The fourth week of a particular month. </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030"/>
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127"/>
+        <rdfs:label>fifth week of a month</rdfs:label>
+        <skos:definition>The fifth week of a particular month. </skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095"/>
+        <rdfs:label>Month Day</rdfs:label>
+        <skos:definition>Define a paticular day that occurs on a month</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000050"/>
+        <rdfs:label>Calendar Month</rdfs:label>
+        <skos:definition>The parent class of the 12 calendar month</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInterval"/>
+        <rdfs:label>Day</rdfs:label>
+        <skos:definition>Define a particular day</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000098 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000098">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 1 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000099 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000099">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 2 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000100 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000100">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 3 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000101 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000101">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 4 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000102 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000102">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 5 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000103 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000103">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 6 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000104 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000104">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 7 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000105 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000105">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 8 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000106 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000106">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 9 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000107 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000107">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 10 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000108 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000108">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 11 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000109 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000109">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 12 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000110 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000110">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 13 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000111 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000111">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 14 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000112 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000112">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 15 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000113 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000113">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 16 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000114 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000114">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 17 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000115 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000115">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 18 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000116 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000116">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 19 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000117 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000117">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 20 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000118 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000118">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 21 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000119 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000119">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 22 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000120 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000120">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 23 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000121 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000121">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 24 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000122 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000122">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 25 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000123 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000123">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 28 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000124 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000124">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 29 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000125 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000125">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 30 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000126 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000126">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091"/>
+        <rdfs:label>Day 31 of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030"/>
+        <rdfs:label>last week of a month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162">
+        <rdfs:label xml:lang="en">Granularity</rdfs:label>
+        <skos:definition>Different units of measures to represent different levels of granularity. It has eight units as the instances: &quot;Second&quot;, &quot;Minute&quot;, &quot;Hour&quot;, &quot;Day&quot;, &quot;Week&quot;, &quot;Month&quot;, &quot;Season&quot;, &quot;Year&quot;.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInstant"/>
+        <rdfs:label xml:lang="en">Instant of the Day</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000191 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000191">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInstant"/>
+        <rdfs:label xml:lang="en">Instant of the Week</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000192 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000192">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInstant"/>
+        <rdfs:label xml:lang="en">Instant of the Month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInstant"/>
+        <rdfs:label xml:lang="en">Instant of the Year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000194 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000194">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190"/>
+        <rdfs:label xml:lang="en">Morning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000195 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000195">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190"/>
+        <rdfs:label xml:lang="en">Noon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000196 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000196">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190"/>
+        <rdfs:label xml:lang="en">Evening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000197 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000197">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000191"/>
+        <rdfs:label xml:lang="en">The beginning of the week</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000198 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000198">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000191"/>
+        <rdfs:label xml:lang="en">The middle of the week</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000199 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000199">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000191"/>
+        <rdfs:label xml:lang="en">The end of the week</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000200 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000200">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000192"/>
+        <rdfs:label xml:lang="en">The beginning of the month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000201 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000201">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000192"/>
+        <rdfs:label xml:lang="en">The middle of the month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000202 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000202">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000192"/>
+        <rdfs:label xml:lang="en">The end of the month</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000203 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000203">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193"/>
+        <rdfs:label xml:lang="en">The beginning of the year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000204 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000204">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193"/>
+        <rdfs:label xml:lang="en">The middle of the year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000205 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000205">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193"/>
+        <rdfs:label xml:lang="en">The end of the year</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000207 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000207">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193"/>
+        <rdfs:label xml:lang="en">Spring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000208 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000208">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193"/>
+        <rdfs:label xml:lang="en">Fall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000209 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000209">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193"/>
+        <rdfs:label xml:lang="en">Summer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000210 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000210">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193"/>
+        <rdfs:label xml:lang="en">Winter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000211 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000211">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#TimeInstant"/>
+        <rdfs:label xml:lang="en">Time of the Age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000213 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000213">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190"/>
+        <rdfs:label xml:lang="en">AM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000214 -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000214">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190"/>
+        <rdfs:label xml:lang="en">PM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Test_and_Test_evaluation -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Test_and_Test_evaluation">
+        <rdfs:subClassOf rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025"/>
+        <rdfs:label>Test and Test evaluation</rdfs:label>
+        <skos:definition>Test, examination, or the results and evaluation from the test or examination</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Time -->
+
+    <owl:Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Time">
+        <skos:altLabel xml:lang="en">The super class of TimeInstant and TimeInterval</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000163 -->
+
+    <owl:NamedIndividual rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000163">
+        <rdf:type rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+        <rdfs:label xml:lang="en">Second</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000164 -->
+
+    <owl:NamedIndividual rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000164">
+        <rdf:type rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+        <rdfs:label xml:lang="en">Minute</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000165 -->
+
+    <owl:NamedIndividual rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000165">
+        <rdf:type rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+        <rdfs:label xml:lang="en">Hour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000166 -->
+
+    <owl:NamedIndividual rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000166">
+        <rdf:type rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+        <rdfs:label xml:lang="en">Day</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000167 -->
+
+    <owl:NamedIndividual rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000167">
+        <rdf:type rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+        <rdfs:label xml:lang="en">Week</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000168 -->
+
+    <owl:NamedIndividual rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000168">
+        <rdf:type rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+        <rdfs:label xml:lang="en">Month</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000169 -->
+
+    <owl:NamedIndividual rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000169">
+        <rdf:type rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+        <rdfs:label xml:lang="en">Season</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000170 -->
+
+    <owl:NamedIndividual rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000170">
+        <rdf:type rdf:resource="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162"/>
+        <rdfs:label xml:lang="en">Year</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

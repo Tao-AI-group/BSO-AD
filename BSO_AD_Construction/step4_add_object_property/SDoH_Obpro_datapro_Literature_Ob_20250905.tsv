@@ -1,0 +1,28 @@
+ID	Label	Type	Domain	Range	Super Property	skos:altLabel
+ID	A rdfs:label	TYPE	DOMAIN	RANGE	SP %	A skos:altLabel
+bso:R_00000	forTreatmentOrMedication	object property	bso:00446	bso:00222		
+bso:R_00001	hasAdverseExposure	object property	bso:00446	bso:00242		
+bso:R_00002	hasAdverseLifeExperience	object property	bso:00446	bso:00306		
+bso:R_00003	hasAge	object property	bso:00446	bso:00001		
+bso:R_00004	hasBehaviorChange	object property	(bso:00035 or bso:00446)	bso:00036		
+bso:R_00005	hasEducationLevel	object property	bso:00446	bso:00175		
+bso:R_00006	hasEmploymentStatus	object property	bso:00446	bso:00074		
+bso:R_00007	hasFinancialStress	object property	bso:00446	bso:00143		
+bso:R_00008	hasGender	object property	bso:00446	bso:00008		
+bso:R_00009	hasIncarcerationHistory	object property	bso:00446	bso:00300		
+bso:R_00010	hasInsurance	object property	bso:00446	bso:00154		
+bso:R_00011	hasInterpersonalRelation	object property	(bso:00269 or bso:00446)	bso:00338		
+bso:R_00012	hasLivingStatus	object property	bso:00446	bso:00257		
+bso:R_00013	hasMarriageStatus	object property	bso:00446	bso:00020		
+bso:R_00014	hasMeasure	object property		bso:00425		
+bso:R_00015	hasNumberOfSexPartner	object property	(bso:00046 or bso:00446)	bso:00047		
+bso:R_00016	hasOccupation	object property	bso:00446	bso:00084		
+bso:R_00017	hasRace	object property	bso:00446	bso:00027		
+bso:R_00018	hasSexOrientation	object property	bso:00446	bso:00053		
+bso:R_00019	hasSexPartner	object property	bso:00446	bso:00049		
+bso:R_00020	hasSexSafetyPractice	object property	bso:00446	bso:00050		
+bso:R_00021	hasSexualBehaviorElement	object property	bso:00446	bso:00046		
+bso:R_00022	hasSubstanceUse	object property	bso:00446	bso:00060		
+bso:R_00023	hasTimeFlag	object property		bso:00452		
+bso:D_00000	hasNumber	data property		xsd:float		
+bso:R_00024	conceptuallyRelatedTo	object property			associatedWith	

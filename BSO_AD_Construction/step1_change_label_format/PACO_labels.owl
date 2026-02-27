@@ -1,0 +1,1818 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Activity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Activity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Activity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Aerobic_dance -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Aerobic_dance">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aerobic_Dance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Amount -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Amount">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amount</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Athletic_walking -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Athletic_walking">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Athletic_Walking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Autorepair -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Autorepair">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autorepair</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Backpacking -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Backpacking">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Backpacking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Badminton -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Badminton">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Badminton</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Balance_exercise -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Balance_exercise">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Balance_Exercise</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ball_game -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ball_game">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ball_Game</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Baseball -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Baseball">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baseball</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Basketball -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Basketball">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basketball</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Boogieboarding -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Boogieboarding">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boogieboarding</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Bowling -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Bowling">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bowling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Brisk -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Brisk">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brisk</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Brisk_walking -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Brisk_walking">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Brisk_Walking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_distance -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_distance">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">By_Distance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_duration -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_duration">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">By_Duration</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_hour -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_hour">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">By_Hour</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_minute -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_minute">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">By_Minute</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_repetition -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#By_repetition">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">By_Repetition</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Calisthenic -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Calisthenic">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calisthenic</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Camping -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Camping">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camping</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Canoeing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Canoeing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canoeing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cardiovascular_fitness -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cardiovascular_fitness">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cardiovascular_Fitness</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Carpentry -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Carpentry">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carpentry</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cheerleading -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cheerleading">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cheerleading</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Chopping_vegetable -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Chopping_vegetable">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopping_Vegetable</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Chopping_wood -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Chopping_wood">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chopping_Wood</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Chores -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Chores">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chores</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Circuit_training -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Circuit_training">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Circuit_Training</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cleaning_gutter -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cleaning_gutter">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cleaning_Gutter</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Clearing_table -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Clearing_table">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clearing_Table</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Clearing_walk -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Clearing_walk">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clearing_Walk</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Climbing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Climbing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Climbing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Collecting_rubbish -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Collecting_rubbish">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Collecting_Rubbish</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cross_country_ski -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cross_country_ski">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cross_Country_Ski</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Crunch -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Crunch">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crunch</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cycling -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Cycling">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cycling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Daily_living_activity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Daily_living_activity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daily_Living_Activity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Dance -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Dance">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Day -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Day">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Digging -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Digging">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digging</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Distance_unit -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Distance_unit">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Distance_Unit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Down_stair_climing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Down_stair_climing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Down_Stair_Climing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Downhill_ski -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Downhill_ski">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Downhill_Ski</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Driveway_cleaning -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Driveway_cleaning">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Driveway_Cleaning</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Drying_dish -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Drying_dish">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drying_Dish</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Dusting -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Dusting">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dusting</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Elastic_band -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Elastic_band">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elastic_Band</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Electrical_work -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Electrical_work">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrical_Work</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Endurance_exercise -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Endurance_exercise">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Endurance_Exercise</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_effect -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_effect">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exercise_Effect</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_equipment -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_equipment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exercise_Equipment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_leisure_activity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_leisure_activity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exercise_Leisure_Activity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_program -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Exercise_program">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exercise_Program</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Fast -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Fast">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fast</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Field_hockey -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Field_hockey">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Field_Hockey</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Fishing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Fishing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fishing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Flexibility_exercise -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Flexibility_exercise">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flexibility_Exercise</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Floor_hockey -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Floor_hockey">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floor_Hockey</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Folding_laundry -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Folding_laundry">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Folding_Laundry</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Football -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Football">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Football</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Free_weights -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Free_weights">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Free_Weights</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Frequency -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Frequency">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frequency</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Frisbee -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Frisbee">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frisbee</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Gardening -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Gardening">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gardening</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Golf -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Golf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Golf</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ground -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ground">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ground</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Gymnastics -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Gymnastics">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gymnastics</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hammering -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hammering">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hammering</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Handball -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Handball">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Handball</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#High_intensity_interval_training -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#High_intensity_interval_training">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High_Intensity_Interval_Training</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hiking -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hiking">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hiking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hockey_game -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hockey_game">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hockey_Game</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hoeing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hoeing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hoeing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Home_improvement_maintenance -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Home_improvement_maintenance">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home_Improvement_Maintenance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Home_repair -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Home_repair">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Home_Repair</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Horseback_riding -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Horseback_riding">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horseback_Riding</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hour -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hour">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hour</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Housekeeping_chore -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Housekeeping_chore">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Housekeeping_Chore</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hunting -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Hunting">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hunting</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ice -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ice">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ice_hockey -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ice_hockey">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice_Hockey</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ice_skate -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ice_skate">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ice_Skate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Improved_body_balance -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Improved_body_balance">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Improved_Body_Balance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Improved_posture -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Improved_posture">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Improved_Posture</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Improved_range_of_motion -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Improved_range_of_motion">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Improved_Range_of_Motion</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Increased_bone_strength -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Increased_bone_strength">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased_Bone_Strength</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Increased_breathing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Increased_breathing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased_Breathing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Increased_heart_rate -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Increased_heart_rate">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased_Heart_Rate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Increased_muscle_strength -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Increased_muscle_strength">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Increased_Muscle_Strength</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Indoor -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Indoor">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Indoor</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Inline_skate -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Inline_skate">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inline_Skate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Insufficient_activity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Insufficient_activity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Insufficient_Activity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Integrated_fitness -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Integrated_fitness">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Integrated_Fitness</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Intensity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Intensity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intensity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Irregular -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Irregular">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irregular</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Jazzercise -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Jazzercise">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jazzercise</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Jogging -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Jogging">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jogging</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Judo -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Judo">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Judo</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Jump_rope -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Jump_rope">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jump_Rope</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Karate -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Karate">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Kayaking -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Kayaking">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kayaking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Lab_swimming -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Lab_swimming">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lab_Swimming</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Location -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Location">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Location</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Low -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Low">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Low</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Martial_art -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Martial_art">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Martial_Art</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Meter -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Meter">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Meter</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mile -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mile">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mile</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mind_body_activity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mind_body_activity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mind_Body_Activity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Minute -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Minute">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Minute</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Moderate -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Moderate">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Modifier -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Modifier">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modifier</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Month -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Month">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mopping -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mopping">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mopping</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Motocycling -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Motocycling">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Motocycling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mountaineering -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mountaineering">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mountaineering</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mowing_lawn -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Mowing_lawn">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mowing_Lawn</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Nordic_track -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Nordic_track">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nordic_Track</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Observation_period -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Observation_period">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observation_Period</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Outdoor -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Outdoor">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outdoor</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Outdoor_leisure_activity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Outdoor_leisure_activity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outdoor_Leisure_Activity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Outdoor_swimming -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Outdoor_swimming">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Outdoor_Swimming</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#PACO -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#PACO">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PACO</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Painting -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Painting">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Painting</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Per_month -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Per_month">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Per_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Per_week -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Per_week">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Per_Week</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Physically_active_game -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Physically_active_game">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physically_Active_Game</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Pilates -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Pilates">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pilates</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Planting -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Planting">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Planting</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Polish_car -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Polish_car">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polish_Car</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Polishing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Polishing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polishing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Preparing_food -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Preparing_food">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preparing_Food</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Pruning -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Pruning">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pruning</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Pull_up -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Pull_up">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pull_Up</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Pulmonary_fitness -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Pulmonary_fitness">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulmonary_Fitness</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Push_up -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Push_up">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Push_Up</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Quad_skate -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Quad_skate">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quad_Skate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Racquetball -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Racquetball">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Racquetball</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Raking -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Raking">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Raking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Regular -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Regular">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regular</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Regularity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Regularity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Regularity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Relieve_muscle_tension -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Relieve_muscle_tension">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relieve_Muscle_Tension</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Removing_leaf -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Removing_leaf">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removing_Leaf</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Removing_snow -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Removing_snow">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Removing_Snow</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Required_condition -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Required_condition">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Required_Condition</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ringette -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ringette">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ringette</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Rock_climbing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Rock_climbing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rock_Climbing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Runnig_errand -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Runnig_errand">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Runnig_Errand</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Running -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Running">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Running</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sawing_wood -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sawing_wood">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sawing_Wood</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Scrubbing_floor -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Scrubbing_floor">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scrubbing_Floor</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Scrubbing_wall -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Scrubbing_wall">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scrubbing_Wall</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Serving_food -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Serving_food">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serving_Food</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Setting_table -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Setting_table">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Setting_Table</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sewing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sewing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sewing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shooting_baskets -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shooting_baskets">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shooting_Baskets</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shooting_pool -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shooting_pool">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shooting_Pool</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shopping -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shopping">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shopping</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shoveling -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shoveling">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shoveling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shuffleboarding -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Shuffleboarding">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shuffleboarding</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sit_up -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sit_up">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sit_Up</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Skate -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Skate">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skate</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Skateboarding -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Skateboarding">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Skateboarding</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ski -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Ski">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ski</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Slow -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Slow">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slow</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Snow -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Snow">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snow</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Snowboard -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Snowboard">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Snowboard</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Soccer -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Soccer">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soccer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Social_dance -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Social_dance">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Social_Dance</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Softball -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Softball">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Softball</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Spading_soil -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Spading_soil">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spading_Soil</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Speed -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Speed">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speed</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sprinting -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sprinting">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sprinting</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Squash -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Squash">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Squash</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stair_climber -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stair_climber">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stair_Climber</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stair_climbing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stair_climbing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stair_Climbing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stationary_cycle -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stationary_cycle">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationary_Cycle</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stationary_cycling -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stationary_cycling">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationary_Cycling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Street_hockey -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Street_hockey">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Street_Hockey</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Strength_exercise -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Strength_exercise">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strength_Exercise</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stretch_muscle -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stretch_muscle">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stretch_Muscle</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stretching -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Stretching">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stretching</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Strolling -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Strolling">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Strolling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sufficient_activity -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sufficient_activity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sufficient_Activity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Surfing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Surfing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Surfing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sweeping -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Sweeping">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sweeping</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Swimming -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Swimming">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Swimming</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Tae_kwon_do -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Tae_kwon_do">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tae_Kwon_Do</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Taebo -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Taebo">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taebo</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Tai_chi -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Tai_chi">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tai_Chi</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Temporal_unit -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Temporal_unit">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal_Unit</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Tennis -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Tennis">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tennis</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Tidying -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Tidying">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tidying</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Track_and_field -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Track_and_field">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Track_and_Field</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Treadmill -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Treadmill">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treadmill</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Treadmill_running -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Treadmill_running">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treadmill_Running</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Triathalon -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Triathalon">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Triathalon</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Unit_of_measure -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Unit_of_measure">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unit_of_Measure</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Up_stair_climing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Up_stair_climing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Up_Stair_Climing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Vacuuming -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Vacuuming">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vacuuming</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Vigorous -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Vigorous">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vigorous</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Volleyball -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Volleyball">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Volleyball</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Walking -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Walking">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Walking</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Wall_climbing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Wall_climbing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wall_Climbing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Wallpapering -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Wallpapering">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wallpapering</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing_car -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing_car">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washing_Car</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing_dish -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing_dish">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washing_Dish</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing_walls -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing_walls">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washing_Walls</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing_windows -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Washing_windows">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washing_Windows</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Water -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Water">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Water_sport -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Water_sport">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water_Sport</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Watering_plant -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Watering_plant">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Watering_Plant</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Weeding -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Weeding">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weeding</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Week -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Week">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Week</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Weight_machine -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Weight_machine">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weight_Machine</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Weightlifting -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Weightlifting">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weightlifting</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Winter_sport -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Winter_sport">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winter_Sport</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Wrestling -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Wrestling">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wrestling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Yard_work -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Yard_work">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yard_Work</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Year -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Year">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Year</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Yoga -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Yoga">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yoga</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Zumba -->
+
+    <Class rdf:about="http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Zumba">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zumba</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

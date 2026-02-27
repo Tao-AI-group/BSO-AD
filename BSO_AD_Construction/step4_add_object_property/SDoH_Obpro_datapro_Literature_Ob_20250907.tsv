@@ -1,0 +1,57 @@
+ID	Label	Type	Domain	Range	Super Property	skos:altLabel
+ID	A rdfs:label	TYPE	DOMAIN	RANGE	SP %	A skos:altLabel SPLIT=|
+bso:R_00000	forTreatmentOrMedication	object property	Person	Element_Relevant_to_Treatment_and_Medication		
+bso:R_00001	hasAdverseExposure	object property	Person	Exposure_to_Carcinogen_and_Pathogen		
+bso:R_00002	hasAdverseLifeExperience	object property	Person	Adverse_Life_Experience		
+bso:R_00003	hasAge	object property	Person	Age		
+bso:R_00004	hasBehaviorChange	object property	Element_Relevant_to_Behavior_and_Lifestyle or Person	Behavior_Change		
+bso:R_00005	hasEducationLevel	object property	Person	Education_Level		
+bso:R_00006	hasEmploymentStatus	object property	Person	Employment_Status		
+bso:R_00007	hasFinancialStress	object property	Person	Financial_Stress		
+bso:R_00008	hasGender	object property	Person	Gender		
+bso:R_00009	hasIncarcerationHistory	object property	Person	Incarceration		
+bso:R_00010	hasInsurance	object property	Person	Type_of_Insurance		
+bso:R_00011	hasInterpersonalRelation	object property	Lives_with_Person or Person	Interpersonal_Relation		
+bso:R_00012	hasLivingStatus	object property	Person	Living_Status		
+bso:R_00013	hasMarriageStatus	object property	Person	Marital_Status		
+bso:R_00014	hasMeasure	object property		Measure_and_Index_and_Score		
+bso:R_00015	hasNumberOfSexPartner	object property	Element_Relevant_to_Sexual_Behavior or Person	Number_of_Sexual_Partner		
+bso:R_00016	hasOccupation	object property	Person	Occupation		
+bso:R_00017	hasRace	object property	Person	Race		
+bso:R_00018	hasSexOrientation	object property	Person	Sexual_Orientation		
+bso:R_00019	hasSexPartner	object property	Person	Sex_Partner		
+bso:R_00020	hasSexSafetyPractice	object property	Person	Sex_Safety_Practice		
+bso:R_00021	hasSexualBehaviorElement	object property	Person	Element_Relevant_to_Sexual_Behavior		
+bso:R_00022	hasSubstanceUse	object property	Person	Substance_Use		
+bso:R_00023	hasTimeFlag	object property		Time_Flag		
+bso:D_00000	hasNumber	data property		xsd:float		
+droado:associatedWith	associatedWith	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia		correlatesWith|linkedWith|relatedTo|isAssociatedWith|correlatesOf|isLinkedTo|isCorrelatedWith
+bso:R_00024	temporallyRelatedTo	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	associatedWith	
+bso:R_00025	functionallyRelatedTo	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	associatedWith	
+bso:R_00026	associatedWithShorterTime	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	temporallyRelatedTo	
+bso:R_00027	haveHigherIncidenceOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	temporallyRelatedTo	
+bso:R_00028	haveHigherOccurrence	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	temporallyRelatedTo	
+bso:R_00029	haveHigherPrevalanceOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	temporallyRelatedTo	
+bso:R_00030	haveGreaterIncidenceOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	temporallyRelatedTo	
+bso:R_00031	isAssociatedWithHigherOccurrenceOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	temporallyRelatedTo	
+bso:R_00032	affects	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	functionallyRelatedTo	influences|impacts
+bso:R_00033	correlatesWithRiskOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	affects	associatesWithRiskOf|linkedWithRiskOf|relatedToRiskOf|influencesRiskOf|impactsRiskOf|affectsRiskOf|correlatesRiskOf|predictsRiskOf|isARiskFactorFor|isLinkedToRiskOf|contributesToRiskOf|isARiskFor|attributesToRiskOf|accountForRiskOf
+bso:R_00034	increasesRiskOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	correlatesWithRiskOf	raisesRiskOf|escalatesRiskOf|amplifiesRiskOf|exacerbatesRiskOf|isLinkedToIncreasedOddsOf|leadsToHigherRiskOf|isAssociatedWithIncreasedRiskOf|increasesRiskFor
+bso:R_00035	decreasesRiskOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	correlatesWithRiskOf	reducesRiskOf|lowersRiskOf|mitigatesRiskOf|mediatesRiskOf|hasLowerOddsOf|reducesRiskOf|lowersRiskOf|mitigatesRiskOf|lessensRiskOf|diminishesRiskOf
+bso:R_00036	hasNegativeImpactOn	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	correlatesWithRiskOf	
+bso:R_00037	bringsAbout	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	functionallyRelatedTo	
+bso:R_00038	causes	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	bringsAbout	isADriverOf
+bso:R_00039	contributesTo	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	causes	isAContributorTo
+bso:R_00040	predicts	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	causes	
+bso:R_00041	prevents	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	affects	
+bso:R_00042	protectsAgainst	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	prevents	
+bso:R_00043	reduceBurdenFor	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	prevents	
+bso:R_00044	reduceIncidenceOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	prevents	
+bso:R_00045	mitigates	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	prevents	alleviates
+bso:R_00046	complicates	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	affects	
+bso:R_00047	exacerbates	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	complicates	
+bso:R_00048	resultOf	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	functionallyRelatedTo	isAConsequenceOf
+bso:R_00049	benefits	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	affects	enhances|promotes|supports|improves
+bso:R_00050	limits	object property	Element_Relevant_to_Behavior_Social_Factor	Dementia	affects	
+						
+						 negativelyImpacts

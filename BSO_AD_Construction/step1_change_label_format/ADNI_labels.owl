@@ -1,0 +1,2802 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.modiag.it#ADAS -->
+
+    <Class rdf:about="http://www.modiag.it#ADAS">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alzheimer’s_Disease_Assessment_Scale</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#APOEGenotyping -->
+
+    <Class rdf:about="http://www.modiag.it#APOEGenotyping">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Apolipoprotein_E_Genotyping</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#AttentionAndCalculationItem -->
+
+    <Class rdf:about="http://www.modiag.it#AttentionAndCalculationItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attention_and_Calculation_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#BehaviouralAssessment -->
+
+    <Class rdf:about="http://www.modiag.it#BehaviouralAssessment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Behavioural_Assessment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CCI -->
+
+    <Class rdf:about="http://www.modiag.it#CCI">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive_Change_Index</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CDR -->
+
+    <Class rdf:about="http://www.modiag.it#CDR">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical_Dementia_Rating_Scale</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CDRItem -->
+
+    <Class rdf:about="http://www.modiag.it#CDRItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDR_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CDR_CommunityAffairsItem -->
+
+    <Class rdf:about="http://www.modiag.it#CDR_CommunityAffairsItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDR_Community_Affairs_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CDR_HomeAndHobbiesItem -->
+
+    <Class rdf:about="http://www.modiag.it#CDR_HomeAndHobbiesItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDR_Home_and_Hobbies_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CDR_JudgementAndProblemSolvingItem -->
+
+    <Class rdf:about="http://www.modiag.it#CDR_JudgementAndProblemSolvingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDR_Judgement_and_Problem_Solving_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CDR_MemoryItem -->
+
+    <Class rdf:about="http://www.modiag.it#CDR_MemoryItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDR_Memory_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CDR_OrientationItem -->
+
+    <Class rdf:about="http://www.modiag.it#CDR_OrientationItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDR_Orientation_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CDR_PersonalCareItem -->
+
+    <Class rdf:about="http://www.modiag.it#CDR_PersonalCareItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDR_Personal_Care_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CheckItem -->
+
+    <Class rdf:about="http://www.modiag.it#CheckItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Check_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#ClinicalExam -->
+
+    <Class rdf:about="http://www.modiag.it#ClinicalExam">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical_Exam</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CognitiveAssessment -->
+
+    <Class rdf:about="http://www.modiag.it#CognitiveAssessment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cognitive_Assessment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#CopyingItem -->
+
+    <Class rdf:about="http://www.modiag.it#CopyingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copying_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#DNA_MethylationProfiling -->
+
+    <Class rdf:about="http://www.modiag.it#DNA_MethylationProfiling">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA_Methylation_Profiling</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#DailyFunctioningItem -->
+
+    <Class rdf:about="http://www.modiag.it#DailyFunctioningItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daily_Functioning_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#DepressionItem -->
+
+    <Class rdf:about="http://www.modiag.it#DepressionItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Depression_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#ECG -->
+
+    <Class rdf:about="http://www.modiag.it#ECG">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Electrocardiography</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#EatingItem -->
+
+    <Class rdf:about="http://www.modiag.it#EatingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eating_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#EvaluationItem -->
+
+    <Class rdf:about="http://www.modiag.it#EvaluationItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluation_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#Examination -->
+
+    <Class rdf:about="http://www.modiag.it#Examination">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examination</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional_Activities_Questionnaire</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_BeveragesItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_BeveragesItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Beverages_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_EventsItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_EventsItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Events_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_FinancesItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_FinancesItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Finances_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_FormsItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_FormsItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Forms_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_GamesItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_GamesItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Games_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_MealItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_MealItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Meal_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_MemoryItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_MemoryItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Memory_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_ShopItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_ShopItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Shop_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_TelevisionItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_TelevisionItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Television_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FAQ_TravelItem -->
+
+    <Class rdf:about="http://www.modiag.it#FAQ_TravelItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FAQ_Travel_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FCI-SF -->
+
+    <Class rdf:about="http://www.modiag.it#FCI-SF">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Financial_Capacity_Instrument_Short_Form</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#FunctionalAssessment -->
+
+    <Class rdf:about="http://www.modiag.it#FunctionalAssessment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional_Assessment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS -->
+
+    <Class rdf:about="http://www.modiag.it#GDS">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geriatric_Depression_Scale</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDSItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDSItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_AliveFeelingItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_AliveFeelingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Alive_Feeling_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_BoredomeItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_BoredomeItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Boredome_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_DroppingItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_DroppingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Dropping_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_EmptinessItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_EmptinessItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Emptiness_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_EnergyItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_EnergyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Energy_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_FearItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_FearItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Fear_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_GoodSpiritItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_GoodSpiritItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Good_Spirit_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_HappinessItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_HappinessItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Happiness_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_HelplessnessItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_HelplessnessItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Helplessness_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_HomeStayingItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_HomeStayingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Home_Staying_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_HopeItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_HopeItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Hope_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_MemoryItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_MemoryItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Memory_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_PeopleItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_PeopleItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_People_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_SatisfactionItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_SatisfactionItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Satisfaction_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GDS_WorthlessItem -->
+
+    <Class rdf:about="http://www.modiag.it#GDS_WorthlessItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDS_Worthless_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GeneExpression -->
+
+    <Class rdf:about="http://www.modiag.it#GeneExpression">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene_Expression</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#GeneticExam -->
+
+    <Class rdf:about="http://www.modiag.it#GeneticExam">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic_Exam</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#Genotyping -->
+
+    <Class rdf:about="http://www.modiag.it#Genotyping">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genotyping</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#LanguageItem -->
+
+    <Class rdf:about="http://www.modiag.it#LanguageItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Language_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MHIS -->
+
+    <Class rdf:about="http://www.modiag.it#MHIS">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Modified_Hachinski_Ischemia_Scale</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mini-Mental_State_Examination</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSEItem -->
+
+    <Class rdf:about="http://www.modiag.it#MMSEItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_AttentionAndCalculationItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_AttentionAndCalculationItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Attention_and_Calculation_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_AttentionAndCalculationItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_AttentionAndCalculationItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Attention_and_Calculation_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_AttentionAndCalculationItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_AttentionAndCalculationItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Attention_and_Calculation_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_AttentionAndCalculationItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_AttentionAndCalculationItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Attention_and_Calculation_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_AttentionAndCalculationItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_AttentionAndCalculationItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Attention_and_Calculation_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_LanguageItem_9 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_LanguageItem_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Language_Item_9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_10 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_10</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_9 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_1 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_10 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_10</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_2 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_3 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_4 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_5 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_6 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_7 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_8 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_OrientationItem_V_9 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_OrientationItem_V_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Orientation_Item_V_9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_RecallItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_RecallItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Recall_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_RecallItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_RecallItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Recall_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_RecallItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_RecallItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Recall_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_RegistrationItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_RegistrationItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Registration_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_RegistrationItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_RegistrationItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Registration_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_RegistrationItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_RegistrationItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Registration_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MMSE_RegistrationItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#MMSE_RegistrationItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MMSE_Registration_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MemoryItem -->
+
+    <Class rdf:about="http://www.modiag.it#MemoryItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memory_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#MoCA -->
+
+    <Class rdf:about="http://www.modiag.it#MoCA">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Montreal_Cognitive_Assessment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_AmericanNationalAdultReadingTestItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_AmericanNationalAdultReadingTestItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_American_National_Adult_Reading_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_AmericanNationalAdultReadingTestItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_AmericanNationalAdultReadingTestItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_American_National_Adult_Reading_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_BostonNamingTestItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_BostonNamingTestItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Boston_Naming_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_BostonNamingTestItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_BostonNamingTestItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Boston_Naming_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_BostonNamingTestItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_BostonNamingTestItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Boston_Naming_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_BostonNamingTestItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_BostonNamingTestItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Boston_Naming_Test_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_BostonNamingTestItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_BostonNamingTestItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Boston_Naming_Test_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_BostonNamingTestItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_BostonNamingTestItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Boston_Naming_Test_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_CategoryFluencyTestItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_CategoryFluencyTestItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Category_Fluency_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_CategoryFluencyTestItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_CategoryFluencyTestItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Category_Fluency_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_CategoryFluencyTestItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_CategoryFluencyTestItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Category_Fluency_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Category_Fluency_Test_Vegetables_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Category_Fluency_Test_Vegetables_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_CategoryFluencyTestVegetablesItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Category_Fluency_Test_Vegetables_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockCopyingItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockCopyingItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Copying_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockCopyingItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockCopyingItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Copying_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockCopyingItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockCopyingItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Copying_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockCopyingItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockCopyingItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Copying_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockCopyingItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockCopyingItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Copying_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockCopyingItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockCopyingItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Copying_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockDrawingTestItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockDrawingTestItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Drawing_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockDrawingTestItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockDrawingTestItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Drawing_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockDrawingTestItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockDrawingTestItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Drawing_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockDrawingTestItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockDrawingTestItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Drawing_Test_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockDrawingTestItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockDrawingTestItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Drawing_Test_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ClockDrawingTestItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ClockDrawingTestItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Clock_Drawing_Test_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_DigitSpanBackwardItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_DigitSpanBackwardItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Digit_Span_Backward_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_DigitSpanBackwardItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_DigitSpanBackwardItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Digit_Span_Backward_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_DigitSpanForwardItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_DigitSpanForwardItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Digit_Span_Forward_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_DigitSpanForwardItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_DigitSpanForwardItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Digit_Span_Forward_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_DigitSymbolSubstitutionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_DigitSymbolSubstitutionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Digit_Symbol_Substitution_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_LogicalMemoryTestItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_LogicalMemoryTestItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Logical_Memory_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_LogicalMemoryTestItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_LogicalMemoryTestItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Logical_Memory_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_LogicalMemoryTestItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_LogicalMemoryTestItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Logical_Memory_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_LogicalMemoryTestItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_LogicalMemoryTestItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Logical_Memory_Test_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_LogicalMemoryTestItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_LogicalMemoryTestItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Logical_Memory_Test_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_LogicalMemoryTestItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_LogicalMemoryTestItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Logical_Memory_Test_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_MultilingualNamingTestItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_MultilingualNamingTestItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Multilingual_Naming_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_MultilingualNamingTestItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_MultilingualNamingTestItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Multilingual_Naming_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_MultilingualNamingTestItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_MultilingualNamingTestItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Multilingual_Naming_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryLearningTestItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryLearningTestItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Learning_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryLearningTestItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryLearningTestItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Learning_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryLearningTestItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryLearningTestItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Learning_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryLearningTestItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryLearningTestItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Learning_Test_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_10 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_10</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_11 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_11">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_11</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_12 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_12">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_12</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_13 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_13">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_13</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_14 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_14">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_14</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_15 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_15">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_15</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_16 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_16">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_16</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_17 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_17">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_17</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_18 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_18">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_18</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_19 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_19">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_19</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_9 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_ReyAuditoryVerbalLearningTestItem_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Rey_Auditory_Verbal_Learning_Test_Item_9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_TrailMakingTestAItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_TrailMakingTestAItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Trail_Making_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_TrailMakingTestAItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_TrailMakingTestAItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Trail_Making_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_TrailMakingTestAItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_TrailMakingTestAItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Trail_Making_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_TrailMakingTestBItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_TrailMakingTestBItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Trail_Making_Test_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_TrailMakingTestBItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_TrailMakingTestBItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Trail_Making_Test_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NB_TrailMakingTestBItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NB_TrailMakingTestBItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NB_Trail_Making_Test_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI -->
+
+    <Class rdf:about="http://www.modiag.it#NPI">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropsychiatric_Inventory</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI-Q -->
+
+    <Class rdf:about="http://www.modiag.it#NPI-Q">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropsychiatric_Inventory–questionnaire</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfAberrantMotorBehaviorItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfAberrantMotorBehaviorItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Aberrant_Motor_Behavior_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfAgitationAggressionItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfAgitationAggressionItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Agitation_Aggression_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfAnxietyItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfAnxietyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Anxiety_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfApathyIndifferenceItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfApathyIndifferenceItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Apathy_Indifference_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfAppetiteDisordersItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfAppetiteDisordersItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Appetite_Disorders_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfDelusionsItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfDelusionsItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Delusions_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfDepressionDysphoriaItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfDepressionDysphoriaItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Depression_Dysphoria_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfDishinibitionItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfDishinibitionItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Dishinibition_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfElationEuphoriaItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfElationEuphoriaItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Elation_Euphoria_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfHallucinationsItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfHallucinationsItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Hallucinations_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfIrritabilityLabilityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfIrritabilityLabilityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Irritability_Lability_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_PresenceOfSleepDisordersItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_PresenceOfSleepDisordersItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Presence_of_Sleep_Disorders_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPIQ_SeverityOfSymptomItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPIQ_SeverityOfSymptomItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPIQ_Severity_of_Symptom_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_10 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_10">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_10</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_9 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AberrantMotorBehaviourQuestionItem_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Aberrant_Motor_Behaviour_Question_Item_9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionCaregiverDistress -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionCaregiverDistress">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Caregiver_Distress</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionFrequency -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionFrequency">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Frequency</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionQuestionItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionQuestionItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Question_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AgitationAggressionSeverity -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AgitationAggressionSeverity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Agitation_Aggression_Severity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyDistressItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyDistressItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Distress_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyFrequencyItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyFrequencyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Frequency_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietyQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietyQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_AnxietySeverityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_AnxietySeverityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Anxiety_Severity_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Apathy_Indifference_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Apathy_Indifference_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Apathy_Indifference_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Apathy_Indifference_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Apathy_Indifference_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Apathy_Indifference_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Apathy_Indifference_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ApathyIndifferenceQuestionItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Apathy_Indifference_Question_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsCaregiverDistressItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsCaregiverDistressItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Caregiver_Distress_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsFrequencyItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsFrequencyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Frequency_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsQuestionItem_9 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsQuestionItem_9">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Question_Item_9</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DelusionsSeverityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DelusionsSeverityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Delusions_Severity_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaDistressItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaDistressItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Distress_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaFrequencyItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaFrequencyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Frequency_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaQuestionItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Question_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DepressionDysphoriaSeverityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DepressionDysphoriaSeverityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Depression_Dysphoria_Severity_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionDistressItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionDistressItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Distress_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionFrequencyItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionFrequencyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Frequency_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_DisinhibitionSeverityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_DisinhibitionSeverityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Disinhibition_Severity_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersDistressItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersDistressItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Distress_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersFrequencyItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersFrequencyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Frequency_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersQuestionItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersQuestionItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Question_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_EatingDisordersSeverityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_EatingDisordersSeverityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Eating_Disorders_Severity_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ElationEuphoriaDistressItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ElationEuphoriaDistressItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Elation_Euphoria_Distress_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Elation_Euphoria_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Elation_Euphoria_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Elation_Euphoria_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Elation_Euphoria_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Elation_Euphoria_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Elation_Euphoria_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_ElationEuphoriaQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Elation_Euphoria_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsCaregiverDistressItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsCaregiverDistressItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Caregiver_Distress_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsFrequencyItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsFrequencyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Frequency_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_HallucinationsSeverityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_HallucinationsSeverityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Hallucinations_Severity_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityDistress -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityDistress">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Distress</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityFrequency -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityFrequency">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Frequency</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilityQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_IrritabilityLabilitySeverity -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_IrritabilityLabilitySeverity">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Irritability_Lability_Severity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfAberrantMotorBehaviourItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfAberrantMotorBehaviourItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Aberrant_Motor_Behaviour_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfAgitationAggression -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfAgitationAggression">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Agitation_Aggression</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfAnxietyItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfAnxietyItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Anxiety_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfDelusionsItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfDelusionsItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Delusions_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfDepressionOrDysphoriaItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfDepressionOrDysphoriaItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Depression_or_Dysphoria_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfDisinhibitionItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfDisinhibitionItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Disinhibition_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfEatingDisordersItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfEatingDisordersItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Eating_Disorders_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfElationEuphoriaItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfElationEuphoriaItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Elation_Euphoria_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfHallucinationsItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfHallucinationsItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Hallucinations_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_PresenceOfIrritabilityLabilityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_PresenceOfIrritabilityLabilityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Presence_of_Irritability_Lability_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepDistressItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepDistressItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Distress_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepQuestionItem_1 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepQuestionItem_1">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Question_Item_1</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepQuestionItem_2 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepQuestionItem_2">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Question_Item_2</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepQuestionItem_3 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepQuestionItem_3">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Question_Item_3</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepQuestionItem_4 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepQuestionItem_4">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Question_Item_4</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepQuestionItem_5 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepQuestionItem_5">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Question_Item_5</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepQuestionItem_6 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepQuestionItem_6">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Question_Item_6</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepQuestionItem_7 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepQuestionItem_7">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Question_Item_7</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepQuestionItem_8 -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepQuestionItem_8">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Question_Item_8</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepSeverityItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepSeverityItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Severity_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NPI_SleepTotalItem -->
+
+    <Class rdf:about="http://www.modiag.it#NPI_SleepTotalItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPI_Sleep_Total_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NamingItem -->
+
+    <Class rdf:about="http://www.modiag.it#NamingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Naming_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NeurologicalExam -->
+
+    <Class rdf:about="http://www.modiag.it#NeurologicalExam">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neurological_Exam</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NeuropshychologicalAssessment -->
+
+    <Class rdf:about="http://www.modiag.it#NeuropshychologicalAssessment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropshychological_Assessment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NeuropsychologicalBattery -->
+
+    <Class rdf:about="http://www.modiag.it#NeuropsychologicalBattery">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropsychological_Battery</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#NeuropsychologicalBatteryItem -->
+
+    <Class rdf:about="http://www.modiag.it#NeuropsychologicalBatteryItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuropsychological_Battery_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#OrientationItem -->
+
+    <Class rdf:about="http://www.modiag.it#OrientationItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orientation_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#PhysicalExam -->
+
+    <Class rdf:about="http://www.modiag.it#PhysicalExam">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physical_Exam</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#QuestionItem -->
+
+    <Class rdf:about="http://www.modiag.it#QuestionItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Question_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#ReadingItem -->
+
+    <Class rdf:about="http://www.modiag.it#ReadingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reading_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#RegistrationItem -->
+
+    <Class rdf:about="http://www.modiag.it#RegistrationItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Registration_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#RepetitionItem -->
+
+    <Class rdf:about="http://www.modiag.it#RepetitionItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Repetition_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#SAItemByEvaluatedFeature -->
+
+    <Class rdf:about="http://www.modiag.it#SAItemByEvaluatedFeature">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA_Item_by_Evaluated_Feature</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#SAItemByTest -->
+
+    <Class rdf:about="http://www.modiag.it#SAItemByTest">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SA_Item_by_Test</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#ScoringItem -->
+
+    <Class rdf:about="http://www.modiag.it#ScoringItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scoring_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#Sequencing -->
+
+    <Class rdf:about="http://www.modiag.it#Sequencing">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sequencing</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#SleepItem -->
+
+    <Class rdf:about="http://www.modiag.it#SleepItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sleep_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#StandardizedAssessment -->
+
+    <Class rdf:about="http://www.modiag.it#StandardizedAssessment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standardized_Assessment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#StandardizedAssessmentItem -->
+
+    <Class rdf:about="http://www.modiag.it#StandardizedAssessmentItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Standardized_Assessment_Item</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#TOMM40PolyTVariantGenotyping -->
+
+    <Class rdf:about="http://www.modiag.it#TOMM40PolyTVariantGenotyping">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Translocase_of_Outer_Mitochondrial_Membrane_40_Poly-T_Variant_Genotyping</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#VascularRiskAssessment -->
+
+    <Class rdf:about="http://www.modiag.it#VascularRiskAssessment">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vascular_Risk_Assessment</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#VitalSign -->
+
+    <Class rdf:about="http://www.modiag.it#VitalSign">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vital_Sign</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#WGSSNP -->
+
+    <Class rdf:about="http://www.modiag.it#WGSSNP">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wide_Genome_Sequencing_Single-Nucleotide_Polymorphism</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#WGS_Assembly -->
+
+    <Class rdf:about="http://www.modiag.it#WGS_Assembly">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WGS_Assembly</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.modiag.it#WritingItem -->
+
+    <Class rdf:about="http://www.modiag.it#WritingItem">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Writing_Item</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

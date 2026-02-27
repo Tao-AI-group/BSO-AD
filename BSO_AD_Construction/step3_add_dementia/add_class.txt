@@ -1,0 +1,23 @@
+http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Insufficient_activity	No_Physical_Activity			
+https://sbmi.uth.edu/ontology/TEO.owl#Time	Time_Flag	Current|Future|Past		
+http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Unit_of_measure	Occupacy_of_Time	A_Little_of_the_Time|All_of_the_Time|Most_of_the_Time|None_of_the_Time|Some_of_the_Time		
+http://www.semanticweb.org/hyk038/ontologies/2018/7/untitled-ontology-17#Unit_of_measure	Subject_Measure	Bag|Bottle|Box|Dozen|Glass|Gram|Kilogram|Liter|Milliliter|Ounce|Pack		
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Uncomplicated_Senile_Dementia			290.0
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Presenile_Dementia			290.1
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Senile_Dementia_with_Delusional_or_Depressive_Feature			290.2
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Senile_Dementia_with_Delirium			290.3
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Other_Specified_Senile_Psychotic_Condition			290.8
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Unspecified_Senile_Psychotic_Condition			290.9
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Senility_without_Mention_of_Psychosis			797.0
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Dementia_in_Other_Disease_Classified_Elsewhere		F02.8	
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Unspecified_Dementia		F03.9	
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Amnestic_Disorder_Due_to_Known_Physiological_Condition		F04	
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Delirium_Due_to_Known_Physiological_condition		F05	
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Other_Mental_Disorder_Due_to_Known_Physiological_Condition	Psychotic_Disorder_with_Hallucination_Due_to_Known_Physiological_Condition~ICD10:F06.0|Catatonic_Disorder_Due_to_Known_Physiological_Condition~ICD10:F06.1|Psychotic_Disorder_with_Delusion_Due_to_Known_Physiological_Condition~ICD10:F06.2|Mood_Disorder_Due_to_Known_Physiological_Condition~ICD10:F06.3	F06	
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Dementia	Frontotemporal_Dementia		G31.0	331.1
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Alzheimer's_Disease	Alzheimer's_Disease_with_Early_Onset		G30.0	
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Alzheimer's_Disease	Alzheimer's_Disease_with_Late_Onset		G30.1	
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Alzheimer's_Disease	Other_Alzheimer's_Disease		G30.8	
+http://www.semanticweb.org/fangli/ontologies/2019/2/untitled-ontology-107#Alzheimer's_Disease	Unspecified_Alzheimer's_Disease		G30.9	
+http://www.w3.org/2002/07/owl#Thing	Element_Relevant_to_Behavior_Social_Factor			
+http://www.w3.org/2002/07/owl#Thing	Element_Relevant_to_Time_Event			

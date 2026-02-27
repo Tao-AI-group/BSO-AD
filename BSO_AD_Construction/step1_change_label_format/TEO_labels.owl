@@ -1,0 +1,1396 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:TEO="https://sbmi.uth.edu/ontology/TEO.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#RDOC_0000000000 -->
+
+    <AnnotationProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#RDOC_0000000000">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contactInfo</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000172 -->
+
+    <AnnotationProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000172">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasGranularity</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000173 -->
+
+    <AnnotationProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000173">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasApproximation</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000176 -->
+
+    <AnnotationProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000176">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasTimeOffset</rdfs:label>
+    </AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000002 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000002">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">before</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000003 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000003">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">during</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000006 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000006">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasEndTime</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000007 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000007">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasValidTime</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000010 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000010">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">contain</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000014 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000014">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">start</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000016 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000016">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">after</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000018 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000018">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">equal</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000020 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000020">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meet</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000022 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000022">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasDuration</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000028 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000028">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasStartTime</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000037 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000037">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finish</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000038 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000038">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overlap</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000039 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000039">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">temporalRelation</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000145 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000145">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">overlappedBy</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000146 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000146">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metBy</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000147 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000147">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startedBy</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000148 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000148">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">finishedBy</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000149 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000149">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startEqualStart</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000150">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startBeforeStart</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000151">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startBeforeEnd</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000152">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startAfterStart</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000153 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000153">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startAfterEnd</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000154 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000154">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endBeforeStart</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000155">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endBeforeEnd</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000156">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endAfterStart</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000157">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endAfterEnd</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000158 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000158">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">startEqualEnd</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000159 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000159">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endEqualStart</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000160 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000160">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endEqualEnd</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000171 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000171">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasGranularity</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000180 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000180">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasPeriod</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000182 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000182">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasRepeatUnit</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000183 -->
+
+    <ObjectProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000183">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasRepeatUnitInterval</rdfs:label>
+    </ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000005 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000005">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasNormalizedTime</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000015 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000015">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasOrigTime</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000029 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000029">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasGranularity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000040 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000040">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasDurationUnit</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000041 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000041">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasDurationValue</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000144 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000144">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasDurationPattern</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000161 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000161">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasApproximation</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000177 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000177">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasDurationOriginForm</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000178 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000178">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasRepeatTimes</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000179 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000179">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasSeverity</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000206 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000206">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasDescription</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000212 -->
+
+    <DatatypeProperty rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000212">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasAgeValue</rdfs:label>
+    </DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#TimeInstant -->
+
+    <Class rdf:about="http://www.ifomis.org/bfo/1.1/span#TimeInstant">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time_Instant</rdfs:label>
+    </Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#TimeInterval -->
+
+    <Class rdf:about="http://www.ifomis.org/bfo/1.1/span#TimeInterval">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time_Interval</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/PeriodicTimeInterval -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/PeriodicTimeInterval">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periodic_Time_Interval</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Afternoon -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Afternoon">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Afternoon</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Clinical_Intervention -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Clinical_Intervention">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical_Intervention</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Diagnosis -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Diagnosis">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnosis</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Documentation -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Documentation">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Documentation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Observation -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Observation">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Observation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Other_Event -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Other_Event">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other_Event</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Patient_Accident -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Patient_Accident">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Patient_Accident</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000011 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000011">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Holiday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000013 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000013">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US_Holiday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000017">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US_Federal_Holiday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000019 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000019">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">First_Week_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000021 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000021">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New_Year&apos;s_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000025">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Event</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000030">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Week</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000031 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Second_Week_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000032">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Duration</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000035 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000035">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Third_Week_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000042 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000042">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Monday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000043 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000043">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tuesday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000045 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000045">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wednesday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000046 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000046">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thursday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000047 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000047">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Friday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000048 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000048">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saturday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000049 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000049">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sunday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000050 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000050">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000051 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000051">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Year</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000052 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000052">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">January</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000053 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000053">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">February</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000054 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000054">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">March</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000055 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000055">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">April</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000056 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000056">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000057 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000057">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">June</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000058 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000058">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">July</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000059 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000059">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">August</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000060 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000060">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">September</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000061 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000061">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">October</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000062 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000062">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">November</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000063 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000063">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">December</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000065 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000065">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Birthday_of_Martin_Luther_King,_Jr.</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000066 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000066">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inauguration_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000067 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000067">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Washington&apos;s_Birthday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000068 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000068">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Memorial_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000069 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000069">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Independence_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000070 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000070">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Labor_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000071 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000071">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Columbus_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000072 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000072">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veterans_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000073 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000073">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thanksgiving_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000074 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000074">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christmas</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000080 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000080">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Relative_Time</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000081 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000081">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Today</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000082 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000082">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tomorrow</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000083 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000083">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yesterday</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000084">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Week_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000088 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000088">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fourth_Week_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000089">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fifth_Week_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000091">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Month_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000094">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calendar_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000095">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000098 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000098">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_1_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000099 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000099">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_2_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000100 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000100">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_3_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000101 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000101">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_4_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000102 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000102">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_5_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000103 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000103">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_6_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000104 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000104">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_7_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000105 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000105">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_8_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000106 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_9_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000107 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_10_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000108 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000108">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_11_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000109 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000109">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_12_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000110 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000110">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_13_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000111 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000111">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_14_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000112 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000112">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_15_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000113 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000113">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_16_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000114 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000114">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_17_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000115 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_18_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000116 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000116">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_19_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000117 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000117">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_20_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000118 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000118">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_21_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000119 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000119">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_22_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000120 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000120">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_23_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000121 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000121">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_24_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000122 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000122">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_25_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000123 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000123">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_28_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000124 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000124">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_29_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000125 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000125">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_30_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000126 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000126">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Day_31_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000127">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Last_Week_of_a_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000162">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Granularity</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000190">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instant_of_the_Day</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000191 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000191">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instant_of_the_Week</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000192 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000192">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instant_of_the_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000193">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Instant_of_the_Year</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000194 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000194">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Morning</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000195 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000195">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noon</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000196 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000196">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evening</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000197 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000197">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_Beginning_of_the_Week</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000198 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000198">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_Middle_of_the_Week</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000199 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000199">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_End_of_the_Week</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000200 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000200">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_Beginning_of_the_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000201 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000201">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_Middle_of_the_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000202 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000202">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_End_of_the_Month</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000203 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000203">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_Beginning_of_the_Year</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000204 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000204">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_Middle_of_the_Year</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000205 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000205">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The_End_of_the_Year</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000207 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spring</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000208 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000208">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fall</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000209 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000209">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Summer</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000210 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000210">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winter</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000211 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000211">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time_of_the_Age</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000213 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000213">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AM</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000214 -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#TEO_0000214">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PM</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Test_and_Test_evaluation -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Test_and_Test_evaluation">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Test_and_Test_Evaluation</rdfs:label>
+    </Class>
+    
+
+
+    <!-- https://sbmi.uth.edu/ontology/TEO.owl#Time -->
+
+    <Class rdf:about="https://sbmi.uth.edu/ontology/TEO.owl#Time">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Time</rdfs:label>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
