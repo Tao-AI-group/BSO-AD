@@ -1,0 +1,10 @@
+parent,children,css,pss,pda
+Element Relevant to Health Access,"['Access to Health Service', 'Access to Health Technology', 'Erratic Healthcare', 'Maintaining Care', 'Transportation']",0.6813444495201111,0.7056196928024292,0.8948402404785156
+Element Relevant to Health Care,"['Health Care Payment Source', 'Element Relevant to Health Access', 'Element Relevant to Quality of Care', 'Element Relevant to Treatment and Medication', 'Healthcare Visit']",0.6980875730514526,0.8199480175971985,0.9293261170387268
+Healthcare Visit,"['Emergency Department Visit', 'Hospitalization', 'Past Year Number of Visit']",0.680118978023529,0.7104566097259521,0.967705488204956
+Type of Insurance,"['Private Insurance', 'Public Insurance']",0.945344090461731,0.7843795418739319,0.9762827157974243
+Health Insurance Coverage,['Insufficient Health Insurance Coverage'],,0.8524861335754395,1.0
+Element Relevant to Insurance,"['Health Insurance Coverage', 'Type of Insurance']",0.8014830946922302,0.7045807838439941,0.986716628074646
+Health Care Payment Source,"['Charity', 'Element Relevant to Insurance', 'Federal Assistance', 'Out of Pocket']",0.567557156085968,0.618415892124176,0.9356675148010254
+Federal Assistance,"[""Children's Health Insurance Program"", 'Medicaid', 'Medicare']",0.5998099446296692,0.5998795032501221,0.9770541787147522
+Element Relevant to Quality of Care,"['Satisfaction of Treatment', 'Disparate Health Care Quality', 'Person Centered Primary Care Measure', 'Result of Healthcare']",0.6678847670555115,0.6530176401138306,0.9418590068817139

@@ -1,0 +1,18 @@
+parent,children,css,pss,pda
+Element Relevant to Socio Environmental Neighborhood,['Environmental Justice'],,0.7020062208175659,1.0
+Living Status,"['Lives in Own Home', 'Homeless', 'Lives Alone', 'Lives in Apartment/dormitory', 'Lives in Hospital', 'Lives in Hotel', 'Lives in Nursing Home', 'Lives with Person']",0.7801810503005981,0.6794947385787964,0.9700937271118164
+Lives Alone,['Problem Related to Living Alone'],,0.7199777364730835,1.0
+Other Problem Related to Physical Environment (category Code),"['Basic Service Unavailable in Physical Environment', 'Other Problem Related to Physical Environment']",0.6691550612449646,0.8082878589630127,0.853500247001648
+Element Relevant to Geographic Location,"['Address', 'Concentrated Poverty', 'Criminality', 'Food Swamp', 'Land Use Pattern', 'Neighborhood Concentrated Disadvantage', 'Number of Shops in Walking Distance', 'Support Healthy Eating Pattern Access', 'Zip Code and Geography']",0.5960531234741211,0.5316379070281982,0.952429473400116
+Homeless,"['Homelessness Unspecified', 'Sheltered Homelessness', 'Unsheltered Homelessness']",0.8407835960388184,0.7679576277732849,0.9591432809829712
+Recreational and Leisure Opportunity,"['Park', 'Playground', 'Walkability']",0.7195667624473572,0.6032141447067261,0.9810910224914551
+Lives with Sibling,"['Lives with Brother', 'Lives with Sister']",0.9739575386047363,0.8423446416854858,0.9878077507019043
+Element Relevant to Physical Environment,"['Environment Aesthetic', 'Green Space', 'Americans with Disabilities Act (ada) Compliance Construction', 'Element Relevant to Air Quality', 'Exposure to Carcinogen and Pathogen', 'Occupational Exposure to Risk Factor', 'Living Status', 'Recreational and Leisure Opportunity', 'Water Quality', 'Water Supply', 'Weather']",0.5719625353813171,0.6110120415687561,0.9016265273094177
+Occupational Exposure to Risk Factor,"['Occupational Exposure to Noise', 'Occupational Exposure to Radiation', 'Occupational Exposure to Dust', 'Occupational Exposure to Other Air Contaminant (category Code)', 'Occupational Exposure to Toxic Agent in Agriculture', 'Occupational Exposure to Toxic Agent in Other Industry', 'Occupational Exposure to Extreme Temperature', 'Occupational Exposure to Vibration', 'Occupational Exposure to Other Risk Factor', 'Occupational Exposure to Unspecified Risk Factor']",0.8546913862228394,0.8816396594047546,0.9609854221343994
+Lives with Person,"['Lives with Child', 'Lives with Family', 'Lives with Friend', 'Lives with Parent', 'Lives with Sibling', 'Lives with Spouse']",0.8750330209732056,0.8493620753288269,0.9693064093589783
+Lives with Parent,"['Lives with Father', 'Lives with Mother']",0.9416277408599854,0.893236517906189,0.9837247133255005
+Element Relevant to Neighborhood,"['Element Relevant to Geographic Location', 'Element Relevant to Physical Environment', 'Problem Related to Physical Environment', 'Element Relevant to Socio Environmental Neighborhood']",0.8011364936828613,0.8496335744857788,0.9375383257865906
+Occupational Exposure to Other Air Contaminant (category Code),"['Occupational Exposure to Environmental Tobacco Smoke', 'Occupational Exposure to Other Air Contaminant']",0.8418776988983154,0.8852197527885437,0.9050983786582947
+Problem Related to Physical Environment,['Other Problem Related to Physical Environment (category Code)'],,0.8785960674285889,1.0
+Lives with Child,"['Lives with Daughter', 'Lives with Son']",0.9550644159317017,0.917996883392334,0.9899779558181763
+Water Supply,['Inadequate Drinking Water Supply'],,0.7600456476211548,1.0

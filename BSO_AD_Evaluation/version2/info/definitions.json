@@ -1,0 +1,64 @@
+{
+  "Behavior_and_Lifestyle": {
+    "behavior_change": "Modifications in an individual's observable actions, habits, or responses that affect health or function.",
+    "diet": "The habitual consumption of foods and beverages, including their quality, quantity, and nutritional composition.",
+    "physical_activity": "Bodily movement that enhances or maintains physical fitness and overall health.",
+    "sexual_behavior": "Actions or practices related to human sexual expression and intimacy.",
+    "sleep": "A reversible, recurring state characterized by altered consciousness and reduced interaction with the environment.",
+    "spirituality_and_religion": "Beliefs and practices relating to the search for existential meaning or connection with the divine.",
+    "substance_use": "The intake of psychoactive or non-psychoactive substances that can alter physical or mental functioning.",
+    "treatment_adherence_and_compliance": "The degree to which a patient correctly follows medical or therapeutic instructions."
+  },
+  "Economic_stability": {
+    "employment": "Engagement in paid work or job-related activities that influence socioeconomic and health outcomes.",
+    "expense": "Costs or outlays for goods and services that affect individual or household financial status.",
+    "income": "Monetary earnings or resources available to an individual or household, typically used to meet basic needs.",
+    "financial_stress": "Psychological or material strain resulting from insufficient financial resources or instability.",
+    "healthcare_payment_source": "Means by which an individual covers the cost of medical care, such as insurance or public assistance.",
+    "problem_related_to_housing_and_economic_circumstance": "Challenges involving unstable or inadequate living or financial conditions.",
+    "socioeconomic_status": "An individual's or group's economic and social position based on income, education, and occupation.",
+    "wealth": "The total value of financial and material assets owned by an individual or household."
+  },
+  "Education_and_Literacy": {
+    "access_to_education": "The ability to obtain formal learning opportunities across different stages of life.",
+    "early_childhood_education": "Structured learning experiences provided to children before they enter primary school.",
+    "education_level": "The highest degree or stage of schooling completed by an individual.",
+    "education_quality": "The effectiveness, resources, and learning environment provided within an educational setting.",
+    "literacy": "The ability to read, write, understand, and use information for daily functioning, including health contexts.",
+    "problem_related_to_education_and_literacy": "Barriers or difficulties experienced in academic learning or educational engagement.",
+    "years_of_education": "The cumulative duration of formal schooling completed by an individual."
+  },
+  "Food": {
+    "access_to_healthy_and_nutritious_options": "The availability and affordability of foods that promote good health.",
+    "diet": "The regular pattern and content of food and drink consumed by an individual.",
+    "food_insecurity": "Limited or uncertain access to adequate and safe foods for a healthy lifestyle."
+  },
+  "Healthcare": {
+    "health_access": "The ability to obtain timely and appropriate healthcare services and technologies.",
+    "quality_of_care": "The degree to which health services increase the likelihood of desired health outcomes.",
+    "treatment_and_medication": "The use of pharmacologic or non-pharmacologic therapies to manage health conditions.",
+    "healthcare_payment_source": "The financial mechanism or entity that funds an individual’s medical care.",
+    "healthcare_visit": "An instance of seeking medical evaluation or treatment from a healthcare provider or facility."
+  },
+  "Neighborhood": {
+    "geographic_location": "The physical area or address where an individual resides, often linked to local environmental and social factors.",
+    "physical_environment": "The natural and built surroundings that affect health, including air, water, and infrastructure.",
+    "socioenvironmental_neighborhood": "Social and environmental conditions within a community that influence health equity and access.",
+    "problems_related_to_physical_environment": "Environmental deficits or hazards that negatively affect well-being or access to services."
+  },
+  "Social_and_Community": {
+    "community_engagement": "Participation in local organizations, activities, or civic life that fosters social connection.",
+    "culture": "Shared beliefs, values, norms, and practices of a group that influence behaviors and perceptions.",
+    "incarceration": "The condition of being detained in prison or otherwise involved in the criminal justice system.",
+    "material_deprivation": "Lack of access to basic resources necessary for daily living and health maintenance.",
+    "problem_related_to_social_environment": "Adverse conditions in one's social setting that hinder social functioning or adaptation.",
+    "psychosocial_factor": "Interpersonal, emotional, and life experiences that influence mental and physical health.",
+    "safety_concern": "Perceived or actual threats to personal safety in home, social, or community settings.",
+    "social_activity": "Interpersonal interactions and participation in social events or relationships.",
+    "social_deprivation": "Deficit in opportunities for social interaction or engagement.",
+    "social_environment": "The social structures, relationships, and norms within a community or society.",
+    "social_isolation": "A state in which individuals have minimal contact or interaction with others.",
+    "social_norms_and_attitude": "Culturally shared expectations and beliefs that shape individual behaviors and judgments.",
+    "social_support": "Assistance and resources provided by others, including emotional, financial, and practical aid."
+  }
+}

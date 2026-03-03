@@ -1,0 +1,5 @@
+parent,children,css,pss,pda
+Food Insecurity,['Lack of Adequate Food'],,0.6091392040252686,1.0
+Diet,"['High Added Sugar Intake', 'High Fat Intake', 'High Sodium Intake', 'Inadequate Calcium Intake']",0.8092520833015442,0.6342887878417969,0.9401353001594543
+Element Relevant to Food,"['Diet', 'Access to Healthy and Nutritious Option', 'Food Insecurity']",0.6171771883964539,0.6459620594978333,0.9924868941307068
+Lack of Adequate Food,['Other Specified Lack of Adequate Food'],,0.9041104912757874,1.0

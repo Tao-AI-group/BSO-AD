@@ -1,0 +1,2617 @@
+{
+    "Element_Relevant_to_Behavior_Social_Factor": {
+        "Element_Relevant_to_Behavior_and_Lifestyle": {
+            "Behavior_Change": {
+                "Behavior_Cessation": null,
+                "Behavior_Growth": null,
+                "Behavior_Reduction": null
+            },
+            "Element_Relevant_to_Sexual_Behavior": {
+                "Number_of_Sexual_Partner": null,
+                "Sexual_Orientation": {
+                    "Homosexuality": {
+                        "Female_Homosexuality": null,
+                        "Male_Homosexuality": null
+                    },
+                    "Bisexuality": null,
+                    "Heterosexuality": null,
+                    "Transsexualism": null
+                },
+                "Sex_Partner": null,
+                "Sex_Safety_Practice": {
+                    "Condomless_Sex": null,
+                    "Safe_Sex": null
+                },
+                "Sex_Frequency": null
+            },
+            "Substance_Use": {
+                "Alcohol_Use": null,
+                "Drug_Use": {
+                    "Cocaine_Smoking": null,
+                    "Marijuana_Smoking": null
+                },
+                "Smoking": {
+                    "Non_Tobacco_Products_Smoking": {
+                        "Cocaine_Smoking": null,
+                        "Marijuana_Smoking": null
+                    },
+                    "Pipe_Smoking": null,
+                    "Tobacco_Smoking": null,
+                    "Vaping": null
+                },
+                "Tobacco_Use": {
+                    "Tobacco_Smoking": null
+                }
+            },
+            "Element_Relevant_to_Physical_Activity": {
+                "Activity": {
+                    "Exercise_Leisure_Activity": {
+                        "Dance": {
+                            "Aerobic_Dance": {
+                                "Jazzercise": null,
+                                "Taebo": null,
+                                "Zumba": null
+                            },
+                            "Social_Dance": null
+                        },
+                        "Walking": {
+                            "Athletic_Walking": null,
+                            "Brisk_Walking": null,
+                            "Clearing_Walk": null,
+                            "Hiking": null,
+                            "Strolling": null
+                        },
+                        "Backpacking": null,
+                        "Ball_Game": {
+                            "Badminton": null,
+                            "Baseball": null,
+                            "Basketball": null,
+                            "Bowling": null,
+                            "Field_Hockey": null,
+                            "Floor_Hockey": null,
+                            "Football": null,
+                            "Golf": null,
+                            "Handball": null,
+                            "Racquetball": null,
+                            "Soccer": null,
+                            "Softball": null,
+                            "Squash": null,
+                            "Tennis": null,
+                            "Volleyball": null
+                        },
+                        "Boogieboarding": null,
+                        "Calisthenic": {
+                            "Crunch": null,
+                            "Pull_Up": null,
+                            "Push_Up": null,
+                            "Sit_Up": null
+                        },
+                        "Camping": null,
+                        "Canoeing": null,
+                        "Cheerleading": null,
+                        "Circuit_Training": null,
+                        "Mind_Body_Activity": {
+                            "Clearing_Walk": null,
+                            "Tai_Chi": null,
+                            "Yoga": null
+                        },
+                        "Climbing": {
+                            "Mountaineering": null,
+                            "Rock_Climbing": null,
+                            "Wall_Climbing": null
+                        },
+                        "Ski": {
+                            "Cross_Country_Ski": null,
+                            "Downhill_Ski": null
+                        },
+                        "Cycling": null,
+                        "Stair_Climbing": {
+                            "Down_Stair_Climing": null,
+                            "Up_Stair_Climing": null
+                        },
+                        "Hockey_Game": {
+                            "Field_Hockey": null,
+                            "Floor_Hockey": null,
+                            "Ice_Hockey": null,
+                            "Ringette": null,
+                            "Street_Hockey": null
+                        },
+                        "Fishing": null,
+                        "Physically_Active_Game": {
+                            "Frisbee": null,
+                            "Shooting_Baskets": null,
+                            "Shooting_Pool": null,
+                            "Shuffleboarding": null
+                        },
+                        "Gymnastics": null,
+                        "High_Intensity_Interval_Training": null,
+                        "Horseback_Riding": null,
+                        "Hunting": null,
+                        "Skate": {
+                            "Ice_Skate": null,
+                            "Inline_Skate": null,
+                            "Quad_Skate": null
+                        },
+                        "Running": {
+                            "Jogging": null,
+                            "Sprinting": null,
+                            "Treadmill_Running": null
+                        },
+                        "Martial_Art": {
+                            "Judo": null,
+                            "Karate": null,
+                            "Tae_Kwon_Do": null,
+                            "Wrestling": null
+                        },
+                        "Jump_Rope": null,
+                        "Kayaking": null,
+                        "Swimming": {
+                            "Lab_Swimming": null,
+                            "Outdoor_Swimming": null
+                        },
+                        "Motocycling": null,
+                        "Pilates": null,
+                        "Skateboarding": null,
+                        "Snowboard": null,
+                        "Stationary_Cycling": null,
+                        "Stretching": null,
+                        "Surfing": null,
+                        "Track_and_Field": null,
+                        "Triathalon": null,
+                        "Weightlifting": null
+                    },
+                    "Daily_Living_Activity": {
+                        "Home_Improvement_Maintenance": {
+                            "Autorepair": null,
+                            "Carpentry": null,
+                            "Electrical_Work": null,
+                            "Hammering": null,
+                            "Home_Repair": null,
+                            "Painting": null,
+                            "Polish_Car": null,
+                            "Wallpapering": null,
+                            "Washing_Car": null,
+                            "Washing_Walls": null,
+                            "Washing_Windows": null
+                        },
+                        "Housekeeping_Chore": {
+                            "Chopping_Vegetable": null,
+                            "Chores": null,
+                            "Clearing_Table": null,
+                            "Collecting_Rubbish": null,
+                            "Drying_Dish": null,
+                            "Dusting": null,
+                            "Folding_Laundry": null,
+                            "Mopping": null,
+                            "Polishing": null,
+                            "Preparing_Food": null,
+                            "Runnig_Errand": null,
+                            "Scrubbing_Floor": null,
+                            "Scrubbing_Wall": null,
+                            "Serving_Food": null,
+                            "Setting_Table": null,
+                            "Sewing": null,
+                            "Shopping": null,
+                            "Sweeping": null,
+                            "Tidying": null,
+                            "Vacuuming": null,
+                            "Washing": null,
+                            "Washing_Dish": null
+                        },
+                        "Yard_Work": {
+                            "Chopping_Wood": null,
+                            "Cleaning_Gutter": null,
+                            "Gardening": {
+                                "Digging": null,
+                                "Hoeing": null,
+                                "Mowing_Lawn": null,
+                                "Planting": null,
+                                "Pruning": null,
+                                "Raking": null,
+                                "Spading_Soil": null,
+                                "Watering_Plant": null,
+                                "Weeding": null
+                            },
+                            "Driveway_Cleaning": null,
+                            "Removing_Leaf": null,
+                            "Removing_Snow": null,
+                            "Sawing_Wood": null,
+                            "Shoveling": null
+                        }
+                    }
+                },
+                "Exercise_Program": {
+                    "Cardiovascular_Fitness": null,
+                    "Integrated_Fitness": null,
+                    "Pulmonary_Fitness": null
+                },
+                "Exercise_Equipment": {
+                    "Elastic_Band": null,
+                    "Free_Weights": null,
+                    "Nordic_Track": null,
+                    "Stair_Climber": null,
+                    "Stationary_Cycle": null,
+                    "Treadmill": null,
+                    "Weight_Machine": null
+                },
+                "Insufficient_Activity": {
+                    "No_Physical_Activity": null
+                },
+                "Sufficient_Activity": null
+            },
+            "Diet": {
+                "High_Added_Sugar_Intake": null,
+                "High_Fat_Intake": null,
+                "High_Sodium_Intake": null,
+                "Inadequate_Calcium_Intake": null
+            },
+            "Sleep": null,
+            "Spirituality_and_Religion_Practice": null,
+            "Treatment_Adherence_and_Compliance": null
+        },
+        "Demographic": {
+            "Age": null,
+            "Gender": {
+                "Biological_Sex": {
+                    "Female": {
+                        "Female_Homosexuality": null
+                    },
+                    "Intersex": null,
+                    "Male": {
+                        "Male_Homosexuality": null
+                    }
+                },
+                "Gender_Identity": {
+                    "Agender": null,
+                    "Cisgender": null,
+                    "Non_Binary_Gender": null,
+                    "Transgender": null
+                }
+            },
+            "Marital_Status": {
+                "Divorced": null,
+                "Domestic_Partnership": null,
+                "Married": null,
+                "Never_Married": null,
+                "Separated": null,
+                "Widowed": null
+            },
+            "Race": {
+                "Asian": null,
+                "Black_or_African_American": null,
+                "Multi_Racial": null,
+                "Native_American": null,
+                "Pacific_Islander": null,
+                "Spanish_or_Latino_Origin": null,
+                "White": null
+            },
+            "Country_of_Origin": {
+                "Location_Born": null,
+                "Location_Raised": null
+            },
+            "Ethnicity": {
+                "Hispanic": null,
+                "Non_Hispanic": null
+            }
+        },
+        "Element_Relevant_to_Food": {
+            "Diet": {
+                "High_Added_Sugar_Intake": null,
+                "High_Fat_Intake": null,
+                "High_Sodium_Intake": null,
+                "Inadequate_Calcium_Intake": null
+            },
+            "Access_to_Healthy_and_Nutritious_Option": null,
+            "Food_Insecurity": {
+                "Lack_of_Adequate_Food": {
+                    "Other_Specified_Lack_of_Adequate_Food": null
+                }
+            }
+        },
+        "Element_Relevant_to_Economic_Stability": {
+            "Financial_Stress": {
+                "Debt": null,
+                "Financial_Insecurity": {
+                    "Material_Hardship_Due_to_Limited_Financial_Resources_Not_Elsewhere_Classified": null
+                },
+                "Housing_Instability": {
+                    "Housed_with_Housing_Instability_Risk_of_Homelessness": null,
+                    "Housed_with_Housing_Instability_and__Homelessness_in_Past_12_Months": null,
+                    "Housed_with_Housing_Instability_Unspecified": null,
+                    "Inadequate_Housing": {
+                        "Inadequate_Housing_Unspecified": null,
+                        "Inadequate_Housing_Environmental_Temperature": null,
+                        "Inadequate_Housing_Utility": null,
+                        "Other_Inadequate_Housing": null
+                    }
+                },
+                "Job_Insecurity": null,
+                "Lack_of_Transportation_for_Daily_Living": null,
+                "Transportation_Insecurity": null
+            },
+            "Element_Relevant_to_Employment": {
+                "Employment_Status": {
+                    "Full_Time_Employment": null,
+                    "Homemaker": null,
+                    "On_Disability": null,
+                    "Part_Time_Employment": null,
+                    "Retired": null,
+                    "Self_Employed": null,
+                    "Student": null,
+                    "Unemployed": {
+                        "Unemployment_Unspecified": null
+                    }
+                },
+                "Occupation": {
+                    "Management_and_Professional_and_Related_Occupation": {
+                        "Management_and_Business_and_Financial_Operation_Occupation": {
+                            "Business_and_Financial_Operation_Occupation": null,
+                            "Management_Occupation": null
+                        },
+                        "Professional_and_Related_Occupation": {
+                            "Architecture_and_Engineering_Occupation": null,
+                            "Arts_and_Design_and_Entertainment_and_Sports_and_Media_Occupation": null,
+                            "Community_and_Social_Service_Occupation": null,
+                            "Computer_and_Mathematical_Occupation": null,
+                            "Education_and_Training_and_Library_Occupation": null,
+                            "Healthcare_Practitioner_and_Technical_Occupation": null,
+                            "Legal_Occupation": null,
+                            "Life_and_Physical_and_Social_Science_Occupation": null
+                        }
+                    },
+                    "Natural_Resource_and_Construction_and_Maintenance_Occupation": {
+                        "Construction_and_Extraction_Occupation": null,
+                        "Farming_and_Fishing_and_Forestry_Occupation": null,
+                        "Installation_Maintenance_and_Repair_Occupation": null
+                    },
+                    "Production_and_Transportation_and_Material_Moving_Occupation": {
+                        "Military_Specific_Occupation": null,
+                        "Production_Occupation": null,
+                        "Transportation_and_Material_Moving_Occupation": null
+                    },
+                    "Sales_and_Office_Occupation": {
+                        "Office_and_Administrative_Support_Occupation": null,
+                        "Sales_and_Related_Occupation": null
+                    },
+                    "Service_Occupation": {
+                        "Building_and_Ground_Cleaning_and_Maintenance_Occupation": null,
+                        "Food_Preparation_and_Serving_Related_Occupation": null,
+                        "Healthcare_Support_Occupation": null,
+                        "Personal_Care_and_Service_Occupation": null,
+                        "Protective_Service_Occupation": null
+                    }
+                },
+                "Vocational_History": {
+                    "Veteran": null
+                },
+                "Work_Related_Challenge": null,
+                "Change_of_Job": null,
+                "Threat_of_Job_Loss": null,
+                "Stressful_Work_Schedule": null,
+                "Discord_with_Boss_and_Workmate": null,
+                "Uncongenial_Work_Environment": null,
+                "Other_Physical_and_Mental_Strain_Related_to_Work": null,
+                "Other_Problem_Related_to_Employment_(category_Code)": {
+                    "Sexual_Harassment_on_the_Job": null,
+                    "Other_Problem_Related_to_Employment": null
+                },
+                "Unspecified_Problem_Related_to_Employment": null
+            },
+            "Element_Relevant_to_Expense": {
+                "Child_Care_Cost": null,
+                "Clothing_Cost": null,
+                "Food_Cost": null,
+                "Housing_Cost": {
+                    "Utility_Cost": null
+                },
+                "Insurance_Cost": null,
+                "Medical_Expense": null,
+                "Phone_Cost": null,
+                "Travel_Expense": null
+            },
+            "Element_Relevant_to_Income": {
+                "Annual_Family_Income": null,
+                "Low_Income": null,
+                "Poverty": {
+                    "Extreme_Poverty": null
+                }
+            },
+            "Health_Care_Payment_Source": {
+                "Charity": null,
+                "Element_Relevant_to_Insurance": {
+                    "Type_of_Insurance": {
+                        "Private_Insurance": null,
+                        "Public_Insurance": null
+                    },
+                    "Health_Insurance_Coverage": {
+                        "Insufficient_Health_Insurance_Coverage": null
+                    }
+                },
+                "Federal_Assistance": {
+                    "Children's_Health_Insurance_Program": null,
+                    "Medicaid": null,
+                    "Medicare": null
+                },
+                "Out_of_Pocket": null
+            },
+            "Socioeconomic_Status": null,
+            "Wealth": {
+                "Money_and_Resource": null
+            },
+            "Problem_Related_to_Housing_and_Economic_Circumstance": {
+                "Discord_with_Neighbor_Lodger_and_Landlord": null,
+                "Problem_Related_to_Living_in_Residential_Institution": null,
+                "Other_Problem_Related_to_Housing_and_Economic_Circumstance_(category_Code)": {
+                    "Other_Problem_Related_to_Housing_and_Economic_Circumstance": null
+                },
+                "Problem_Related_to__Housing_and_Economic_Circumstance_Unspecified": null
+            }
+        },
+        "Element_Relevant_to_Health_Care": {
+            "Element_Relevant_to_Treatment_and_Medication": null,
+            "Health_Care_Payment_Source": {
+                "Charity": null,
+                "Element_Relevant_to_Insurance": {
+                    "Type_of_Insurance": {
+                        "Private_Insurance": null,
+                        "Public_Insurance": null
+                    },
+                    "Health_Insurance_Coverage": {
+                        "Insufficient_Health_Insurance_Coverage": null
+                    }
+                },
+                "Federal_Assistance": {
+                    "Children's_Health_Insurance_Program": null,
+                    "Medicaid": null,
+                    "Medicare": null
+                },
+                "Out_of_Pocket": null
+            },
+            "Element_Relevant_to_Health_Access": {
+                "Access_to_Health_Service": null,
+                "Access_to_Health_Technology": null,
+                "Erratic_Healthcare": null,
+                "Maintaining_Care": null,
+                "Transportation": null
+            },
+            "Element_Relevant_to_Quality_of_Care": {
+                "Disparate_Health_Care_Quality": null,
+                "Person_Centered_Primary_Care_Measure": null,
+                "Result_of_Healthcare": null,
+                "Satisfaction_of_Treatment": null
+            },
+            "Healthcare_Visit": {
+                "Emergency_Department_Visit": null,
+                "Hospitalization": null,
+                "Past_Year_Number_of_Visit": null
+            }
+        },
+        "Element_Relevant_to_Education_and_Literacy": {
+            "Education_Level": {
+                "Elementary_School_Completed": null,
+                "High_School_Graduation": null,
+                "Higher_Education": {
+                    "Associate_Degree": null,
+                    "Bachelor's_Degree": null,
+                    "College_Completed": null,
+                    "Master's_Degree": null,
+                    "Phd_Degree": null
+                },
+                "Middle_School_Completed": null,
+                "No_Formal_Education": null,
+                "Vocational_Training": null,
+                "Less_Than_a_High_School_Diploma": null
+            },
+            "Access_to_Education": {
+                "Schooling_Unavailable_and_Unattainable": null
+            },
+            "Early_Childhood_Education": null,
+            "Education_Quality": null,
+            "Literacy": {
+                "Element_Relevant_to_Health_Literacy": {
+                    "Health_Care_Translator_Service": null,
+                    "Health_Discussion_Engagement": null
+                },
+                "Health_Numeracy": null,
+                "Language_Proficiency": {
+                    "English_Proficiency": null
+                },
+                "Illiteracy_and_Low_Level_Literacy": null,
+                "Problem_Related_to_Health_Literacy": null
+            },
+            "Years_of_Education": null,
+            "Problem_Related_to_Education_and_Literacy": {
+                "Failed_School_Examination": null,
+                "Underachievement_in_School": null,
+                "Educational_Maladjustment_and_Discord_with_Teachers_and_Classmates": null,
+                "Other_Problem_Related_to_Education_and_Literacy": null,
+                "Problem_Related_to_Education_and_Literacy_Unspecified": null
+            }
+        },
+        "Element_Relevant_to_Neighborhood": {
+            "Element_Relevant_to_Geographic_Location": {
+                "Address": null,
+                "Concentrated_Poverty": null,
+                "Criminality": null,
+                "Food_Swamp": null,
+                "Land_Use_Pattern": null,
+                "Neighborhood_Concentrated_Disadvantage": null,
+                "Number_of_Shops_in_Walking_Distance": null,
+                "Support_Healthy_Eating_Pattern_Access": null,
+                "Zip_Code_and_Geography": null
+            },
+            "Element_Relevant_to_Physical_Environment": {
+                "Exposure_to_Carcinogen_and_Pathogen": null,
+                "Living_Status": {
+                    "Lives_with_Person": {
+                        "Lives_with_Child": {
+                            "Lives_with_Daughter": null,
+                            "Lives_with_Son": null
+                        },
+                        "Lives_with_Family": null,
+                        "Lives_with_Friend": null,
+                        "Lives_with_Parent": {
+                            "Lives_with_Father": null,
+                            "Lives_with_Mother": null
+                        },
+                        "Lives_with_Sibling": {
+                            "Lives_with_Brother": null,
+                            "Lives_with_Sister": null
+                        },
+                        "Lives_with_Spouse": null
+                    },
+                    "Homeless": {
+                        "Homelessness_Unspecified": null,
+                        "Sheltered_Homelessness": null,
+                        "Unsheltered_Homelessness": null
+                    },
+                    "Lives_Alone": {
+                        "Problem_Related_to_Living_Alone": null
+                    },
+                    "Lives_in_Apartment/dormitory": null,
+                    "Lives_in_Hospital": null,
+                    "Lives_in_Hotel": null,
+                    "Lives_in_Nursing_Home": null,
+                    "Lives_in_Own_Home": null
+                },
+                "Americans_with_Disabilities_Act_(ada)_Compliance_Construction": null,
+                "Element_Relevant_to_Air_Quality": null,
+                "Environment_Aesthetic": null,
+                "Occupational_Exposure_to_Risk_Factor": {
+                    "Occupational_Exposure_to_Noise": null,
+                    "Occupational_Exposure_to_Radiation": null,
+                    "Occupational_Exposure_to_Dust": null,
+                    "Occupational_Exposure_to_Other_Air_Contaminant_(category_Code)": {
+                        "Occupational_Exposure_to_Environmental_Tobacco_Smoke": null,
+                        "Occupational_Exposure_to_Other_Air_Contaminant": null
+                    },
+                    "Occupational_Exposure_to_Toxic_Agent_in_Agriculture": null,
+                    "Occupational_Exposure_to_Toxic_Agent_in_Other_Industry": null,
+                    "Occupational_Exposure_to_Extreme_Temperature": null,
+                    "Occupational_Exposure_to_Vibration": null,
+                    "Occupational_Exposure_to_Other_Risk_Factor": null,
+                    "Occupational_Exposure_to_Unspecified_Risk_Factor": null
+                },
+                "Green_Space": null,
+                "Recreational_and_Leisure_Opportunity": {
+                    "Park": null,
+                    "Playground": null,
+                    "Walkability": null
+                },
+                "Water_Quality": null,
+                "Water_Supply": {
+                    "Inadequate_Drinking_Water_Supply": null
+                },
+                "Weather": null
+            },
+            "Problem_Related_to_Physical_Environment": {
+                "Other_Problem_Related_to_Physical_Environment_(category_Code)": {
+                    "Basic_Service_Unavailable_in_Physical_Environment": null,
+                    "Other_Problem_Related_to_Physical_Environment": null
+                }
+            },
+            "Element_Relevant_to_Socio_Environmental_Neighborhood": {
+                "Environmental_Justice": null
+            }
+        },
+        "Element_Relevant_to_Social_and_Community_Context": {
+            "Incarceration": {
+                "Conviction_in_Civil_and_Criminal_Proceeding_Without_Imprisonment": null,
+                "Imprisonment_and_Other_Incarceration": null,
+                "Problem_Related_to_Release_from_Prison": null
+            },
+            "Psychosocial_Factor": {
+                "Adverse_Life_Experience": {
+                    "Adverse_Childhood_Experience": {
+                        "Problem_Related_to_Upbringing": {
+                            "Inadequate_Parental_Supervision_and_Control": null,
+                            "Parental_Overprotection": null,
+                            "Upbringing_Away_from_Parent": {
+                                "Child_in_Welfare_Custody": null,
+                                "Institutional_Upbringing": null,
+                                "Child_in_Custody_of_Non_Parental_Relative": null,
+                                "Child_in_Custody_of_Non_Relative_Guardian": null,
+                                "Other_Upbringing_Away_from_Parents": null
+                            },
+                            "Hostility_Towards_and_Scapegoating_of_Child": null,
+                            "Inappropriate_(excessive)_Parental_Pressure": null,
+                            "Other_Specified_Problem_Related_to_Upbringing_(category_Code_1)": {
+                                "Personal_History_of_Abuse_in_Childhood": {
+                                    "Personal_History_of_Physical_and_Sexual_Abuse_in_Childhood": null,
+                                    "Personal_History_of_Psychological_Abuse_in_Childhood": null,
+                                    "Personal_History_of_Neglect_in_Childhood": null,
+                                    "Personal_History_of_Forced_Labor_or_Sexual_Exploitation_in_Childhood": null,
+                                    "Personal_History_of_Child_Financial_Abuse": null,
+                                    "Personal_History_of_Intimate_Partner_Abuse_in_Childhood": null,
+                                    "Personal_History_of_Unspecified_Abuse_in_Childhood": null
+                                },
+                                "Non_Parental_Relative_or_Guardian_Child_Conflict": {
+                                    "Non_Parental_Relative_Child_Conflict": null,
+                                    "Non_Relative_Guardian_Child_Conflict": null,
+                                    "Group_Home_Staff_Child_Conflict": null
+                                },
+                                "Other_Specified_Problem_Related_to_Upbringing_(category_Code_2)": {
+                                    "Parent_Child_Estrangement_Nec": null,
+                                    "Sibling_Rivalry": null,
+                                    "Runaway_[from_Current_Living_Environment]": null,
+                                    "Other_Specified_Problem_Related_to_Upbringing": null
+                                }
+                            },
+                            "Problem_Related_to_Upbringing_Unspecified": null
+                        }
+                    }
+                },
+                "Interpersonal_Relation": {
+                    "Child_Parent_Relationship": {
+                        "Parent_Child_Conflict": {
+                            "Parent_Biological_Child_Conflict": null,
+                            "Parent_Adopted_Child_Conflict": null,
+                            "Parent_Foster_Child_Conflict": null,
+                            "Parent_Step_Child_Conflict": null
+                        }
+                    },
+                    "Coworker_and_Classmate_and_Roommate_Relationship": null,
+                    "Extended_Family_Relationship": null,
+                    "Friend_Relationship": null,
+                    "Parent_Child_Relationship": null,
+                    "Sibling_Relationship": null,
+                    "Spouse_Relationship": null
+                },
+                "Marital_Status": {
+                    "Divorced": null,
+                    "Domestic_Partnership": null,
+                    "Married": null,
+                    "Never_Married": null,
+                    "Separated": null,
+                    "Widowed": null
+                },
+                "Stress": {
+                    "Financial_Stress": {
+                        "Debt": null,
+                        "Financial_Insecurity": {
+                            "Material_Hardship_Due_to_Limited_Financial_Resources_Not_Elsewhere_Classified": null
+                        },
+                        "Housing_Instability": {
+                            "Housed_with_Housing_Instability_Risk_of_Homelessness": null,
+                            "Housed_with_Housing_Instability_and__Homelessness_in_Past_12_Months": null,
+                            "Housed_with_Housing_Instability_Unspecified": null,
+                            "Inadequate_Housing": {
+                                "Inadequate_Housing_Unspecified": null,
+                                "Inadequate_Housing_Environmental_Temperature": null,
+                                "Inadequate_Housing_Utility": null,
+                                "Other_Inadequate_Housing": null
+                            }
+                        },
+                        "Job_Insecurity": null,
+                        "Lack_of_Transportation_for_Daily_Living": null,
+                        "Transportation_Insecurity": null
+                    },
+                    "Health_Stress": null,
+                    "Work_Stress": null
+                },
+                "Social_Behaviour": null,
+                "Problem_Related_to_Certain_Psychosocial_Circumstance": {
+                    "Problem_Related_to_Unwanted_Pregnancy": null,
+                    "Problem_Related_to_Multiparity": null,
+                    "Discord_with_Counselor": null
+                },
+                "Problem_Related_to_Other_Psychosocial_Circumstance": {
+                    "Problem_Related_to_Other_Legal_Circumstance": null,
+                    "Victim_of_Crime_and_Terrorism": null,
+                    "Exposure_to_Disaster_War_and_Other_Hostility": null,
+                    "Other_Specified_Problem_Related_to_Psychosocial_Circumstance": null,
+                    "Problem_Related_to_Unspecified_Psychosocial_Circumstance": null
+                }
+            },
+            "Social_Support": {
+                "Federal_Assistance": {
+                    "Children's_Health_Insurance_Program": null,
+                    "Medicaid": null,
+                    "Medicare": null
+                },
+                "Financial_Support": null,
+                "Food_Assistance": {
+                    "Food_Bank": null
+                },
+                "Healthcare_Support": null,
+                "Interpersonal_Support": {
+                    "Family_Support": {
+                        "Problem_in_Relationship_with_Spouse_or_Partner": null,
+                        "Problem_in_Relationship_with_in_Laws": null,
+                        "Absence_of_Family_Member": {
+                            "Absence_of_Family_Member_Due_to_Military_Deployment": null,
+                            "Other_Absence_of_Family_Member": null
+                        },
+                        "Disappearance_and_Death_of_Family_Member": null,
+                        "Disruption_of_Family_by_Separation_and_Divorce": null,
+                        "Dependent_Relative_Needing_Care_at_Home": null,
+                        "Other_Stressful_Life_Event_Affecting_Family_and_Household_(category_Code)": {
+                            "Stress_on_Family_Due_to_Return_of_Family_Member_from_Military_Deployment": null,
+                            "Alcoholism_and_Drug_Addiction_in_Family": null,
+                            "Other_Stressful_Life_Event_Affecting_Family_and_Household": null
+                        }
+                    },
+                    "Friend_Support": null,
+                    "Social_Worker_Support": null,
+                    "Other_Problem_Related_to_Primary_Support_Group_Including_Family_Circumstance": {
+                        "Other_Specified_Problem_Related_to_Primary_Support_Group": null,
+                        "Problem_Related_to_Unspecified_Primary_Support_Group": null
+                    }
+                },
+                "Insufficient_Social_Insurance_and_Welfare_Support": {
+                    "Insufficient_Welfare_Support": null
+                }
+            },
+            "Community_Engagement": {
+                "Civic_Participation": null
+            },
+            "Culture": null,
+            "Material_Deprivation": null,
+            "Safety_Concern": {
+                "Family_Conflict": null,
+                "Violence": null
+            },
+            "Social_Activity": null,
+            "Social_Deprivation": null,
+            "Social_Environment": {
+                "Social_Characteristic": null,
+                "Social_Conflict": null,
+                "Social_Disorder": null,
+                "Social_Integration": null,
+                "Social_Justice": null,
+                "Social_Vulnerability": null
+            },
+            "Problem_Related_to_Social_Environment": {
+                "Problem_of_Adjustment_to_Life_Cycle_Transition": null,
+                "Acculturation_Difficulty": null,
+                "Social_Exclusion_and_Rejection": null,
+                "Other_Problem_Related_to_Social_Environment": null,
+                "Problem_Related_to_Social_Environment_Unspecified": null
+            },
+            "Social_Isolation": null,
+            "Social_Norms_and_Attitude": {
+                "Discrimination": {
+                    "Target_of_(perceived)_Adverse_Discrimination_and_Persecution": null
+                },
+                "Gender_Inequity": null,
+                "Racial_Disparity": null
+            }
+        }
+    },
+    "Gene": {
+        "A2M": null,
+        "AD10": null,
+        "AD11": null,
+        "AD12": null,
+        "AD13": null,
+        "AD14": null,
+        "AD15": null,
+        "AD16": null,
+        "AD17": null,
+        "AD5": null,
+        "AD6": null,
+        "AD7": null,
+        "AD8": null,
+        "ADAM10": null,
+        "ADH1C": null,
+        "APBA1": null,
+        "APBA2": null,
+        "APBA3": null,
+        "APBB3": null,
+        "APCS": null,
+        "APLP1": null,
+        "APLP2": null,
+        "APP": null,
+        "ATXN2": null,
+        "ATXN8OS": null,
+        "BACE1": null,
+        "BACE2": null,
+        "BPTF": null,
+        "C9orf72": null,
+        "CASS4": null,
+        "CD2AP": null,
+        "CELF1": null,
+        "CHMP2B": null,
+        "CST3": null,
+        "DCR": null,
+        "DSG2": null,
+        "FERMT2": null,
+        "FUS": null,
+        "GBA": null,
+        "GLUD2": null,
+        "GPR3": null,
+        "GRN": null,
+        "HFE": null,
+        "Hla-drb1": null,
+        "Hla-drb5": null,
+        "IAPP": null,
+        "ITM2B": null,
+        "LRRK2": null,
+        "MAPT": null,
+        "MPO": null,
+        "MS4A6E": null,
+        "NECAB3": null,
+        "NME8": null,
+        "NOS3": null,
+        "NPC1": null,
+        "PLA2G6": null,
+        "PLAU": null,
+        "PRKN": null,
+        "PRNP": null,
+        "PSEN1": null,
+        "PSEN2": null,
+        "PTK2B": null,
+        "RCAN1": null,
+        "SNCB": null,
+        "SORL1": null,
+        "SQSTM1": null,
+        "TARDBP": null,
+        "TBP": null,
+        "TNF": null,
+        "TRPM7": null,
+        "TTR": null,
+        "ZCWPW1": null,
+        "Slc24a4/rin3": null
+    },
+    "Protein": {
+        "CD55_Protein": null,
+        "Gtp-binding_Protein": {
+            "Rhes": null
+        },
+        "G_Protein–coupled_Receptor_3": null
+    },
+    "Disease": {
+        "Nervous_System_Diseases": {
+            "Autoimmune_Diseases_of_the_Nervous_System": null,
+            "Autonomic_Nervous_System_Diseases": null,
+            "Central_Nervous_System_Diseases": {
+                "Brain_Diseases": {
+                    "Dementia": {
+                        "Alzheimer's_Disease": {
+                            "AD_Stage": {
+                                "Preclinical_AD": {
+                                    "Asymptomatic_at_Risk": null,
+                                    "Presymptomatic_AD": null
+                                },
+                                "Dementia_Due_to_AD": {
+                                    "Mild_Stage_of_Dementia_Due_to_AD": null,
+                                    "Moderate_Stage_of_Dementia_Due_to_AD": null,
+                                    "Severe_Stage_of_Dementia_Due_to_AD": null
+                                },
+                                "Mild_Cognitive_Impairment_Due_to_AD": null
+                            },
+                            "AD_Subtype": {
+                                "Alzheimer_Disease_10": null,
+                                "Alzheimer_Disease_11": null,
+                                "Alzheimer_Disease_12": null,
+                                "Alzheimer_Disease_13": null,
+                                "Alzheimer_Disease_14": null,
+                                "Alzheimer_Disease_15": null,
+                                "Alzheimer_Disease_16": null,
+                                "Alzheimer_Disease_5": null,
+                                "Alzheimer_Disease_6": null,
+                                "Alzheimer_Disease_7": null,
+                                "Alzheimer_Disease_8": null,
+                                "Alzheimer_Disease_9": null,
+                                "Alzheimer_Disease_Familial_Type_3": null,
+                                "Alzheimer_Disease_Type_1": null,
+                                "Alzheimer_Disease_Type_2": null,
+                                "Alzheimer_Disease_Type_4": null,
+                                "Autosomal_Dominant_AD": null,
+                                "Sporadic_AD": null
+                            },
+                            "Alzheimer's_Disease_with_Early_Onset": null,
+                            "Alzheimer's_Disease_with_Late_Onset": null,
+                            "Other_Alzheimer's_Disease": null,
+                            "Unspecified_Alzheimer's_Disease": null
+                        },
+                        "AIDS_Dementia_Complex": null,
+                        "Creutzfeldt-jakob_Syndrome": null,
+                        "Diffuse_Neurofibrillary_Tangles_with_Calcification": null,
+                        "Frontotemporal_Lobar_Degeneration": null,
+                        "Huntington_Disease": null,
+                        "Kluver-bucy_Syndrome": null,
+                        "Lewy_Body_Disease": null,
+                        "Primary_Progressive_Aphasia": null,
+                        "Vascular_Dementia": null,
+                        "Uncomplicated_Senile_Dementia": null,
+                        "Presenile_Dementia": null,
+                        "Senile_Dementia_with_Delusional_or_Depressive_Feature": null,
+                        "Senile_Dementia_with_Delirium": null,
+                        "Other_Specified_Senile_Psychotic_Condition": null,
+                        "Unspecified_Senile_Psychotic_Condition": null,
+                        "Senility_without_Mention_of_Psychosis": null,
+                        "Dementia_in_Other_Disease_Classified_Elsewhere": null,
+                        "Unspecified_Dementia": null,
+                        "Amnestic_Disorder_Due_to_Known_Physiological_Condition": null,
+                        "Delirium_Due_to_Known_Physiological_condition": null,
+                        "Other_Mental_Disorder_Due_to_Known_Physiological_Condition": {
+                            "Psychotic_Disorder_with_Hallucination_Due_to_Known_Physiological_Condition": null,
+                            "Catatonic_Disorder_Due_to_Known_Physiological_Condition": null,
+                            "Psychotic_Disorder_with_Delusion_Due_to_Known_Physiological_Condition": null,
+                            "Mood_Disorder_Due_to_Known_Physiological_Condition": null
+                        },
+                        "Frontotemporal_Dementia": null
+                    },
+                    "Acute_Febrile_Encephalopathy": null,
+                    "Akinetic_Mutism": null,
+                    "Amblyopia": null,
+                    "Basal_Ganglia_Diseases": null,
+                    "Brain_Abscess": null,
+                    "Brain_Death": null,
+                    "Brain_Edema": null,
+                    "Brain_Hypoxia": null,
+                    "Brain_Injuries": null,
+                    "Brain_Neoplasms": null,
+                    "Central_Auditory_Diseases": null,
+                    "Cerebellar_Diseases": null,
+                    "Cerebrovascular_Disorders": null,
+                    "Chronic_Brain_Damage": null,
+                    "Diffuse_Cerebral_Sclerosis_of_Schilder": null,
+                    "Encephalitis": null,
+                    "Encephalomalacia": null,
+                    "Epilepsy": null,
+                    "Headache_Disorders": null,
+                    "Hydrocephalus": null,
+                    "Hypothalamic_Diseases": null,
+                    "Intracranial_Hypertension": null,
+                    "Intracranial_Hypotension": null,
+                    "Leukoencephalopathies": null,
+                    "Metabolic_Brain_Diseases": null,
+                    "Neuroaxonal_Dystrophies": null,
+                    "Sepsis-associated_Encephalopathy": null,
+                    "Subdural_Effusion": null,
+                    "Thalamic_Diseases": null,
+                    "Transient_Global_Amnesia": null
+                },
+                "Central_Nervous_System_Infections": null,
+                "Encephalomyelitis": null,
+                "High_Pressure_Neurological_Syndrome": null,
+                "Hyperekplexia": null,
+                "Meningitis": null,
+                "Movement_Disorders": null,
+                "Ocular_Motility_Disorders": null,
+                "Pneumocephalus": null,
+                "Spinal_Cord_Diseases": null
+            },
+            "Chronobiology_Disorders": null,
+            "Cranial_Nerve_Diseases": null,
+            "Demyelinating_Diseases": null,
+            "Nervous_System_Malformations": null,
+            "Nervous_System_Neoplasms": null,
+            "Nervous_System_Trauma": null,
+            "Neurocutaneous_Syndromes": null,
+            "Neurodegenerative_Diseases": null,
+            "Neurologic_Manifestations": null,
+            "Neuromuscular_Diseases": null,
+            "Neurotoxicity_Syndromes": null,
+            "Restless_Legs_Syndrome": null,
+            "Sleep_Wake_Disorders": null
+        }
+    },
+    "Probability": {
+        "High_Probalitiy": null,
+        "Low_Probability": null
+    },
+    "Drug": {
+        "Drug_Classified_by_Chemical_Structure": {
+            "Amantadine": {
+                "Memantine": null
+            },
+            "Benzazepine": {
+                "Galantamine": null
+            },
+            "Carbamate": {
+                "Rivastigmine": null
+            },
+            "Piperidine": {
+                "Donepezil": null,
+                "Lonafarnib": null
+            }
+        },
+        "Drug_Classified_by_Mechanism": {
+            "Psychotropic_Drug": {
+                "Anti-anxiety_Agent": {
+                    "Lorazepam": null,
+                    "Oxazepam": null,
+                    "Temazepam": null
+                },
+                "Anticonvulsant": {
+                    "Carbamazepine": null
+                },
+                "Antidepressive_Agent": {
+                    "Selective_Serotonin_Reuptake_Inhibitor": {
+                        "Citalopram": null,
+                        "Fluoxetine": null,
+                        "Paroxetine": null,
+                        "Sertraline": null,
+                        "Trazodone": null
+                    },
+                    "Noradrenergic_and_Specific_Serotonergic_Antidepressant": null,
+                    "Serotonin-norepinephrine_Reuptake_Inhibitor": null
+                },
+                "Antipsychotic_Agent": {
+                    "Aripiprazole": null,
+                    "Clozapine": null,
+                    "Haloperidol": null,
+                    "Olanzapine": null,
+                    "Quetiapine": null,
+                    "Risperidone": null,
+                    "Ziprasidone": null
+                }
+            },
+            "Anti-aggregation_Drug": null,
+            "Anti-amyloid_Drug": null,
+            "Anti-inflammatory_Agent": null,
+            "Anti-tau_Drug": null,
+            "Neurotransmitter_Based_Drug": {
+                "Cholinesterase_Inhibitor": {
+                    "Glutamate_Antagonist_Memantine": null
+                },
+                "NMDA_Receptor_Antagonist": {
+                    "Memantine": null
+                }
+            },
+            "Metabolic_Drug": null,
+            "Neuroprotective_Drug": null,
+            "Regenerative_Drug": null,
+            "Β-secretase_Inhibitor": null,
+            "Γ-secretase_Inhibitor": null
+        },
+        "Drug_Classified_by_Development_State": {
+            "Investigational_Drug": {
+                "Drug_in_Phase_III_Clinical_Trial": null,
+                "Drug_in_Phase_II_Clinical_Trial": null,
+                "Drug_in_Phase_IV_Clinical_Trial": null,
+                "Drug_in_Phase_I_Clinical_Trial": null
+            },
+            "Experimental_Drug": null,
+            "Fda-approved_Drug": {
+                "Memantine_+_Donepezil": null
+            }
+        }
+    },
+    "Pathway": {
+        "Cholesterol_Metabolism": {
+            "Apoe-cholesterol_Metabolism": null
+        },
+        "Aβ_Metabolism": {
+            "Aβ_Clearance": null,
+            "Aβ_Cleavage": null
+        },
+        "Signalling": {
+            "CREB_Signalling": null,
+            "Calcium_Signalling": null,
+            "Insulin_Signaling": null,
+            "MAPK_Signaling": null,
+            "Neurotrophin_Signaling": null,
+            "Notch_Signalling": null,
+            "Wnt_Signalling": null,
+            "Mtor_Signaling": null
+        },
+        "Cell_Adhesion_and_Endocytosis": null,
+        "Cell_Migration": null,
+        "Cytoskeleton_and_Axonal_Transport": null,
+        "Endocytosis": null,
+        "Epigenetic_Regulation": null,
+        "Hippocampal_Synaptic_Function": null,
+        "Immune_Response": null,
+        "Inflammatory_Response": null,
+        "Neural_Development": null,
+        "Tau_Metabolism": null,
+        "Synapse_Function": null
+    },
+    "Person": {
+        "Men_Who_Have_Sex_with_Men": null,
+        "Patient": null,
+        "Person_at_Early_Childhood": null,
+        "Person_Needs_Financial_Support": null
+    },
+    "Measure_and_Index_and_Score": {
+        "Exercise_Effect": {
+            "Increased_Bone_Strength": null,
+            "Increased_Breathing": null,
+            "Increased_Heart_Rate": null,
+            "Improved_Body_Balance": null,
+            "Stretch_Muscle": null,
+            "Improved_Posture": null,
+            "Improved_Range_of_Motion": null,
+            "Increased_Muscle_Strength": null,
+            "Relieve_Muscle_Tension": null
+        },
+        "Modifier": {
+            "Location": {
+                "Outdoor": null,
+                "Indoor": null
+            },
+            "Required_Condition": {
+                "Water": null,
+                "Ground": null,
+                "Ice": null,
+                "Snow": null
+            },
+            "Amount": {
+                "By_Distance": null,
+                "By_Duration": {
+                    "By_Hour": null,
+                    "By_Minute": null
+                },
+                "By_Repetition": null
+            },
+            "Frequency": {
+                "Per_Month": null,
+                "Per_Week": null
+            },
+            "Intensity": {
+                "Low": null,
+                "Moderate": null,
+                "Vigorous": null
+            },
+            "Observation_Period": null,
+            "Regularity": {
+                "Irregular": null,
+                "Regular": null
+            },
+            "Speed": {
+                "Brisk": null,
+                "Fast": null,
+                "Slow": null
+            },
+            "Unit_of_Measure": {
+                "Temporal_Unit": {
+                    "Day": null,
+                    "Hour": null,
+                    "Minute": null,
+                    "Month": null,
+                    "Week": null,
+                    "Year": null
+                },
+                "Distance_Unit": {
+                    "Meter": null,
+                    "Mile": null
+                },
+                "Occupacy_of_Time": {
+                    "A_Little_of_the_Time": null,
+                    "All_of_the_Time": null,
+                    "Most_of_the_Time": null,
+                    "None_of_the_Time": null,
+                    "Some_of_the_Time": null
+                },
+                "Subject_Measure": {
+                    "Bag": null,
+                    "Bottle": null,
+                    "Box": null,
+                    "Dozen": null,
+                    "Glass": null,
+                    "Gram": null,
+                    "Kilogram": null,
+                    "Liter": null,
+                    "Milliliter": null,
+                    "Ounce": null,
+                    "Pack": null
+                }
+            }
+        },
+        "Adherence": null,
+        "Environmental_Justice_Screening_and_Mapping_Tool": null,
+        "Epa_Air_Quality_Index": null,
+        "Excercise_Vital_Sign": null,
+        "Health_Care_Access_Score": null,
+        "Healthy_Eating_Index": null,
+        "Humiliation,_Afraid,_Rape,_Kick_Questions": null,
+        "Neighborhood_Concentrated_Disadvantage_Protocol": null,
+        "Occupational_Prestige_Score": null,
+        "Phenx_Measure–family_Conflict": null,
+        "Social_Deprivation_Index": null,
+        "Social_Vulnerability_Index": null,
+        "Support_Level": {
+            "No_Support": null,
+            "Strong_Support": null,
+            "Weak_Support": null
+        },
+        "The_Alcohol_Use_Disorders_Identification_Test–concise": null,
+        "The_National_Health_Interview_Survey": null,
+        "The_Third_National_Health_and_Nutrition_Examination_Survey": null,
+        "Traditional_Retail_Food_Environment_Index": null
+    },
+    "Examination": {
+        "Clinical_Exam": {
+            "Electrocardiography": null,
+            "Neurological_Exam": null,
+            "Physical_Exam": null,
+            "Vital_Sign": null
+        },
+        "Genetic_Exam": {
+            "Genotyping": {
+                "Apolipoprotein_E_Genotyping": null,
+                "Translocase_of_Outer_Mitochondrial_Membrane_40_Poly-T_Variant_Genotyping": null
+            },
+            "Sequencing": {
+                "DNA_Methylation_Profiling": null,
+                "Gene_Expression": null,
+                "Wide_Genome_Sequencing_Single-Nucleotide_Polymorphism": null,
+                "WGS_Assembly": null
+            }
+        },
+        "Standardized_Assessment": {
+            "Neuropshychological_Assessment": {
+                "Cognitive_Assessment": {
+                    "Alzheimer’s_Disease_Assessment_Scale": null,
+                    "Cognitive_Change_Index": null,
+                    "Clinical_Dementia_Rating_Scale": null,
+                    "Mini-Mental_State_Examination": null,
+                    "Montreal_Cognitive_Assessment": null,
+                    "Neuropsychological_Battery": null
+                },
+                "Behavioural_Assessment": {
+                    "Geriatric_Depression_Scale": null,
+                    "Neuropsychiatric_Inventory": null,
+                    "Neuropsychiatric_Inventory–questionnaire": null
+                },
+                "Functional_Assessment": {
+                    "Functional_Activities_Questionnaire": null,
+                    "Financial_Capacity_Instrument_Short_Form": null
+                }
+            },
+            "Vascular_Risk_Assessment": {
+                "Modified_Hachinski_Ischemia_Scale": null
+            }
+        }
+    },
+    "Standardized_Assessment_Item": {
+        "SA_Item_by_Evaluated_Feature": {
+            "Attention_and_Calculation_Item": null,
+            "Memory_Item": null,
+            "Orientation_Item": null,
+            "Daily_Functioning_Item": null,
+            "Language_Item": {
+                "Copying_Item": null,
+                "Naming_Item": null,
+                "Repetition_Item": null,
+                "Reading_Item": null,
+                "Writing_Item": null
+            },
+            "Depression_Item": null,
+            "Eating_Item": null,
+            "Registration_Item": null,
+            "Sleep_Item": null
+        },
+        "SA_Item_by_Test": {
+            "CDR_Item": null,
+            "MMSE_Item": null,
+            "FAQ_Item": null,
+            "GDS_Item": null,
+            "NPI_Item": {
+                "NPI_Agitation_Aggression_Caregiver_Distress": null,
+                "NPI_Agitation_Aggression_Frequency": null,
+                "NPI_Agitation_Aggression_Severity": null,
+                "NPI_Anxiety_Distress_Item": null,
+                "NPI_Anxiety_Frequency_Item": null,
+                "NPI_Anxiety_Severity_Item": null,
+                "NPI_Delusions_Caregiver_Distress_Item": null,
+                "NPI_Delusions_Frequency_Item": null,
+                "NPI_Delusions_Severity_Item": null,
+                "NPI_Depression_Dysphoria_Distress_Item": null,
+                "NPI_Depression_Dysphoria_Frequency_Item": null,
+                "NPI_Depression_Dysphoria_Severity_Item": null,
+                "NPI_Disinhibition_Distress_Item": null,
+                "NPI_Disinhibition_Frequency_Item": null,
+                "NPI_Disinhibition_Severity_Item": null,
+                "NPI_Elation_Euphoria_Distress_Item": null,
+                "NPI_Hallucinations_Caregiver_Distress_Item": null,
+                "NPI_Hallucinations_Frequency_Item": null,
+                "NPI_Hallucinations_Severity_Item": null,
+                "NPI_Irritability_Lability_Distress": null,
+                "NPI_Irritability_Lability_Frequency": null,
+                "NPI_Irritability_Lability_Severity": null,
+                "NPI_Presence_of_Delusions_Item": null,
+                "NPI_Presence_of_Elation_Euphoria_Item": null,
+                "NPI_Presence_of_Hallucinations_Item": null,
+                "NPI_Presence_of_Irritability_Lability_Item": null
+            },
+            "Neuropsychological_Battery_Item": {
+                "NB_American_National_Adult_Reading_Test_Item_1": null,
+                "NB_American_National_Adult_Reading_Test_Item_2": null,
+                "NB_Clock_Copying_Item_1": null,
+                "NB_Clock_Copying_Item_2": null,
+                "NB_Clock_Copying_Item_3": null,
+                "NB_Clock_Copying_Item_4": null,
+                "NB_Clock_Copying_Item_5": null,
+                "NB_Clock_Copying_Item_6": null,
+                "NB_Clock_Drawing_Test_Item_1": null,
+                "NB_Clock_Drawing_Test_Item_2": null,
+                "NB_Clock_Drawing_Test_Item_3": null,
+                "NB_Clock_Drawing_Test_Item_4": null,
+                "NB_Clock_Drawing_Test_Item_5": null,
+                "NB_Clock_Drawing_Test_Item_6": null,
+                "NB_Digit_Span_Backward_Item_1": null,
+                "NB_Digit_Span_Backward_Item_2": null,
+                "NB_Digit_Span_Forward_Item_1": null,
+                "NB_Digit_Span_Forward_Item_2": null,
+                "NB_Digit_Symbol_Substitution_Item_1": null,
+                "NB_Multilingual_Naming_Test_Item_1": null,
+                "NB_Multilingual_Naming_Test_Item_2": null,
+                "NB_Multilingual_Naming_Test_Item_3": null,
+                "NB_Rey_Auditory_Learning_Test_Item_1": null,
+                "NB_Rey_Auditory_Learning_Test_Item_2": null,
+                "NB_Rey_Auditory_Learning_Test_Item_3": null,
+                "NB_Rey_Auditory_Learning_Test_Item_4": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_1": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_10": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_11": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_12": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_13": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_14": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_15": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_16": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_17": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_18": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_19": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_2": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_3": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_4": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_5": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_6": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_7": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_8": null,
+                "NB_Rey_Auditory_Verbal_Learning_Test_Item_9": null,
+                "NB_Trail_Making_Test_Item_1": null,
+                "NB_Trail_Making_Test_Item_2": null,
+                "NB_Trail_Making_Test_Item_3": null
+            },
+            "NPIQ_Item": {
+                "NPIQ_Severity_of_Symptom_Item": null
+            }
+        },
+        "Scoring_Item": null,
+        "Evaluation_Item": {
+            "Check_Item": null,
+            "Question_Item": null
+        }
+    },
+    "Drug_Target": {
+        "ABI_Family_Member_3": null,
+        "ADAM_Metallopeptidase_Domain_9": null,
+        "ADAM_Metallopeptidase_with_Thrombospondin_Type_1_Motif_4": null,
+        "ALK_Receptor_Tyrosine_Kinase": null,
+        "ATP_Binding_Cassette_Subfamily_A_Member_7": null,
+        "ATP_Synthase_Peripheral_Stalk_Subunit_OSCP": null,
+        "Abnormal_Spindle_Microtubule_Assembly": null,
+        "Acidic_Nuclear_Phosphoprotein_32_Family_Member_B": null,
+        "Aconitase_2": null,
+        "Actinin_Alpha_1": null,
+        "Actinin_Alpha_2": null,
+        "Acyl-coa_Synthetase_Long_Chain_Family_Member_1": null,
+        "Adaptor_Related_Protein_Complex_2_Subunit_Alpha_1": null,
+        "Adaptor_Related_Protein_Complex_3_Subunit_Beta_2": null,
+        "Adaptor_Related_Protein_Complex_3_Subunit_Delta_1": null,
+        "Adenylate_Kinase_1": null,
+        "Adenylate_Kinase_4": null,
+        "Aminoadipate_Aminotransferase": null,
+        "Angiotensin_I_Converting_Enzyme": null,
+        "Ankyrin_Repeat_and_Sterile_Alpha_Motif_Domain_Containing_1B": null,
+        "Annexin_A5": null,
+        "Anoctamin_6": null,
+        "Apolipoprotein_C1": null,
+        "Apolipoprotein_D": null,
+        "Apolipoprotein_E": null,
+        "Apoptosis_Inducing_Factor_Mitochondria_Associated_1": null,
+        "BAI1_Associated_Protein_2": null,
+        "BCL2_Associated_Athanogene_4": null,
+        "Bassoon_Presynaptic_Cytomatrix_Protein": null,
+        "Brain_Derived_Neurotrophic_Factor": null,
+        "Breast_Carcinoma_Amplified_Sequence_1": null,
+        "Bridging_Integrator_1": null,
+        "C-x-c_Motif_Chemokine_Ligand_10": null,
+        "C-x3-c_Motif_Chemokine_Ligand_1": null,
+        "C-x3-c_Motif_Chemokine_Receptor_1": null,
+        "C1q_and_TNF_Related_4": null,
+        "CD33_Molecule": null,
+        "CDGSH_Iron_Sulfur_Domain_1": null,
+        "CUB_and_Sushi_Multiple_Domains_1": null,
+        "Cadherin_22": null,
+        "Calcium_Dependent_Secretion_Activator": null,
+        "Calcium_Voltage-gated_Channel_Auxiliary_Subunit_Beta_4": null,
+        "Calpain_2": null,
+        "Cbl_Proto-oncogene": null,
+        "Cell_Division_Cycle_Associated_7": null,
+        "Cerebral_Endothelial_Cell_Adhesion_Molecule": null,
+        "Chaperonin_Containing_TCP1_Subunit_6B": null,
+        "Chloride_Intracellular_Channel_1": null,
+        "Cholesteryl_Ester_Transfer_Protein": null,
+        "Chondroadherin_Like": null,
+        "Chromodomain_Y_Like": null,
+        "Citrate_Synthase": null,
+        "Clusterin": null,
+        "Coiled-coil-helix-coiled-coil-helix_Domain_Containing_3": null,
+        "Cold_Inducible_RNA_Binding_Protein": null,
+        "Collagen_Type_I_Alpha_2_Chain": null,
+        "Collagen_Type_XXV_Alpha_1_Chain": null,
+        "Colony_Stimulating_Factor_1": null,
+        "Colony_Stimulating_Factor_1_Receptor": null,
+        "Complement_Factor_H": null,
+        "Complement_Factor_I": null,
+        "Complexin_1": null,
+        "Connector_Enhancer_of_Kinase_Suppressor_of_Ras_2": null,
+        "Contactin_Associated_Protein_Like_2": null,
+        "Corticotropin_Releasing_Hormone": null,
+        "Corticotropin_Releasing_Hormone_Receptor_1": null,
+        "Cyclin_Dependent_Kinase_18": null,
+        "Cysteine_and_Glycine_Rich_Protein_1": null,
+        "Cytochrome_P450_Family_19_Subfamily_A_Member_1": null,
+        "Cytochrome_P450_Family_27_Subfamily_A_Member_1": null,
+        "Cytochrome_P450_Family_3_Subfamily_A_Member_43": null,
+        "Cytochrome_B-245_Alpha_Chain": null,
+        "Cytochrome_C_Oxidase_Subunit_5B": null,
+        "Cytochrome_C_Oxidase_Subunit_6B1": null,
+        "Cytoplasmic_FMR1_Interacting_Protein_2": null,
+        "Cytotoxic_T-lymphocyte_Associated_Protein_4": null,
+        "DDB1_and_CUL4_Associated_Factor_12": null,
+        "DIRAS_Family_Gtpase_1": null,
+        "DLG_Associated_Protein_1": null,
+        "DND_Microrna-mediated_Repression_Inhibitor_1": null,
+        "Death_Associated_Protein_3": null,
+        "Decorin": null,
+        "Dedicator_of_Cytokinesis_1": null,
+        "Dedicator_of_Cytokinesis_2": null,
+        "Dedicator_of_Cytokinesis_3": null,
+        "Dedicator_of_Cytokinesis_4": null,
+        "Dehydrogenase_E1_and_Transketolase_Domain_Containing_1": null,
+        "Deltex_E3_Ubiquitin_Ligase_3L": null,
+        "Desumoylating_Isopeptidase_1": null,
+        "Dihydrolipoamide_Branched_Chain_Transacylase_E2": null,
+        "Dihydrolipoamide_Dehydrogenase": null,
+        "Dihydropyrimidinase_Like_3": null,
+        "Dimethylarginine_Dimethylaminohydrolase_2": null,
+        "Dipeptidyl_Peptidase_Like_10": null,
+        "Dipeptidyl_Peptidase_Like_6": null,
+        "Discs_Large_MAGUK_Scaffold_Protein_2": null,
+        "Discs_Large_MAGUK_Scaffold_Protein_4": null,
+        "Dishevelled_Associated_Activator_of_Morphogenesis_2": null,
+        "Dmx_Like_2": null,
+        "Doublecortin_Like_Kinase_1": null,
+        "Dynactin_Subunit_1": null,
+        "Dynamin_1": null,
+        "Dynamin_2": null,
+        "Dynamin_3": null,
+        "Dynein_Cytoplasmic_1_Intermediate_Chain_1": null,
+        "Dynein_Cytoplasmic_2_Light_Intermediate_Chain_1": null,
+        "ELAV_Like_RNA_Binding_Protein_2": null,
+        "ELAV_Like_RNA_Binding_Protein_4": null,
+        "EPH_Receptor_A1": null,
+        "EPH_Receptor_A5": null,
+        "Ectodermal-neural_Cortex_1": null,
+        "Electron_Transfer_Flavoprotein_Subunit_Alpha": null,
+        "Enolase_1": null,
+        "Ephrin_A1": null,
+        "Ephrin_A5": null,
+        "Erb-b2_Receptor_Tyrosine_Kinase_3": null,
+        "Erb-b2_Receptor_Tyrosine_Kinase_4": null,
+        "Erythrocyte_Membrane_Protein_Band_4.1_Like_3": null,
+        "Estrogen_Related_Receptor_Gamma": null,
+        "F-box_and_WD_Repeat_Domain_Containing_7": null,
+        "F-box_and_Leucine_Rich_Repeat_Protein_16": null,
+        "FANCD2_and_FANCI_Associated_Nuclease_1": null,
+        "FERM_and_PDZ_Domain_Containing_4": null,
+        "FGF1_Intracellular_Binding_Protein": null,
+        "FK506_Binding_Protein_5": null,
+        "Family_with_Sequence_Similarity_107_Member_A": null,
+        "Family_with_Sequence_Similarity_111_Member_A": null,
+        "Fascin_Actin-bundling_Protein_3": null,
+        "Fatty_Acid_2-hydroxylase": null,
+        "Fatty_Acid_Desaturase_1": null,
+        "Fatty_Acid_Desaturase_2": null,
+        "Fc_Fragment_of_Ige_Receptor_Ig": null,
+        "Fc_Fragment_of_Igg_Receptor_Ia": null,
+        "Fermitin_Family_Member_3": null,
+        "Fibroblast_Growth_Factor_12": null,
+        "Fibroblast_Growth_Factor_14": null,
+        "Forkhead_Box_O1": null,
+        "GABA_Type_A_Receptor_Associated_Protein_Like_1": null,
+        "GRAM_Domain_Containing_2B": null,
+        "G_Protein-coupled_Receptor_37": null,
+        "G_Protein-coupled_Receptor_84": null,
+        "G_Protein_Subunit_Beta_5": null,
+        "Gamma-aminobutyric_Acid_Type_A_Receptor_Alpha1_Subunit": null,
+        "Gamma-aminobutyric_Acid_Type_A_Receptor_Alpha4_Subunit": null,
+        "Gamma-aminobutyric_Acid_Type_A_Receptor_Beta2_Subunit": null,
+        "Gamma-aminobutyric_Acid_Type_A_Receptor_Gamma2_Subunit": null,
+        "Ganglioside_Induced_Differentiation_Associated_Protein_1": null,
+        "Gap_Junction_Protein_Alpha_1": null,
+        "Gelsolin": null,
+        "Glial_Cell_Derived_Neurotrophic_Factor": null,
+        "Glial_Fibrillary_Acidic_Protein": null,
+        "Glucose-6-phosphate_Isomerase": null,
+        "Glutamate_Decarboxylase_1": null,
+        "Glutamate_Ionotropic_Receptor_AMPA_Type_Subunit_2": null,
+        "Glutamate_Ionotropic_Receptor_NMDA_Type_Subunit_2A": null,
+        "Glutathione_S-transferase_Kappa_1": null,
+        "Glyceraldehyde-3-phosphate_Dehydrogenase": null,
+        "Glycoprotein_M6B": null,
+        "Glypican_2": null,
+        "Glypican_6": null,
+        "Growth_Differentiation_Factor_10": null,
+        "Guanine_Deaminase": null,
+        "Guanosine_Monophosphate_Reductase": null,
+        "Guanylate_Binding_Protein_1": null,
+        "Guanylate_Binding_Protein_2": null,
+        "Guanylate_Binding_Protein_3": null,
+        "Guanylate_Cyclase_1_Soluble_Subunit_Beta_1": null,
+        "HLA_Complex_P5": null,
+        "Heme_Binding_Protein_2": null,
+        "Heparan_Sulfate-glucosamine_3-sulfotransferase_5": null,
+        "Heterogeneous_Nuclear_Ribonucleoprotein_M": null,
+        "Heterogeneous_Nuclear_Ribonucleoprotein_U": null,
+        "Histone_Deacetylase_1": null,
+        "Homer_Scaffold_Protein_1": null,
+        "Htra_Serine_Peptidase_1": null,
+        "Hyaluronan_Binding_Protein_4": null,
+        "IQ_Motif_Containing_Gtpase_Activating_Protein_1": null,
+        "Inner_Membrane_Mitochondrial_Protein": null,
+        "Inositol-tetrakisphosphate_1-kinase": null,
+        "Inositol_Polyphosphate-5-phosphatase_D": null,
+        "Inositol_Polyphosphate_Phosphatase_Like_1": null,
+        "Insulin_Like_Growth_Factor_1": null,
+        "Insulin_Like_Growth_Factor_1_Receptor": null,
+        "Insulin_Like_Growth_Factor_Binding_Protein_5": null,
+        "Insulin_Receptor": null,
+        "Insulin_Receptor_Substrate_1": null,
+        "Inter-alpha-trypsin_Inhibitor_Heavy_Chain_2": null,
+        "Interferon_Induced_Transmembrane_Protein_2": null,
+        "Interleukin_10": null,
+        "Interleukin_10_Receptor_Subunit_Alpha": null,
+        "Interleukin_23_Receptor": null,
+        "Interleukin_6_Signal_Transducer": null,
+        "Islet_Cell_Autoantigen_1": null,
+        "Isoleucyl-trna_Synthetase": null,
+        "KIAA1549_Like": null,
+        "Kalirin_Rhogef_Kinase": null,
+        "Karyopherin_Subunit_Beta_1": null,
+        "Kinase_D_Interacting_Substrate_220": null,
+        "Kinesin_Family_Member_13B": null,
+        "Kruppel_Like_Factor_15": null,
+        "LIM_Domain_Binding_2": null,
+        "LIM_Domain_Containing_Preferred_Translocation_Partner_in_Lipoma": null,
+        "Leucine_Rich_Pentatricopeptide_Repeat_Containing": null,
+        "Leukocyte_Immunoglobulin_Like_Receptor_B1": null,
+        "Ligand_of_Numb-protein_X_1": null,
+        "Lipin_1": null,
+        "Lymphatic_Vessel_Endothelial_Hyaluronan_Receptor_1": null,
+        "Lymphocyte_Activating_3": null,
+        "Lysine_Acetyltransferase_2B": null,
+        "Lysine_Demethylase_3B": null,
+        "Lysosomal_Protein_Transmembrane_5": null,
+        "Malate_Dehydrogenase_1": null,
+        "Malate_Dehydrogenase_2": null,
+        "Matrix_Metallopeptidase_17": null,
+        "Membrane_Spanning_4-domains_A2": null,
+        "Membrane_Spanning_4-domains_A4A": null,
+        "Membrane_Spanning_4-domains_A6A": null,
+        "Methyl-cpg_Binding_Domain_Protein_3": null,
+        "Microsomal_Glutathione_S-transferase_3": null,
+        "Microtubule_Affinity_Regulating_Kinase_4": null,
+        "Microtubule_Associated_Protein_1B": null,
+        "Microtubule_Associated_Protein_2": null,
+        "Microtubule_Associated_Protein_4": null,
+        "Microtubule_Associated_Protein_7": null,
+        "Midkine": null,
+        "Mitochondrial_Fission_Factor": null,
+        "Mitochondrial_Ribosomal_Protein_L1": null,
+        "Mitochondrial_Ribosomal_Protein_L11": null,
+        "Mitochondrial_Ribosomal_Protein_L12": null,
+        "Mitochondrial_Ribosomal_Protein_L14": null,
+        "Mitochondrial_Ribosomal_Protein_L15": null,
+        "Mitochondrial_Ribosomal_Protein_L16": null,
+        "Mitochondrial_Ribosomal_Protein_L17": null,
+        "Mitochondrial_Ribosomal_Protein_L30": null,
+        "Mitochondrial_Ribosomal_Protein_L37": null,
+        "Mitochondrial_Ribosomal_Protein_L39": null,
+        "Mitochondrial_Ribosomal_Protein_L40": null,
+        "Mitochondrial_Ribosomal_Protein_L43": null,
+        "Mitochondrial_Ribosomal_Protein_L44": null,
+        "Mitochondrial_Ribosomal_Protein_L46": null,
+        "Mitochondrial_Ribosomal_Protein_L48": null,
+        "Mitochondrial_Ribosomal_Protein_L49": null,
+        "Mitochondrial_Ribosomal_Protein_L50": null,
+        "Mitochondrial_Ribosomal_Protein_L53": null,
+        "Mitochondrial_Ribosomal_Protein_L57": null,
+        "Mitochondrial_Ribosomal_Protein_L58": null,
+        "Mitochondrial_Ribosomal_Protein_S15": null,
+        "Mitochondrial_Ribosomal_Protein_S16": null,
+        "Mitochondrial_Ribosomal_Protein_S2": null,
+        "Mitochondrial_Ribosomal_Protein_S22": null,
+        "Mitochondrial_Ribosomal_Protein_S23": null,
+        "Mitogen-activated_Protein_Kinase_1": null,
+        "Mitogen-activated_Protein_Kinase_9": null,
+        "Moesin": null,
+        "Myelin-associated_Oligodendrocyte_Basic_Protein": null,
+        "Myelin_Oligodendrocyte_Glycoprotein": null,
+        "Myelin_Regulatory_Factor": null,
+        "Myocyte_Enhancer_Factor_2C": null,
+        "Myosin_ID": null,
+        "Myotubularin_Related_Protein_10": null,
+        "NEDD4_Binding_Protein_3": null,
+        "NFKB_Inhibitor_Alpha": null,
+        "NFKB_Inhibitor_Zeta": null,
+        "NHS_Like_1": null,
+        "NLR_Family_CARD_Domain_Containing_5": null,
+        "NUAK_Family_Kinase_2": null,
+        "Neuregulin_1": null,
+        "Neurexin_3": null,
+        "Neuritin_1": null,
+        "Neurofilament_Light": null,
+        "Neuronal_Differentiation_6": null,
+        "Neuronal_Tyrosine_Phosphorylated_Phosphoinositide-3-kinase_Adaptor_1": null,
+        "Nicotinamide_Nucleotide_Adenylyltransferase_2": null,
+        "Nicotinamide_Nucleotide_Transhydrogenase": null,
+        "Nipsnap_Homolog_2": null,
+        "Non-pou_Domain_Containing_Octamer_Binding": null,
+        "Nuclear_Receptor_Subfamily_1_Group_H_Member_2": null,
+        "Nuclear_Receptor_Subfamily_1_Group_H_Member_3": null,
+        "Nuclear_Receptor_Subfamily_1_Group_H_Member_4": null,
+        "Nuclear_Receptor_Subfamily_3_Group_C_Member_1": null,
+        "Nuclear_Receptor_Subfamily_5_Group_A_Member_2": null,
+        "Olfactomedin_1": null,
+        "Olfactomedin_3": null,
+        "Oligodendrocytic_Myelin_Paranodal_and_Inner_Loop_Protein": null,
+        "Oxidation_Resistance_1": null,
+        "PHD_Finger_Protein_24": null,
+        "PNMA_Family_Member_2": null,
+        "PTTG1_Interacting_Protein": null,
+        "Paired_Box_6": null,
+        "Peptidyl_Arginine_Deiminase_2": null,
+        "Perilipin_4": null,
+        "Peroxiredoxin_1": null,
+        "Peroxiredoxin_6": null,
+        "Peroxisome_Proliferator_Activated_Receptor_Alpha": null,
+        "Phosphatidylinositol_Binding_Clathrin_Assembly_Protein": null,
+        "Phosphoglucomutase_2_Like_1": null,
+        "Phosphoglycerate_Dehydrogenase": null,
+        "Phospholipase_C_Beta_1": null,
+        "Phospholipase_C_Gamma_2": null,
+        "Phospholipase_D_Family_Member_4": null,
+        "Phospholipid_Phosphatase_Related_4": null,
+        "Phosphoserine_Phosphatase": null,
+        "Plasmolipin": null,
+        "Platelet_Activating_Factor_Acetylhydrolase_1b_Catalytic_Subunit_3": null,
+        "Plectin": null,
+        "Pleiotrophin": null,
+        "Plexin_A1": null,
+        "Plexin_B1": null,
+        "Potassium_Two_Pore_Domain_Channel_Subfamily_K_Member_4": null,
+        "Potassium_Voltage-gated_Channel_Interacting_Protein_1": null,
+        "Potassium_Voltage-gated_Channel_Subfamily_C_Member_2": null,
+        "Potassium_Voltage-gated_Channel_Subfamily_D_Member_3": null,
+        "Potassium_Voltage-gated_Channel_Subfamily_J_Member_3": null,
+        "Potassium_Voltage-gated_Channel_Subfamily_Q_Member_5": null,
+        "Programmed_Cell_Death_1": null,
+        "Prolyl_Endopeptidase_Like": null,
+        "Prosaposin": null,
+        "Protein_Kinase_C_and_Casein_Kinase_Substrate_in_Neurons_1": null,
+        "Protein_Kinase_Camp-dependent_Type_II_Regulatory_Subunit_Beta": null,
+        "Protein_Phosphatase_1_Catalytic_Subunit_Gamma": null,
+        "Protein_Phosphatase_1_Regulatory_Subunit_18": null,
+        "Protein_Phosphatase_1_Regulatory_Subunit_7": null,
+        "Protein_Phosphatase_3_Catalytic_Subunit_Alpha": null,
+        "Proteolipid_Protein_1": null,
+        "Purinergic_Receptor_P2Y12": null,
+        "Purinergic_Receptor_P2Y13": null,
+        "Pyruvate_Dehydrogenase_E1_Alpha_1_Subunit": null,
+        "Pyruvate_Dehydrogenase_E1_Beta_Subunit": null,
+        "RE1_Silencing_Transcription_Factor": null,
+        "RUN_and_FYVE_Domain_Containing_3": null,
+        "Rabphilin_3A": null,
+        "Ras_and_Rab_Interactor_3": null,
+        "Ras_Responsive_Element_Binding_Protein_1": null,
+        "Regulating_Synaptic_Membrane_Exocytosis_2": null,
+        "Ret_Proto-oncogene": null,
+        "Reticulon_1": null,
+        "Reticulon_3": null,
+        "Reticulon_4": null,
+        "Retinoid_X_Receptor_Alpha": null,
+        "Rho_Gtpase_Activating_Protein_26": null,
+        "Ribonucleotide_Reductase_Catalytic_Subunit_M1": null,
+        "Ribonucleotide_Reductase_Regulatory_TP53_Inducible_Subunit_M2B": null,
+        "Ribosomal_Protein_S6_Kinase_A2": null,
+        "Roundabout_Guidance_Receptor_1": null,
+        "S100_Calcium_Binding_Protein_A4": null,
+        "S100_Calcium_Binding_Protein_A6": null,
+        "S100_Calcium_Binding_Protein_A8": null,
+        "S100_Calcium_Binding_Protein_A9": null,
+        "SAM_and_SH3_Domain_Containing_1": null,
+        "SH3_Domain_GRB2_Like_Endophilin_Interacting_Protein_1": null,
+        "SLIT_and_NTRK_Like_Family_Member_4": null,
+        "SMAD_Family_Member_4": null,
+        "SUMO_Specific_Peptidase_1": null,
+        "Scavenger_Receptor_Class_A_Member_3": null,
+        "Secreted_Frizzled_Related_Protein_1": null,
+        "Secretogranin_III": null,
+        "Semaphorin_3F": null,
+        "Septin_10": null,
+        "Septin_11": null,
+        "Septin_5": null,
+        "Serine_and_Arginine_Rich_Splicing_Factor_2": null,
+        "Serine_Palmitoyltransferase_Long_Chain_Base_Subunit_3": null,
+        "Serine_Racemase": null,
+        "Serpin_Family_A_Member_3": null,
+        "Sialic_Acid_Binding_Ig_Like_Lectin_1": null,
+        "Sialic_Acid_Binding_Ig_Like_Lectin_14": null,
+        "Sialic_Acid_Binding_Ig_Like_Lectin_8": null,
+        "Sialic_Acid_Binding_Ig_Like_Lectin_9": null,
+        "Signal-induced_Proliferation-associated_1": null,
+        "Signal_Peptidase_Complex_Subunit_1": null,
+        "Signal_Transducer_and_Activator_of_Transcription_3": null,
+        "Slit_Guidance_Ligand_2": null,
+        "Slit_Guidance_Ligand_3": null,
+        "Sodium_Voltage-gated_Channel_Alpha_Subunit_2": null,
+        "Sodium_Voltage-gated_Channel_Alpha_Subunit_7": null,
+        "Sodium_Voltage-gated_Channel_Alpha_Subunit_8": null,
+        "Sodium_Voltage-gated_Channel_Alpha_Subunit_9": null,
+        "Solute_Carrier_Family_1_Member_2": null,
+        "Solute_Carrier_Family_22_Member_23": null,
+        "Solute_Carrier_Family_25_Member_11": null,
+        "Solute_Carrier_Family_25_Member_45": null,
+        "Solute_Carrier_Family_2_Member_8": null,
+        "Solute_Carrier_Family_30_Member_3": null,
+        "Solute_Carrier_Family_38_Member_2": null,
+        "Solute_Carrier_Family_4_Member_10": null,
+        "Solute_Carrier_Family_5_Member_3": null,
+        "Solute_Carrier_Family_8_Member_A2": null,
+        "Solute_Carrier_Organic_Anion_Transporter_Family_Member_1A2": null,
+        "Sp1_Transcription_Factor": null,
+        "Sphingosine-1-phosphate_Lyase_1": null,
+        "Sphingosine-1-phosphate_Phosphatase_1": null,
+        "Sphingosine-1-phosphate_Receptor_1": null,
+        "Spi-1_Proto-oncogene": null,
+        "Spleen_Associated_Tyrosine_Kinase": null,
+        "Star_Related_Lipid_Transfer_Domain_Containing_10": null,
+        "Staufen_Double-stranded_RNA_Binding_Protein_1": null,
+        "Sterol_Regulatory_Element_Binding_Transcription_Factor_1": null,
+        "Sterol_Regulatory_Element_Binding_Transcription_Factor_2": null,
+        "Succinate_Dehydrogenase_Complex_Flavoprotein_Subunit_A": null,
+        "Sulfotransferase_Family_2A_Member_1": null,
+        "Sulfotransferase_Family_4A_Member_1": null,
+        "Synapsin_I": null,
+        "Synapsin_II": null,
+        "Synaptic_Ras_Gtpase_Activating_Protein_1": null,
+        "Synaptic_Vesicle_Glycoprotein_2B": null,
+        "Synaptophysin": null,
+        "Synaptopodin": null,
+        "Synaptosome_Associated_Protein_25": null,
+        "Synaptosome_Associated_Protein_91": null,
+        "Synaptotagmin_1": null,
+        "Synaptotagmin_12": null,
+        "Synaptotagmin_13": null,
+        "Syntaxin_1A": null,
+        "Syntaxin_Binding_Protein_5_Like": null,
+        "Syntrophin_Beta_1": null,
+        "Synuclein_Alpha": null,
+        "TIMP_Metallopeptidase_Inhibitor_3": null,
+        "TNF_Receptor_Superfamily_Member_1A": null,
+        "TRIO_and_F-actin_Binding_Protein": null,
+        "TYRO_Protein_Tyrosine_Kinase_Binding_Protein": null,
+        "Talin_1": null,
+        "Thioredoxin_Related_Transmembrane_Protein_3": null,
+        "Thymopoietin": null,
+        "Toll_Like_Receptor_1": null,
+        "Toll_Like_Receptor_2": null,
+        "Toll_Like_Receptor_4": null,
+        "Toll_Like_Receptor_5": null,
+        "Transforming_Growth_Factor_Beta_1": null,
+        "Transforming_Growth_Factor_Beta_Receptor_2": null,
+        "Transgelin_3": null,
+        "Translocase_of_Inner_Mitochondrial_Membrane_13": null,
+        "Translocase_of_Outer_Mitochondrial_Membrane_70": null,
+        "Transmembrane_BAX_Inhibitor_Motif_Containing_1": null,
+        "Transmembrane_Protein_184B": null,
+        "Transmembrane_Protein_229B": null,
+        "Triggering_Receptor_Expressed_on_Myeloid_Cells_2": null,
+        "Tubulin_Beta_3_Class_III": null,
+        "Tweety_Family_Member_2": null,
+        "Tyrosyl-trna_Synthetase": null,
+        "Tyrosylprotein_Sulfotransferase_1": null,
+        "UDP_Glycosyltransferase_8": null,
+        "Ubiquinol-cytochrome_C_Reductase_Core_Protein_1": null,
+        "Ubiquitin_Conjugating_Enzyme_E2_T": null,
+        "Unc-119_Lipid_Binding_Chaperone_B": null,
+        "Unc-13_Homolog_A": null,
+        "Unc-5_Netrin_Receptor_C": null,
+        "VGF_Nerve_Growth_Factor_Inducible": null,
+        "Valosin_Containing_Protein": null,
+        "Versican": null,
+        "Visinin_Like_1": null,
+        "Vitronectin": null,
+        "WDFY_Family_Member_4": null,
+        "WD_Repeat_Domain_1": null,
+        "WD_Repeat_Domain_7": null,
+        "Wnt_Family_Member_10B": null,
+        "Yes_Associated_Protein_1": null,
+        "ZW10_Interacting_Kinetochore_Protein": null,
+        "Zinc_Finger_and_BTB_Domain_Containing_16": null,
+        "Zinc_Finger_Protein_536": null,
+        "2',3'-cyclic_Nucleotide_3'_Phosphodiesterase": null,
+        "24-dehydrocholesterol_Reductase": null,
+        "6-phosphogluconolactonase": null,
+        "AKT_Serine/threonine_Kinase_1": null,
+        "Atcay,_Caytaxin": null,
+        "Atpase_H+_Transporting_V0_Subunit_A1": null,
+        "Atpase_H+_Transporting_V0_Subunit_D1": null,
+        "Atpase_H+_Transporting_V1_Subunit_A": null,
+        "Atpase_H+_Transporting_V1_Subunit_B2": null,
+        "Atpase_H+_Transporting_V1_Subunit_E1": null,
+        "Atpase_H+_Transporting_V1_Subunit_H": null,
+        "Atpase_Na+/k+_Transporting_Subunit_Alpha_3": null,
+        "Atpase_Na+/k+_Transporting_Subunit_Beta_1": null,
+        "Atpase_Plasma_Membrane_Ca2+_Transporting_1": null,
+        "Atpase_Plasma_Membrane_Ca2+_Transporting_2": null,
+        "Atpase_Sarcoplasmic/endoplasmic_Reticulum_Ca2+_Transporting_2": null,
+        "Bcl2,_Apoptosis_Regulator": null,
+        "CD44_Molecule_(indian_Blood_Group)": null,
+        "Calcium/calmodulin_Dependent_Protein_Kinase_Kinase_2": null,
+        "Complement_C3b/c4b_Receptor_1_(knops_Blood_Group)": null,
+        "Dehydrogenase/reductase_11": null,
+        "Diazepam_Binding_Inhibitor,_Acyl-coa_Binding_Protein": null,
+        "Dnaj_Heat_Shock_Protein_Family_(hsp40)_Member_C6": null,
+        "Dpy-30,_Histone_Methyltransferase_Complex_Regulatory_Subunit": null,
+        "Elks/rab6-interacting/cast_Family_Member_2": null,
+        "Frat2,_WNT_Signaling_Pathway_Regulator": null,
+        "Fumarylacetoacetate_Hydrolase_Domain_Containing_2c,_Pseudogene": null,
+        "Hect,_C2_and_WW_Domain_Containing_E3_Ubiquitin_Protein_Ligase_2": null,
+        "Heat_Shock_Protein_Family_A_(hsp70)_Member_2": null,
+        "Heat_Shock_Protein_Family_B_(small)_Member_1": null,
+        "Heat_Shock_Protein_Family_B_(small)_Member_2": null,
+        "Inositol_1,4,5-trisphosphate_Receptor_Type_1": null,
+        "Isocitrate_Dehydrogenase_(nadp(+))_2,_Mitochondrial": null,
+        "Jumonji_Domain_Containing_6,_Arginine_Demethylase_and_Lysine_Hydroxylase": null,
+        "KH_RNA_Binding_Domain_Containing,_Signal_Transduction_Associated_2": null,
+        "Lyl1,_Basic_Helix-loop-helix_Family_Member": null,
+        "Lamin_A/c": null,
+        "MAF1_Homolog,_Negative_Regulator_of_RNA_Polymerase_III": null,
+        "Major_Histocompatibility_Complex,_Class_Ii,_DR_Alpha": null,
+        "N-ethylmaleimide_Sensitive_Factor,_Vesicle_Fusing_Atpase": null,
+        "Nadh:ubiquinone_Oxidoreductase_Core_Subunit_S1": null,
+        "Nadh:ubiquinone_Oxidoreductase_Core_Subunit_S2": null,
+        "Nadh:ubiquinone_Oxidoreductase_Core_Subunit_S7": null,
+        "Nadh:ubiquinone_Oxidoreductase_Core_Subunit_V1": null,
+        "Nadh:ubiquinone_Oxidoreductase_Subunit_A10": null,
+        "Nadh:ubiquinone_Oxidoreductase_Subunit_A11": null,
+        "Nadh:ubiquinone_Oxidoreductase_Subunit_A13": null,
+        "Nadh:ubiquinone_Oxidoreductase_Subunit_A9": null,
+        "Nfs1,_Cysteine_Desulfurase": null,
+        "Nuclear_Protein_1,_Transcriptional_Regulator": null,
+        "Nucleophosmin/nucleoplasmin_3": null,
+        "P21_(rac1)_Activated_Kinase_1": null,
+        "Phosphatidylinositol-3,4,5-trisphosphate_Dependent_Rac_Exchange_Factor_1": null,
+        "Phosphatidylinositol-4,5-bisphosphate_3-kinase_Catalytic_Subunit_Alpha": null,
+        "Phosphatidylinositol-4,5-bisphosphate_3-kinase_Catalytic_Subunit_Beta": null,
+        "Phosphofructokinase,_Platelet": null,
+        "Pleckstrin_Homology,_Myth4_and_FERM_Domain_Containing_H1": null,
+        "Poly(a)_Polymerase_Alpha": null,
+        "Poly(adp-ribose)_Polymerase_Family_Member_9": null,
+        "Protein_Tyrosine_Phosphatase,_Receptor_Type_R": null,
+        "Protein_Tyrosine_Phosphatase,_Receptor_Type_Z1": null,
+        "Rab21,_Member_RAS_Oncogene_Family": null,
+        "Rab27b,_Member_RAS_Oncogene_Family": null,
+        "Rab3a,_Member_RAS_Oncogene_Family": null,
+        "Rabaptin,_RAB_Gtpase_Binding_Effector_Protein_1": null,
+        "Rabaptin,_RAB_Gtpase_Binding_Effector_Protein_2": null,
+        "SH3_Domain_Containing_GRB2_Like,_Endophilin_B2": null,
+        "Spg7,_Paraplegin_Matrix_AAA_Peptidase_Subunit": null,
+        "ST8_Alpha-n-acetyl-neuraminide_Alpha-2,8-sialyltransferase_3": null,
+        "Short_Chain_Dehydrogenase/reductase_Family_9C_Member_7": null,
+        "Thymocyte_Expressed,_Positive_Selection_Associated_1": null,
+        "Tu_Translation_Elongation_Factor,_Mitochondrial": null,
+        "Unc-79_Homolog,_NALCN_Channel_Complex_Subunit": null,
+        "Yip1_Interacting_Factor_Homolog_B,_Membrane_Trafficking_Protein": null
+    },
+    "Anatomical_Part": {
+        "Central_Nervous_System": {
+            "Meninge": {
+                "Arachnoid": {
+                    "Subarachnoid_Space": {
+                        "Cisterna_Magna": null
+                    }
+                },
+                "Dura_Mater": {
+                    "Subdural_Space": null
+                },
+                "Pia_Mater": null
+            },
+            "Brain": {
+                "Limbic_System": {
+                    "Amygdala": {
+                        "Basolateral_Nuclear_Complex": null,
+                        "Central_Amygdaloid_Nucleus": null,
+                        "Corticomedial_Nuclear_Complex": {
+                            "Periamygdaloid_Cortex": null
+                        }
+                    },
+                    "Hypothalamus": {
+                        "Anterior_Hypothalamus": {
+                            "Anterior_Hypothalamic_Nucleus": null,
+                            "Organum_Vasculosum": null,
+                            "Paraventricular_Hypothalamic_Nucleus": null,
+                            "Preoptic_Area": null,
+                            "Suprachiasmatic_Nucleus": {
+                                "Suprachiasmatic_Nucleus_Neurons": null
+                            },
+                            "Supraoptic_Nucleus_Neuron": null
+                        },
+                        "Middle_Hypothalamus": {
+                            "Arcuate_Nucleus_of_Hypothalamus": null,
+                            "Dorsomedial_Hypothalamic_Nucleus": null,
+                            "Hypothalamo-hypophyseal_System": {
+                                "Pituitary_Gland": {
+                                    "Anterior_Pituitary_Gland": {
+                                        "Corticotroph": null,
+                                        "Gonadotroph": null,
+                                        "Lactotroph": null,
+                                        "Somatotroph": null,
+                                        "Thyrotroph": null
+                                    },
+                                    "Intermediate_Pituitary_Gland": {
+                                        "Melanotroph": null
+                                    },
+                                    "Posterior_Pituitary_Gland": null
+                                },
+                                "Median_Eminence": null
+                            },
+                            "Tuber_Cinereum": null,
+                            "Ventromedial_Hypothalamic_Nucleus": null
+                        },
+                        "Lateral_Hypothalamic_Area": null,
+                        "Posterior_Hypothalamus": {
+                            "Mammillary_Body": null
+                        }
+                    },
+                    "Hippocampus": {
+                        "Brain_Fornix": null,
+                        "Dentate_Gyrus": {
+                            "Hippocampal_Mossy_Fibers": null
+                        },
+                        "Hippocampal_CA1_Region": null,
+                        "Hippocampal_CA2_Region": null,
+                        "Hippocampal_CA3_Region": null
+                    },
+                    "Parahippocampal_Gyrus": {
+                        "Entorhinal_Cortex": null,
+                        "Periamygdaloid_Cortex": null
+                    },
+                    "Epithalamus": {
+                        "Habenula": null,
+                        "Pineal_Gland": null
+                    },
+                    "Limbic_Lobe": {
+                        "Parahippocampal_Gyrus": {
+                            "Entorhinal_Cortex": null,
+                            "Periamygdaloid_Cortex": null
+                        },
+                        "Gyrus_Cinguli": null
+                    },
+                    "Olfactory_Pathway": {
+                        "Parahippocampal_Gyrus": {
+                            "Entorhinal_Cortex": null,
+                            "Periamygdaloid_Cortex": null
+                        }
+                    },
+                    "Perforant_Pathway": null,
+                    "Septum_of_Brain": {
+                        "Septal_Nuclei": null,
+                        "Septum_Pellucidum": null
+                    },
+                    "Substantia_Innominata": null
+                },
+                "Blood-brain_Barrier": null,
+                "Brain_Stem": {
+                    "Mesencephalon": {
+                        "Cerebral_Peduncle": {
+                            "Tegmentum_Mesencephali": {
+                                "Cerebral_Aqueduct": null,
+                                "Oculomotor_Nuclear_Complex": {
+                                    "Edinger-westphal_Nucleus": null
+                                },
+                                "Midbrain_Reticular_Formation": {
+                                    "Pedunculopontine_Tegmental_Nucleus": null
+                                },
+                                "Periaqueductal_Gray": null,
+                                "Raphe_Nucleus": null,
+                                "Red_Nucleus": null,
+                                "Ventral_Tegmental_Area": null
+                            },
+                            "Cerebral_Crus": null,
+                            "Substantia_Nigra": {
+                                "Pars_Compacta": null,
+                                "Pars_Reticulata": null
+                            }
+                        },
+                        "Tectum_Mesencephali": {
+                            "Inferior_Colliculi": null,
+                            "Posterior_Cerebellar_Commissure": null,
+                            "Pretectal_Region": null,
+                            "Subcommissural_Organ": null,
+                            "Superior_Colliculi": null
+                        },
+                        "Locus_Coeruleus": null
+                    },
+                    "Rhombencephalon": {
+                        "Metencephalon": {
+                            "Cerebellum": {
+                                "Cerebellar_Cortex": {
+                                    "Cerebellar_Vermis": null,
+                                    "Purkinje_Cell": null
+                                },
+                                "Cerebellar_Nuclei": null,
+                                "Cerebellopontine_Angle": null
+                            },
+                            "Pons": {
+                                "Pontine_Tegmentum": {
+                                    "Abducens_Nucleus": null,
+                                    "Facial_Nucleus": null,
+                                    "Locus_Coeruleus": null,
+                                    "Parabrachial_Nucleus": null,
+                                    "Raphe_Nucleus": null,
+                                    "Spinal_Trigeminal_Nucleus": {
+                                        "Trigeminal_Caudal_Nucleus": null
+                                    },
+                                    "Superior_Olivary_Complex": null,
+                                    "Trapezoid_Body": null,
+                                    "Trigeminal_Motor_Nucleus": null
+                                },
+                                "Cochlear_Nucleus": null,
+                                "Kolliker-fuse_Nucleus": null,
+                                "Vestibular_Nuclei": {
+                                    "Lateral_Vestibular_Nucleus": null
+                                },
+                                "Middle_Cerebellar_Peduncle": null,
+                                "Barrington's_Nucleus": null
+                            }
+                        },
+                        "Myelencephalon": {
+                            "Medulla_Oblongata": {
+                                "Area_Postrema": null,
+                                "Olivary_Nucleus": null,
+                                "Raphe_Nucleus": null,
+                                "Solitary_Nucleus": null,
+                                "Spinal_Trigeminal_Nucleus": {
+                                    "Trigeminal_Caudal_Nucleus": null
+                                }
+                            }
+                        },
+                        "Tectospinal_Fibers": null
+                    },
+                    "Reticular_Formation": {
+                        "Midbrain_Reticular_Formation": {
+                            "Pedunculopontine_Tegmental_Nucleus": null
+                        },
+                        "Respiratory_Center": null
+                    },
+                    "Trigeminal_Nuclei": {
+                        "Spinal_Trigeminal_Nucleus": {
+                            "Trigeminal_Caudal_Nucleus": null
+                        },
+                        "Trigeminal_Motor_Nucleus": null
+                    }
+                },
+                "Cerebral_Ventricle": {
+                    "Cerebral_Aqueduct": null,
+                    "Choroid_Plexus": null,
+                    "Ependyma": null,
+                    "Fourth_Ventricle": null,
+                    "Lateral_Ventricle": null,
+                    "Septum_Pellucidum": null,
+                    "Third_Ventricle": null
+                },
+                "Prosencephalon": {
+                    "Telencephalon": {
+                        "Telencephalic_Commissure": {
+                            "Anterior_Cerebellar_Commissure": null,
+                            "Corpus_Callosum": null
+                        },
+                        "Cerebrum": {
+                            "Basal_Ganglia": {
+                                "Amygdala": {
+                                    "Basolateral_Nuclear_Complex": null,
+                                    "Central_Amygdaloid_Nucleus": null,
+                                    "Corticomedial_Nuclear_Complex": {
+                                        "Periamygdaloid_Cortex": null
+                                    }
+                                },
+                                "Corpus_Striatum": {
+                                    "Neostriatum": {
+                                        "Caudate_Nucleus": null,
+                                        "High_Vocal_Center": null,
+                                        "Putamen": null
+                                    },
+                                    "Globus_Pallidus": null,
+                                    "Ventral_Striatum": {
+                                        "Olfactory_Tubercle": {
+                                            "Islands_of_Calleja": null
+                                        },
+                                        "Nucleus_Accumbens": null
+                                    }
+                                },
+                                "Substantia_Innominata": null
+                            },
+                            "Olfactory_Cortex": {
+                                "Basal_Forebrain": {
+                                    "Organum_Vasculosum": null
+                                },
+                                "Entorhinal_Cortex": null,
+                                "Olfactory_Tubercle": {
+                                    "Islands_of_Calleja": null
+                                },
+                                "Piriform_Cortex": null
+                            },
+                            "Cerebral_Cortex": {
+                                "Sensorimotor_Cortex": {
+                                    "Auditory_Cortex": null,
+                                    "Olfactory_Cortex": {
+                                        "Basal_Forebrain": {
+                                            "Organum_Vasculosum": null
+                                        },
+                                        "Entorhinal_Cortex": null,
+                                        "Olfactory_Tubercle": {
+                                            "Islands_of_Calleja": null
+                                        },
+                                        "Piriform_Cortex": null
+                                    },
+                                    "Motor_Cortex": null,
+                                    "Somatosensory_Cortex": null,
+                                    "Visual_Cortex": null
+                                },
+                                "Temporal_Lobe": {
+                                    "Auditory_Cortex": null,
+                                    "Perirhinal_Cortex": null,
+                                    "Wernicke_Area": null
+                                },
+                                "Olfactory_Cortex": {
+                                    "Basal_Forebrain": {
+                                        "Organum_Vasculosum": null
+                                    },
+                                    "Entorhinal_Cortex": null,
+                                    "Olfactory_Tubercle": {
+                                        "Islands_of_Calleja": null
+                                    },
+                                    "Piriform_Cortex": null
+                                },
+                                "Hippocampus": {
+                                    "Brain_Fornix": null,
+                                    "Dentate_Gyrus": {
+                                        "Hippocampal_Mossy_Fibers": null
+                                    },
+                                    "Hippocampal_CA1_Region": null,
+                                    "Hippocampal_CA2_Region": null,
+                                    "Hippocampal_CA3_Region": null
+                                },
+                                "Frontal_Lobe": {
+                                    "Prefrontal_Cortex": {
+                                        "Broca_Area": null
+                                    },
+                                    "Motor_Cortex": null
+                                },
+                                "Limbic_Lobe": {
+                                    "Parahippocampal_Gyrus": {
+                                        "Entorhinal_Cortex": null,
+                                        "Periamygdaloid_Cortex": null
+                                    },
+                                    "Gyrus_Cinguli": null
+                                },
+                                "Neocortex": null,
+                                "Occipital_Lobe": {
+                                    "Visual_Cortex": null
+                                },
+                                "Parietal_Lobe": {
+                                    "Somatosensory_Cortex": null,
+                                    "Wernicke_Area": null
+                                }
+                            }
+                        },
+                        "Diagonal_Band_of_Broca": null,
+                        "External_Capsule": null,
+                        "Internal_Capsule": null,
+                        "Olfactory_Bulb": null,
+                        "Septum_of_Brain": {
+                            "Septal_Nuclei": null,
+                            "Septum_Pellucidum": null
+                        }
+                    },
+                    "Diencephalon": {
+                        "Hypothalamus": {
+                            "Anterior_Hypothalamus": {
+                                "Anterior_Hypothalamic_Nucleus": null,
+                                "Organum_Vasculosum": null,
+                                "Paraventricular_Hypothalamic_Nucleus": null,
+                                "Preoptic_Area": null,
+                                "Suprachiasmatic_Nucleus": {
+                                    "Suprachiasmatic_Nucleus_Neurons": null
+                                },
+                                "Supraoptic_Nucleus_Neuron": null
+                            },
+                            "Middle_Hypothalamus": {
+                                "Arcuate_Nucleus_of_Hypothalamus": null,
+                                "Dorsomedial_Hypothalamic_Nucleus": null,
+                                "Hypothalamo-hypophyseal_System": {
+                                    "Pituitary_Gland": {
+                                        "Anterior_Pituitary_Gland": {
+                                            "Corticotroph": null,
+                                            "Gonadotroph": null,
+                                            "Lactotroph": null,
+                                            "Somatotroph": null,
+                                            "Thyrotroph": null
+                                        },
+                                        "Intermediate_Pituitary_Gland": {
+                                            "Melanotroph": null
+                                        },
+                                        "Posterior_Pituitary_Gland": null
+                                    },
+                                    "Median_Eminence": null
+                                },
+                                "Tuber_Cinereum": null,
+                                "Ventromedial_Hypothalamic_Nucleus": null
+                            },
+                            "Lateral_Hypothalamic_Area": null,
+                            "Posterior_Hypothalamus": {
+                                "Mammillary_Body": null
+                            }
+                        },
+                        "Subthalamus": {
+                            "Entopeduncular_Nucleus": null,
+                            "Subthalamic_Nucleus": null,
+                            "Zona_Incerta": null
+                        },
+                        "Epithalamus": {
+                            "Habenula": null,
+                            "Pineal_Gland": null
+                        },
+                        "Optic_Chiasm": null,
+                        "Optic_Tract": null,
+                        "Thalamus": {
+                            "Thalamic_Nuclei": {
+                                "Anterior_Thalamic_Nucleus": null,
+                                "Geniculate_Body": null,
+                                "Intralaminar_Thalamic_Nuclei": null,
+                                "Lateral_Thalamic_Nuclei": {
+                                    "Pulvinar": null
+                                },
+                                "Mediodorsal_Thalamic_Nucleus": null,
+                                "Midline_Thalamic_Nucleus": null,
+                                "Posterior_Thalamic_Nucleus": null,
+                                "Ventral_Thalamic_Nucleus": null
+                            }
+                        }
+                    }
+                },
+                "Glymphatic_System": null,
+                "Gray_Matter": null,
+                "White_Matter": null
+            },
+            "Spinal_Cord": {
+                "Spinal_Cord_Ventral_Horn": {
+                    "Anterior_Horn_Cell": null
+                },
+                "Cervical_Cord": null,
+                "Extrapyramidal_Tract": null,
+                "Gray_Matter": null,
+                "Spinal_Cord_Dorsal_Horn": {
+                    "Posterior_Horn_Cell": {
+                        "Substantia_Gelatinosa": null
+                    }
+                },
+                "Pyramidal_Tract": null,
+                "Spinal_Cord_Lateral_Horn": null,
+                "Spinothalamic_Tract": null,
+                "White_Matter": null
+            }
+        }
+    },
+    "Molecular_Function": {
+        "Antioxidant_Activity": null,
+        "Binding": null,
+        "Cargo_Adaptor_Activity": null,
+        "Cargo_Receptor_Activity": null,
+        "Catalytic_Activity": null,
+        "Molecular_Carrier_Activity": null,
+        "Molecular_Function_Regulator": null,
+        "Molecular_Sequestering_Activity": null,
+        "Molecular_Transducer_Activity": null,
+        "Nutrient_Reservoir_Activity": null,
+        "Protein_Folding_Chaperone": null,
+        "Protein_Tag": null,
+        "Small_Molecule_Sensor_Activity": null,
+        "Structural_Molecule_Activity": null,
+        "Toxin_Activity": null,
+        "Transcription_Regulator_Activity": null,
+        "Translation_Regulator_Activity": null,
+        "Transporter_Activity": null
+    },
+    "Symptom": {
+        "Behavioral_Symptom": {
+            "Aggression": null,
+            "Agitation": null,
+            "Disinhibited_Behavior": {
+                "Sexually_Inappropriate_Behavior": null,
+                "Socially_Inappropriate_Behavior": null,
+                "Uncontrolled_Eating": null
+            },
+            "Nocturnal_Disruption": null,
+            "Vocally_Disruptive_Behavior": null,
+            "Wandering": null
+        },
+        "Mood_Symptom": {
+            "Anxiety": null,
+            "Apathy": null,
+            "Depressive_Symptom": null,
+            "Irritability": null,
+            "Sleep_Disorder": null
+        },
+        "Cognitive_Dysfunction": {
+            "Difficulty_Learning_New_Task": null,
+            "Difficulty_Recognizing_Face": null,
+            "Disorientation": null,
+            "Impaired_Communication": null,
+            "Poor_Judgment": null,
+            "Slower_Reaction_Time": null,
+            "Subjective_Cognitive_Decline": null,
+            "Withdrawal_from_Work_or_Social_Activity": null
+        },
+        "Psychotic_Symptom": {
+            "Delusion": null,
+            "Hallucination": null,
+            "Misidentification": null
+        },
+        "Physical_Difficulty": {
+            "Difficulty_Speaking": null,
+            "Difficulty_Swallowing": null,
+            "Difficulty_Walking": null,
+            "Incontinence": null,
+            "Visual_Loss": null
+        },
+        "Memory_Impairment": {
+            "Short-term_Memory_Impairment": {
+                "Change_in_Episodic_Memory": null
+            },
+            "Long-term_Memory_Impairment": null
+        }
+    },
+    "Biological_Process": {
+        "Metabolic_Process": {
+            "ATP_Metabolic_Process": null,
+            "Adaptive_Thermogenesis": null,
+            "Biosynthetic_Process": null,
+            "Catabolic_Process": null,
+            "Cellular_Metabolic_Process": null,
+            "Collagen_Metabolic_Process": null,
+            "Demethylation": null,
+            "Glycosylation": null,
+            "Hormone_Metabolic_Process": null,
+            "Hydrogen_Metabolic_Process": null,
+            "Methylation": null,
+            "Multi-organism_Metabolic_Process": null,
+            "NADH_Metabolic_Process": null,
+            "NADP_Metabolic_Process": null,
+            "NAD_Metabolic_Process": null,
+            "Nitrogen_Compound_Metabolic_Process": null,
+            "Organic_Substance_Metabolic_Process": null,
+            "Oxidation-reduction_Process": null,
+            "Pigment_Metabolic_Process": null,
+            "Primary_Metabolic_Process": null,
+            "Respiratory_Burst": null,
+            "Secondary_Metabolic_Process": null,
+            "Small_Molecule_Metabolic_Process": null,
+            "Tartrate_Metabolic_Process": null,
+            "Tyrocidine_Metabolic_Process": null
+        },
+        "Biological_Regulation": null,
+        "Signaling": {
+            "Cell-cell_Signaling": null,
+            "Extracellular_Matrix-cell_Signaling": null,
+            "Motogenic_Signaling_Initiating_Cell_Movement_in_Cerebral_Cortex": null,
+            "Motogenic_Signaling_Involved_in_Interneuron_Migration_from_the_Subpallium_to_the_Cortex": null,
+            "Motogenic_Signaling_Involved_in_Postnatal_Olfactory_Bulb_Interneuron_Migration": null,
+            "Multicellular_Organismal_Signaling": null,
+            "Sulfur_Utilization": null
+        },
+        "Cellular_Process": null,
+        "Immune_System_Process": null
+    },
+    "Pathology": {
+        "Microscopic_Lesion": {
+            "Amyloid_Pathology": {
+                "Amyloid_Deposition": null,
+                "Amyloid_Plaque": null,
+                "Cerebral_Amyloid_Angiopathy": null
+            },
+            "Granulovacuolar_Degeneration": null,
+            "Loss_of_Synapse_and_Synaptic_Protein": null,
+            "Neurofibrillary_Degeneration": null,
+            "Neuron_Death": null,
+            "Tau_Pathology": {
+                "Tau_Hyperphosphorylation": null,
+                "Toxic_Conformation_of_Tau": null
+            }
+        },
+        "Brain_Shrinkage_from_Cell_Loss": null,
+        "Cerebral_Cortical_Atrophy": null,
+        "Hydrocephalus": null,
+        "Leukoaraiosis": {
+            "Subcortical_White_Matter_Atrophy": null,
+            "Subcortical_White_Matter_Pallor": null,
+            "Subcortical_White_Matter_Shrinkage": null
+        },
+        "Neuroinflammation": null
+    },
+    "Balance_Exercise": null,
+    "Endurance_Exercise": null,
+    "Flexibility_Exercise": null,
+    "Outdoor_Leisure_Activity": null,
+    "Strength_Exercise": null,
+    "Water_Sport": null,
+    "Winter_Sport": null,
+    "Element_Relevant_to_Time_Event": {
+        "Event": {
+            "Clinical_Intervention": null,
+            "Diagnosis": null,
+            "Documentation": null,
+            "Observation": null,
+            "Other_Event": null,
+            "Patient_Accident": null,
+            "Test_and_Test_Evaluation": null
+        },
+        "Duration": null,
+        "Granularity": null,
+        "Time": {
+            "Time_Flag": {
+                "Current": null,
+                "Future": null,
+                "Past": null
+            },
+            "Time_Interval": {
+                "Periodic_Time_Interval": null,
+                "Day": {
+                    "Holiday": {
+                        "US_Holiday": {
+                            "US_Federal_Holiday": {
+                                "New_Year's_Day": null,
+                                "Birthday_of_Martin_Luther_King,_Jr.": null,
+                                "Inauguration_Day": null,
+                                "Washington's_Birthday": null,
+                                "Memorial_Day": null,
+                                "Independence_Day": null,
+                                "Labor_Day": null,
+                                "Columbus_Day": null,
+                                "Veterans_Day": null,
+                                "Thanksgiving_Day": null,
+                                "Christmas": null
+                            }
+                        }
+                    },
+                    "Week_Day": {
+                        "Monday": null,
+                        "Tuesday": null,
+                        "Wednesday": null,
+                        "Thursday": null,
+                        "Friday": null,
+                        "Saturday": null,
+                        "Sunday": null
+                    },
+                    "Today": null,
+                    "Tomorrow": null,
+                    "Yesterday": null,
+                    "Month_Day": {
+                        "Day_1_of_a_Month": null,
+                        "Day_2_of_a_Month": null,
+                        "Day_3_of_a_Month": null,
+                        "Day_4_of_a_Month": null,
+                        "Day_5_of_a_Month": null,
+                        "Day_6_of_a_Month": null,
+                        "Day_7_of_a_Month": null,
+                        "Day_8_of_a_Month": null,
+                        "Day_9_of_a_Month": null,
+                        "Day_10_of_a_Month": null,
+                        "Day_11_of_a_Month": null,
+                        "Day_12_of_a_Month": null,
+                        "Day_13_of_a_Month": null,
+                        "Day_14_of_a_Month": null,
+                        "Day_15_of_a_Month": null,
+                        "Day_16_of_a_Month": null,
+                        "Day_17_of_a_Month": null,
+                        "Day_18_of_a_Month": null,
+                        "Day_19_of_a_Month": null,
+                        "Day_20_of_a_Month": null,
+                        "Day_21_of_a_Month": null,
+                        "Day_22_of_a_Month": null,
+                        "Day_23_of_a_Month": null,
+                        "Day_24_of_a_Month": null,
+                        "Day_25_of_a_Month": null,
+                        "Day_28_of_a_Month": null,
+                        "Day_29_of_a_Month": null,
+                        "Day_30_of_a_Month": null,
+                        "Day_31_of_a_Month": null
+                    }
+                },
+                "Week": {
+                    "First_Week_of_a_Month": null,
+                    "Second_Week_of_a_Month": null,
+                    "Third_Week_of_a_Month": null,
+                    "Fourth_Week_of_a_Month": null,
+                    "Fifth_Week_of_a_Month": null,
+                    "Last_Week_of_a_Month": {
+                        "Fifth_Week_of_a_Month": null
+                    }
+                },
+                "Month": {
+                    "Calendar_Month": {
+                        "January": null,
+                        "February": null,
+                        "March": null,
+                        "April": null,
+                        "May": null,
+                        "June": null,
+                        "July": null,
+                        "August": null,
+                        "September": null,
+                        "October": null,
+                        "November": null,
+                        "December": null
+                    }
+                },
+                "Year": null,
+                "Relative_Time": {
+                    "Today": null,
+                    "Tomorrow": null,
+                    "Yesterday": null
+                }
+            },
+            "Time_Instant": {
+                "Instant_of_the_Day": {
+                    "Afternoon": null,
+                    "Morning": null,
+                    "Noon": null,
+                    "Evening": null,
+                    "AM": null,
+                    "PM": null
+                },
+                "Instant_of_the_Week": {
+                    "The_Beginning_of_the_Week": null,
+                    "The_Middle_of_the_Week": null,
+                    "The_End_of_the_Week": null
+                },
+                "Instant_of_the_Month": {
+                    "The_Beginning_of_the_Month": null,
+                    "The_Middle_of_the_Month": null,
+                    "The_End_of_the_Month": null
+                },
+                "Instant_of_the_Year": {
+                    "The_Beginning_of_the_Year": null,
+                    "The_Middle_of_the_Year": null,
+                    "The_End_of_the_Year": null,
+                    "Spring": null,
+                    "Fall": null,
+                    "Summer": null,
+                    "Winter": null
+                },
+                "Time_of_the_Age": null
+            }
+        }
+    }
+}

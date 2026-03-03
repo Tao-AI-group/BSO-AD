@@ -1,0 +1,39 @@
+parent,children,css,pss,pda
+Exercise Equipment,"['Elastic Band', 'Free Weights', 'Nordic Track', 'Stair Climber', 'Stationary Cycle', 'Treadmill', 'Weight Machine']",0.5826972126960754,0.5843424201011658,0.9082704782485962
+Running,"['Jogging', 'Sprinting', 'Treadmill Running']",0.6456308364868164,0.7069360613822937,0.9309526681900024
+Non Tobacco Products Smoking,"['Cocaine Smoking', 'Marijuana Smoking']",0.8493962287902832,0.8279216289520264,0.9614786505699158
+Sex Safety Practice,"['Condomless Sex', 'Safe Sex']",0.7576348781585693,0.7583372592926025,0.9456580281257629
+Mind Body Activity,"['Clearing Walk', 'Tai Chi', 'Yoga']",0.6440200209617615,0.5780520439147949,0.9501174688339233
+Housekeeping Chore,"['Chopping Vegetable', 'Chores', 'Clearing Table', 'Collecting Rubbish', 'Drying Dish', 'Dusting', 'Folding Laundry', 'Mopping', 'Polishing', 'Preparing Food', 'Runnig Errand', 'Scrubbing Floor', 'Scrubbing Wall', 'Serving Food', 'Setting Table', 'Sewing', 'Shopping', 'Sweeping', 'Tidying', 'Vacuuming', 'Washing', 'Washing Dish']",0.6446697115898132,0.6438044905662537,0.9485713839530945
+Gardening,"['Digging', 'Hoeing', 'Mowing Lawn', 'Planting', 'Pruning', 'Raking', 'Spading Soil', 'Watering Plant', 'Weeding']",0.7086368799209595,0.7292296886444092,0.9133602380752563
+Smoking,"['Non Tobacco Products Smoking', 'Pipe Smoking', 'Tobacco Smoking', 'Vaping']",0.7211942076683044,0.8308039903640747,0.8729548454284668
+Diet,"['High Added Sugar Intake', 'High Fat Intake', 'High Sodium Intake', 'Inadequate Calcium Intake']",0.8092520833015442,0.6342887878417969,0.9401353001594543
+Insufficient Activity,['No Physical Activity'],,0.6779792308807373,1.0
+Martial Art,"['Judo', 'Karate', 'Tae Kwon Do', 'Wrestling']",0.7591922879219055,0.718194305896759,0.9218949675559998
+Exercise Leisure Activity,"['Dance', 'Walking', 'Backpacking', 'Ball Game', 'Boogieboarding', 'Calisthenic', 'Camping', 'Canoeing', 'Cheerleading', 'Circuit Training', 'Mind Body Activity', 'Climbing', 'Ski', 'Cycling', 'Stair Climbing', 'Hockey Game', 'Fishing', 'Physically Active Game', 'Gymnastics', 'High Intensity Interval Training', 'Horseback Riding', 'Hunting', 'Skate', 'Running', 'Martial Art', 'Jump Rope', 'Kayaking', 'Swimming', 'Motocycling', 'Pilates', 'Skateboarding', 'Snowboard', 'Stationary Cycling', 'Stretching', 'Surfing', 'Track and Field', 'Triathalon', 'Weightlifting']",0.6481287479400635,0.5730665326118469,0.9374390244483948
+Stair Climbing,"['Down Stair Climing', 'Up Stair Climing']",0.9775938391685486,0.8267664909362793,0.9963188767433167
+Element Relevant to Behavior and Lifestyle,"['Behavior Change', 'Element Relevant to Sexual Behavior', 'Substance Use', 'Element Relevant to Physical Activity', 'Diet', 'Sleep', 'Spirituality and Religion Practice', 'Treatment Adherence and Compliance']",0.6244028210639954,0.6856213808059692,0.8589195013046265
+Yard Work,"['Chopping Wood', 'Cleaning Gutter', 'Gardening', 'Driveway Cleaning', 'Removing Leaf', 'Removing Snow', 'Sawing Wood', 'Shoveling']",0.6560162901878357,0.6315978765487671,0.9505482912063599
+Ball Game,"['Badminton', 'Baseball', 'Basketball', 'Bowling', 'Field Hockey', 'Floor Hockey', 'Football', 'Golf', 'Handball', 'Racquetball', 'Soccer', 'Softball', 'Squash', 'Tennis', 'Volleyball']",0.8193497657775879,0.7587769627571106,0.9569960832595825
+Behavior Change,"['Behavior Cessation', 'Behavior Growth', 'Behavior Reduction']",0.7534154057502747,0.7987120747566223,0.951440155506134
+Daily Living Activity,"['Home Improvement Maintenance', 'Housekeeping Chore', 'Yard Work']",0.5816380381584167,0.5629923939704895,0.865253746509552
+Hockey Game,"['Field Hockey', 'Floor Hockey', 'Ice Hockey', 'Ringette', 'Street Hockey']",0.809605598449707,0.8623644709587097,0.9217573404312134
+Element Relevant to Physical Activity,"['Activity', 'Exercise Program', 'Exercise Equipment', 'Insufficient Activity', 'Sufficient Activity']",0.7312728762626648,0.6527314782142639,0.9661702513694763
+Homosexuality,"['Female Homosexuality', 'Male Homosexuality']",0.9581364393234253,0.923014760017395,0.9840516448020935
+Aerobic Dance,"['Jazzercise', 'Taebo', 'Zumba']",0.7189981341362,0.5618795156478882,0.9624665975570679
+Tobacco Use,['Tobacco Smoking'],,0.887271523475647,1.0
+Ski,"['Cross Country Ski', 'Downhill Ski']",0.7961685061454773,0.759971022605896,0.9649072289466858
+Element Relevant to Sexual Behavior,"['Number of Sexual Partner', 'Sexual Orientation', 'Sex Partner', 'Sex Safety Practice', 'Sex Frequency']",0.75529944896698,0.6918767094612122,0.9289178252220154
+Sexual Orientation,"['Homosexuality', 'Bisexuality', 'Heterosexuality', 'Transsexualism']",0.6806962490081787,0.6996673941612244,0.9139390587806702
+Dance,"['Aerobic Dance', 'Social Dance']",0.6122347712516785,0.7382121086120605,0.8476303815841675
+Activity,"['Exercise Leisure Activity', 'Daily Living Activity']",0.6779212951660156,0.7256871461868286,0.9600696563720703
+Drug Use,"['Cocaine Smoking', 'Marijuana Smoking']",0.8493962287902832,0.7181912660598755,0.9503719210624695
+Exercise Program,"['Cardiovascular Fitness', 'Integrated Fitness', 'Pulmonary Fitness']",0.5984168648719788,0.6057748198509216,0.8846496343612671
+Skate,"['Ice Skate', 'Inline Skate', 'Quad Skate']",0.8362987041473389,0.8806924819946289,0.961605429649353
+Substance Use,"['Alcohol Use', 'Drug Use', 'Smoking', 'Tobacco Use']",0.8586769104003906,0.8858106136322021,0.9150950908660889
+Home Improvement Maintenance,"['Autorepair', 'Carpentry', 'Electrical Work', 'Hammering', 'Home Repair', 'Painting', 'Polish Car', 'Wallpapering', 'Washing Car', 'Washing Walls', 'Washing Windows']",0.6526146531105042,0.5590591430664062,0.9263351559638977
+Swimming,"['Lab Swimming', 'Outdoor Swimming']",0.8276207447052002,0.872307538986206,0.9300305247306824
+Calisthenic,"['Crunch', 'Pull Up', 'Push Up', 'Sit Up']",0.7012032866477966,0.5364834070205688,0.9776895642280579
+Walking,"['Athletic Walking', 'Brisk Walking', 'Clearing Walk', 'Hiking', 'Strolling']",0.6399256587028503,0.7640938758850098,0.9063509702682495
+Physically Active Game,"['Frisbee', 'Shooting Baskets', 'Shooting Pool', 'Shuffleboarding']",0.6348312497138977,0.6243370771408081,0.9445405006408691
+Climbing,"['Mountaineering', 'Rock Climbing', 'Wall Climbing']",0.8346485495567322,0.8401187062263489,0.9625770449638367

@@ -1,0 +1,9 @@
+parent,children,css,pss,pda
+Problem Related to Education and Literacy,"['Failed School Examination', 'Underachievement in School', 'Educational Maladjustment and Discord with Teachers and Classmates', 'Other Problem Related to Education and Literacy', 'Problem Related to Education and Literacy Unspecified']",0.6984635591506958,0.7768687605857849,0.857618510723114
+Access to Education,['Schooling Unavailable and Unattainable'],,0.5211231112480164,1.0
+Literacy,"['Element Relevant to Health Literacy', 'Health Numeracy', 'Language Proficiency', 'Illiteracy and Low Level Literacy', 'Problem Related to Health Literacy']",0.6965423822402954,0.6198609471321106,0.9327051043510437
+Higher Education,"['Associate Degree', ""Bachelor's Degree"", 'College Completed', ""Master's Degree"", 'Phd Degree']",0.7144429683685303,0.670594334602356,0.948246419429779
+Element Relevant to Education and Literacy,"['Early Childhood Education', 'Access to Education', 'Education Level', 'Education Quality', 'Literacy', 'Years of Education', 'Problem Related to Education and Literacy']",0.7156170606613159,0.7156213521957397,0.8906879425048828
+Language Proficiency,['English Proficiency'],,0.8999919295310974,1.0
+Education Level,"['Elementary School Completed', 'High School Graduation', 'Higher Education', 'Middle School Completed', 'No Formal Education', 'Vocational Training', 'Less Than a High School Diploma']",0.7454079389572144,0.7398869395256042,0.9162076115608215
+Element Relevant to Health Literacy,"['Health Care Translator Service', 'Health Discussion Engagement']",0.7825015783309937,0.6691945791244507,0.9823881983757019

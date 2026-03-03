@@ -1,0 +1,31 @@
+parent,children,css,pss,pda
+Other Problem Related to Housing and Economic Circumstance (category Code),['Other Problem Related to Housing and Economic Circumstance'],,0.9562572836875916,1.0
+Service Occupation,"['Building and Ground Cleaning and Maintenance Occupation', 'Food Preparation and Serving Related Occupation', 'Healthcare Support Occupation', 'Personal Care and Service Occupation', 'Protective Service Occupation']",0.7320913076400757,0.7190696001052856,0.8935317397117615
+Wealth,['Money and Resource'],,0.6730419397354126,1.0
+Element Relevant to Expense,"['Child Care Cost', 'Clothing Cost', 'Food Cost', 'Housing Cost', 'Insurance Cost', 'Medical Expense', 'Phone Cost', 'Travel Expense']",0.7338663339614868,0.5971627831459045,0.9069830775260925
+Health Insurance Coverage,['Insufficient Health Insurance Coverage'],,0.8524861335754395,1.0
+Element Relevant to Income,"['Annual Family Income', 'Low Income', 'Poverty']",0.743995189666748,0.6937347054481506,0.924921452999115
+Management and Professional and Related Occupation,"['Management and Business and Financial Operation Occupation', 'Professional and Related Occupation']",0.7650156021118164,0.8888521790504456,0.9323026537895203
+Inadequate Housing,"['Inadequate Housing Unspecified', 'Inadequate Housing Environmental Temperature', 'Inadequate Housing Utility', 'Other Inadequate Housing']",0.8765414357185364,0.9236340522766113,0.9611058235168457
+Problem Related to Housing and Economic Circumstance,"['Discord with Neighbor Lodger and Landlord', 'Problem Related to Living in Residential Institution', 'Other Problem Related to Housing and Economic Circumstance (category Code)', 'Problem Related to  Housing and Economic Circumstance Unspecified']",0.7163838744163513,0.8270307183265686,0.859519898891449
+Type of Insurance,"['Private Insurance', 'Public Insurance']",0.945344090461731,0.7843795418739319,0.9762827157974243
+Management and Business and Financial Operation Occupation,"['Business and Financial Operation Occupation', 'Management Occupation']",0.736229658126831,0.8277086019515991,0.8243163824081421
+Natural Resource and Construction and Maintenance Occupation,"['Construction and Extraction Occupation', 'Farming and Fishing and Forestry Occupation', 'Installation Maintenance and Repair Occupation']",0.7561460137367249,0.8089418411254883,0.9950132966041565
+Health Care Payment Source,"['Charity', 'Element Relevant to Insurance', 'Federal Assistance', 'Out of Pocket']",0.567557156085968,0.618415892124176,0.9356675148010254
+Element Relevant to Employment,"['Employment Status', 'Occupation', 'Vocational History', 'Work Related Challenge', 'Change of Job', 'Threat of Job Loss', 'Stressful Work Schedule', 'Discord with Boss and Workmate', 'Uncongenial Work Environment', 'Other Physical and Mental Strain Related to Work', 'Other Problem Related to Employment (category Code)', 'Unspecified Problem Related to Employment']",0.6196232438087463,0.6631141901016235,0.920253574848175
+Financial Insecurity,['Material Hardship Due to Limited Financial Resources Not Elsewhere Classified'],,0.6332834959030151,1.0
+Financial Stress,"['Debt', 'Financial Insecurity', 'Housing Instability', 'Job Insecurity', 'Lack of Transportation for Daily Living', 'Transportation Insecurity']",0.6833783388137817,0.67533940076828,0.9123861193656921
+Production and Transportation and Material Moving Occupation,"['Military Specific Occupation', 'Military Deployment Status', 'Production Occupation', 'Transportation and Material Moving Occupation']",0.7397649884223938,0.7387304306030273,0.8476822972297668
+Element Relevant to Insurance,"['Health Insurance Coverage', 'Type of Insurance']",0.8014830946922302,0.7045807838439941,0.986716628074646
+Other Problem Related to Employment (category Code),"['Sexual Harassment on the Job', 'Other Problem Related to Employment']",0.6406052112579346,0.759383499622345,0.8101226091384888
+Housing Cost,['Utility Cost'],,0.8221210241317749,1.0
+Professional and Related Occupation,"['Architecture and Engineering Occupation', 'Arts and Design and Entertainment and Sports and Media Occupation', 'Community and Social Service Occupation', 'Computer and Mathematical Occupation', 'Education and Training and Library Occupation', 'Healthcare Practitioner and Technical Occupation', 'Legal Occupation', 'Life and Physical and Social Science Occupation']",0.7547617554664612,0.7937695384025574,0.9801141619682312
+Employment Status,"['Full Time Employment', 'Homemaker', 'On Disability', 'Part Time Employment', 'Retired', 'Self Employed', 'Student', 'Unemployed']",0.6294575929641724,0.6920909881591797,0.894095778465271
+Housing Instability,"['Housed with Housing Instability Risk of Homelessness', 'Housed with Housing Instability and  Homelessness in Past 12 Months', 'Housed with Housing Instability Unspecified', 'Inadequate Housing']",0.7695002555847168,0.8121142983436584,0.9356011152267456
+Vocational History,['Veteran'],,0.6079219579696655,1.0
+Poverty,['Extreme Poverty'],,0.8163861036300659,1.0
+Sales and Office Occupation,"['Office and Administrative Support Occupation', 'Sales and Related Occupation']",0.7850260734558105,0.8634670376777649,0.9945465922355652
+Occupation,"['Management and Professional and Related Occupation', 'Natural Resource and Construction and Maintenance Occupation', 'Production and Transportation and Material Moving Occupation', 'Sales and Office Occupation', 'Service Occupation']",0.7462106943130493,0.6943408250808716,0.8845090866088867
+Federal Assistance,"[""Children's Health Insurance Program"", 'Medicaid', 'Medicare']",0.5998099446296692,0.5998795032501221,0.9770541787147522
+Element Relevant to Economic Stability,"['Element Relevant to Employment', 'Element Relevant to Expense', 'Element Relevant to Income', 'Financial Stress', 'Health Care Payment Source', 'Socioeconomic Status', 'Wealth', 'Problem Related to Housing and Economic Circumstance']",0.6462358832359314,0.7266156673431396,0.8734241724014282
+Unemployed,['Unemployment Unspecified'],,0.7102638483047485,1.0
