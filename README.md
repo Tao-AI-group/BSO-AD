@@ -21,6 +21,7 @@ Ontology quality was evaluated through Hootation-based domain expert review and 
 
 The LLM-assisted ontology evaluation framework incorporated embedding-based semantic analysis using ClinicalBERT embeddings and included ontology coverage and semantic coherence evaluation metrics, including:
 
+- Category Coverage Rate
 - Completeness
 - Conciseness
 - Child Similarity Score (CSS)
