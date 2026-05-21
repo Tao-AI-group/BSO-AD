@@ -19,6 +19,16 @@ The ontology development framework is illustrated below.
 
 Ontology quality was evaluated through Hootation-based domain expert review and a scalable LLM-assisted ontology assessment framework.
 
+The LLM-assisted ontology evaluation framework incorporated embedding-based semantic analysis using ClinicalBERT embeddings and included ontology coverage and semantic coherence evaluation metrics, including:
+
+- Completeness
+- Conciseness
+- Child Similarity Score (CSS)
+- Parent-Child Similarity Score (PSS)
+- Parent-Child Difference Agreement (PDA)
+
+The evaluation workflow combined literature-derived concept extraction, ontology-guided concept aggregation, and embedding-based semantic consistency analysis.
+
 ## Citation
 
 If you use BSO-AD or the associated LLM-assisted ontology evaluation framework in your research, please cite the following paper:
