@@ -18,3 +18,16 @@ The ontology development framework is illustrated below.
 ## Ontology Evaluation
 
 Ontology quality was evaluated through Hootation-based domain expert review and a scalable LLM-assisted ontology assessment framework.
+
+## Citation
+
+If you use BSO-AD or the associated LLM-assisted ontology evaluation framework in your research, please cite the following paper:
+
+```bibtex
+@article{li2026bsoad,
+  title={BSO-AD: An Ontology for Representing and Harmonizing Behavioral Social Knowledge in ADRD},
+  author={Li, Haifang and Yu, Yue and Bhandarkar, Avanti and Kumar, Rakesh and Clark, Isaac Heath and Hu, Yutong and Cao, Weiguo and Zhao, Na and Li, Fang and Tao, Cui},
+  journal={medRxiv},
+  year={2026},
+  url={https://doi.org/10.64898/2026.03.30.26349756}
+}
