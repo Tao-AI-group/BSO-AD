@@ -1,10 +1,10 @@
 
 
 # step1
-# java -jar /home/m319786/software/robot.jar export \
-#   --input /home/m319786/BSO_AD/SDOHO_redesign/robot_redesign/step4_add_dementia/step4_SDOHO_PACO_TEO_DROADO_ADNI_dementia.owl \
-#   --header "ID|LABEL|Type" \
-#   --export BSO_AD_labels_all.tsv
+java -jar /home/m319786/software/robot.jar export \
+  --input /home/m319786/BSO_AD/SDOHO_redesign/robot_redesign/step4_add_dementia/step4_SDOHO_PACO_TEO_DROADO_ADNI_dementia.owl \
+  --header "ID|LABEL|Type" \
+  --export BSO_AD_labels_all.tsv
 
 python step5_1_transfer_xlsx2txt.py
 python step5_2_match_id_label.py

@@ -2,30 +2,34 @@
 # -*- coding: utf-8 -*-
 
 """
-新增子类（自动编号 IRI）+ 用“点语法”写入 ICD10/ICD9 注释：
-  entity.ICD10CM.append("Z99.0")
-  entity.ICD9CM.append("799.9")
+Automatically generate ontology subclasses with incremental IRIs
+and append ICD10/ICD9 annotations using Owlready2 dot syntax.
 
-保证：
-- 若本体中没有 ICD9CM 注释属性：自动创建，并绑定为 onto.ICD9CM
-- 若本体中已有 ICD10CM（你提供其 IRI）：将其绑定为 onto.ICD10CM（不论原 Python 名为何）
-- 解析 children 的显式前缀（推荐）与旧格式均可
+Annotation examples:
+    entity.ICD10CM.append("Z99.0")
+    entity.ICD9CM.append("799.9")
 
-TSV（Tab 分列）格式（无表头）：
+Features:
+- Automatically creates ICD9 annotation property if it does not exist
+- Binds existing ICD10 annotation property using the provided IRI
+- Supports both explicit-prefix and legacy child code formats
+
+Input TSV format (tab-separated, without header):
 parentIRI    new_label    [child1|child2~ICD10:...;ICD9:...|...]    [ICD10_for_new]    [ICD9_for_new]
 
-示例 children 项：
-  显式前缀（推荐）：
-    child~ICD10:Z00.0
-    child~ICD9:799.9
-    child~ICD10:Z00.0,Z00.1;ICD9:799.9,799.8
-  旧格式（兼容）：
-    child~Z00.0,799.9   # ICD10,ICD9
-    child~Z00.0         # 只有 ICD10
-    child~,799.9        # 只有 ICD9
-    child                # 都没有
+Example child entries:
+    Explicit-prefix format (recommended):
+        child~ICD10:Z00.0
+        child~ICD9:799.9
+        child~ICD10:Z00.0,Z00.1;ICD9:799.9,799.8
 
-运行示例：
+    Legacy format (supported):
+        child~Z00.0,799.9   # ICD10, ICD9
+        child~Z00.0         # ICD10 only
+        child~,799.9        # ICD9 only
+        child               # no codes
+
+Example usage:
 python owlready_add_subclasses_icd_dot.py \
   --input A.owl \
   --output A_updated.owl \
@@ -39,9 +43,18 @@ import argparse, pathlib, re, types
 from typing import Optional, Iterable, Tuple
 from owlready2 import get_ontology, default_world, Thing, AnnotationProperty
 
-# ---------- ID 模板 / 生成 ----------
+# ---------- IRI template and ID generation ----------
 
 def parse_id_template(tmpl: str) -> Tuple[str, Optional[int]]:
+    """
+    Parse the IRI template.
+
+    Example:
+        https://...#00000
+
+    Returns:
+        base IRI and numeric width
+    """
     if tmpl.endswith("0"):
         m = re.match(r"^(.*?)(0+)$", tmpl)
         if not m:
@@ -50,7 +63,10 @@ def parse_id_template(tmpl: str) -> Tuple[str, Optional[int]]:
     return tmpl, None
 
 def _iter_all_entity_iris():
-    """使用公开 API 遍历当前 world 中的所有实体 IRI（类/属性/个体）。"""
+    """
+    Iterate through all ontology entity IRIs
+    in the current Owlready2 world.
+    """
     for onto in list(default_world.ontologies.values()):
         for c in onto.classes():
             if getattr(c, "iri", None): yield c.iri
@@ -64,6 +80,9 @@ def _iter_all_entity_iris():
             if getattr(i, "iri", None): yield i.iri
 
 def infer_width(base: str) -> Optional[int]:
+    """
+    Infer numeric ID width from existing ontology IRIs.
+    """
     pat = re.compile(re.escape(base) + r"(\d+)$")
     mx = 0
     for iri in _iter_all_entity_iris():
@@ -73,6 +92,9 @@ def infer_width(base: str) -> Optional[int]:
     return mx or None
 
 def next_free_number(base: str, width: int) -> int:
+    """
+    Determine the next available numeric identifier.
+    """
     pat = re.compile(re.escape(base) + r"(\d+)$")
     mx = 0
     for iri in _iter_all_entity_iris():
@@ -85,9 +107,15 @@ def next_free_number(base: str, width: int) -> int:
     return mx + 1
 
 def iri_exists(iri: str) -> bool:
+    """
+    Check whether an entity with the given IRI already exists.
+    """
     return default_world[iri] is not None
 
 def make_new_iri(base: str, width: int, start: int) -> Tuple[str, int]:
+    """
+    Generate a new unused ontology IRI.
+    """
     n = start
     while True:
         iri = f"{base}{str(n).zfill(width)}"
@@ -95,9 +123,12 @@ def make_new_iri(base: str, width: int, start: int) -> Tuple[str, int]:
         if not iri_exists(iri):
             return iri, n
 
-# ---------- TSV 读取 ----------
+# ---------- TSV parsing ----------
 
 def read_map(path: pathlib.Path):
+    """
+    Read the subclass mapping TSV file.
+    """
     rows = []
     with path.open("r", encoding="utf-8-sig") as f:
         for ln, raw in enumerate(f, 1):
@@ -115,28 +146,42 @@ def read_map(path: pathlib.Path):
             rows.append((parent, new_label, children, icd10_for_new, icd9_for_new))
     return rows
 
-# ---------- 绑定 / 创建注释属性，使其可通过 dot 语法访问 ----------
+# ---------- Bind or create annotation properties for dot-style access ----------
 
 def bind_annotation_property_name(onto, prop_iri: str, desired_name: str) -> Optional[AnnotationProperty]:
     """
-    将 IRI 对应的注释属性绑定为 onto.<desired_name> ，以便 entity.<desired_name>.append(...)
-    - 若属性对象不存在：返回 None（调用方可决定是否跳过或创建）
-    - 若存在：设置 onto.<desired_name> = 该属性对象，并返回之
+    Bind an annotation property IRI to onto.<desired_name>
+    so that dot-style syntax can be used:
+
+        entity.<desired_name>.append(...)
+
+    Returns:
+        - None if the property does not exist
+        - The annotation property object if successfully bound
     """
     prop = default_world[prop_iri]
     if prop is None:
         return None
     if not isinstance(prop, AnnotationProperty):
         print(f"[WARN] Entity at {prop_iri} is not an AnnotationProperty; dot syntax may fail.")
-    # 绑定为指定名称，确保 entity.ICD10CM / entity.ICD9CM 可用
+    # Optional annotation property description
+        # if "Links this class to ICD-9-CM diagnosis codes" not in prop.comment:
+        #     prop.comment.append(
+        #         "Links this class to ICD-9-CM diagnosis codes"
+        #     )
     setattr(onto, desired_name, prop)
     return prop
 
 def ensure_icd9_property(onto, icd9_iri: str, desired_name: str = "ICD9CM_ID") -> AnnotationProperty:
     """
-    确保存在注释属性 ICD9CM：
-    - 若本体中已有该 IRI：绑定为 onto.ICD9CM
-    - 若没有：新建，并绑定为 onto.ICD9CM
+    Ensure that the ICD9 annotation property exists.
+
+    If the property already exists:
+        - bind it to onto.<desired_name>
+
+    Otherwise:
+        - create the annotation property
+        - bind it to onto.<desired_name>
     """
     prop = default_world[icd9_iri]
     if prop is None:
@@ -152,13 +197,23 @@ def ensure_icd9_property(onto, icd9_iri: str, desired_name: str = "ICD9CM_ID") -
     setattr(onto, desired_name, prop)
     return prop
 
-# ---------- 编码解析 ----------
+# ---------- ICD code parsing ----------
 
 def parse_codes(code_str: str):
     """
-    返回 (icd10_list 或 None, icd9_list 或 None)
-    支持显式前缀：ICD10:Z00.0,Z00.1;ICD9:799.9,799.8
-    也兼容旧格式：Z00.0,799.9 / Z00.0, / ,799.9 / ""
+    Parse ICD10 and ICD9 codes.
+
+    Supported explicit-prefix format:
+        ICD10:Z00.0,Z00.1;ICD9:799.9,799.8
+
+    Supported legacy format:
+        Z00.0,799.9
+        Z00.0,
+        ,799.9
+        ""
+
+    Returns:
+        (icd10_list or None, icd9_list or None)
     """
     if not code_str:
         return None, None
@@ -175,9 +230,14 @@ def parse_codes(code_str: str):
         if len(parts) >= 2 and parts[1]: icd9.append(parts[1])
     return (icd10 or None), (icd9 or None)
 
-# ---------- 类与注释写入（点语法） ----------
+# ---------- Ontology class creation and annotation writing ----------
 
 def ensure_parent_class(onto, parent_iri: str):
+    """
+    Ensure that the parent ontology class exists.
+
+    If the class does not exist, create a temporary placeholder class.
+    """
     ent = default_world[parent_iri]
     if ent is None:
         with onto:
@@ -197,10 +257,15 @@ def create_class_with_iri(onto, iri: str, parent_cls, label: str):
 
 def add_codes_dot(entity, onto, icd10_list, icd9_list):
     """
-    用点语法写注释：
-      entity.ICD10CM.append("...") / entity.ICD9CM.append("...")
-    这里假定 onto.ICD10CM / onto.ICD9CM 已被绑定（见 main()）。
-    若未绑定，对应 hasattr(entity, 'ICD10CM') 将为 False。
+    Add ICD10 and ICD9 annotations using Owlready2 dot syntax.
+
+    Example:
+        entity.ICD10CM.append("...")
+        entity.ICD9CM.append("...")
+
+    Assumes:
+        onto.ICD10CM and onto.ICD9CM
+        have already been bound in main().
     """
     if icd10_list and hasattr(entity, "ICD10CM_ID"):
         for code in icd10_list:
@@ -209,16 +274,18 @@ def add_codes_dot(entity, onto, icd10_list, icd9_list):
         for code in icd9_list:
             if code: entity.ICD9CM_ID.append(str(code))
 
-# ---------- 主流程 ----------
+# ---------- Main workflow ----------
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--input", required=True, help="输入 OWL 文件")
-    ap.add_argument("--output", required=True, help="输出 OWL 文件")
-    ap.add_argument("--id-template", required=True, help='"...#00000" 或仅 "...#"')
-    ap.add_argument("--map-file", required=True, help='TSV：parentIRI\\tnew_label[\\tchildren][\\tICD10][\\tICD9]')
-    ap.add_argument("--icd10-ap-iri", required=True, help="ICD10CM 注释属性 IRI（已存在）")
-    ap.add_argument("--icd9-ap-iri",  required=True, help="ICD9CM 注释属性 IRI（若不存在将创建）")
+    ap.add_argument("--input", required=True, help="Input OWL file")
+    ap.add_argument("--output", required=True, help="Output OWL file")
+    ap.add_argument("--id-template", required=True, help='IRI template, e.g. "...#00000" or "...#"')
+    ap.add_argument("--map-file", required=True, help="TSV mapping file: "
+            "parentIRI\\tnew_label"
+            "[\\tchildren][\\tICD10][\\tICD9]")
+    ap.add_argument("--icd10-ap-iri", required=True, help="IRI of existing ICD10 annotation property")
+    ap.add_argument("--icd9-ap-iri",  required=True, help="IRI of ICD9 annotation property, (created automatically if missing)")
     ap.add_argument("--default-width", type=int, default=5)
     args = ap.parse_args()
 
@@ -231,7 +298,7 @@ def main():
         width = infer_width(base) or args.default_width
     next_n = next_free_number(base, width)
 
-    # 绑定/创建注释属性到 onto.<Name>，保证点语法可用
+   
     prop10 = bind_annotation_property_name(onto, args.icd10_ap_iri, "ICD10CM_ID")
     if prop10 is None:
         print(f"[WARN] ICD10 AnnotationProperty not found at {args.icd10_ap_iri}; will skip ICD10 writes.")
@@ -244,7 +311,7 @@ def main():
     for parent_iri, new_label, children_spec, icd10_for_new, icd9_for_new in rows:
         parent_cls = ensure_parent_class(onto, parent_iri)
 
-        # 顶层新类
+        # top new class
         new_iri, next_n = make_new_iri(base, width, next_n)
         new_cls = create_class_with_iri(onto, new_iri, parent_cls, new_label)
         icd10_list = [x.strip() for x in icd10_for_new.split(",")] if icd10_for_new else None
@@ -254,7 +321,7 @@ def main():
                        ",".join(icd10_list) if icd10_list else "",
                        ",".join(icd9_list)  if icd9_list  else ""))
 
-        # 子类
+        #sub class
         if children_spec:
             for item in [x.strip() for x in children_spec.split("|") if x.strip()]:
                 child_label = item
