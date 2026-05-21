@@ -29,6 +29,17 @@ The LLM-assisted ontology evaluation framework incorporated embedding-based sema
 
 The evaluation workflow combined literature-derived concept extraction, ontology-guided concept aggregation, and embedding-based semantic consistency analysis.
 
+
+## Running the Code
+
+Create and activate a Python environment:
+
+```bash
+conda create -n bsoad_env python=3.10
+conda activate bsoad_env
+pip install -r requirements.txt
+```
+
 ## Citation
 
 If you use BSO-AD or the associated LLM-assisted ontology evaluation framework in your research, please cite the following paper:
