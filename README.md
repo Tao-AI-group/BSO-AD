@@ -40,6 +40,7 @@ conda create -n bsoad_env python=3.10
 conda activate bsoad_env
 pip install -r requirements.txt
 ```
+Ontology development requires ROBOT: https://robot.obolibrary.org/
 
 ## Citation
 
