@@ -10,6 +10,10 @@ BSO-AD was developed following established ontology design principles with reuse
 
 The construction of BSO-AD followed established ontology engineering principles, including OBO Foundry and FAIR principles. The ontology was developed using Protégé and ROBOT.
 
+The ontology development framework is illustrated below.
+
+<img src="figures/BSO-AD_Development_Framework.jpeg">
+
 
 ## Ontology Evaluation
 
