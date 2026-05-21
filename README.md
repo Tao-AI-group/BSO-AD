@@ -31,3 +31,8 @@ If you use BSO-AD or the associated LLM-assisted ontology evaluation framework i
   year={2026},
   url={https://doi.org/10.64898/2026.03.30.26349756}
 }
+```
+## License
+
+BSO-AD is licensed under the Creative Commons Attribution 4.0 International Public License(CC BY 4.0). Please see the License File for more information.
+
