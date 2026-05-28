@@ -30,7 +30,7 @@ The LLM-assisted ontology evaluation framework incorporated embedding-based sema
 
 The evaluation workflow combined literature-derived concept extraction, ontology-guided concept aggregation, and embedding-based semantic consistency analysis.
 
-<img src="figures/BSO_AD_Evaluation_pipeline.jpeg">
+<img src="figures/BSO_AD_LLM_Evaluation_pipeline.jpeg">
 
 
 ## A Quick Start
